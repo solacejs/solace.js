@@ -3,6 +3,7 @@ import ClientOptions from "../interfaces/ClientOptions";
 import WebsocketClient from "./WebsocketClient";
 import GatewayIntents from "../config/GatewayIntents";
 import User from "../structures/User";
+import ClientEvents from "../util/ClientEvents";
 
 export default class Client extends EventEmitter {
 
@@ -16,6 +17,14 @@ export default class Client extends EventEmitter {
         if (Array.isArray(options.intents)) this.options.intents = GatewayIntents.combineIntents(...options.intents);
 
         this.ws = new WebsocketClient(this);
+    }
+
+    once<K extends keyof ClientEvents>(event: K, listener: (...args: ClientEvents[K]) => void): this {
+        return super.once(event, listener as (...args: any[]) => void);
+    }
+
+    on<K extends keyof ClientEvents>(event: K, listener: (...args: ClientEvents[K]) => void): this {
+        return super.on(event, listener as (...args: any[]) => void);
     }
 
     public async login() {
