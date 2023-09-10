@@ -1,1 +1,36 @@
-<h1>Solace.js</h1>
+<h1 id="solace-js">Solace.js</h1>
+<p>Solace.js is an alternative to eris and discord.js, a nodejs wrapper for interfacing with discord. The goal of solace.js is to make discord bot development faster. The project structure is sort of similar to discord.js making it easy to move to. The solace.js you can get work done in a faster way.</p>
+<h2 id="installation">Installation</h2>
+<pre><code>npm install discord.js
+yarn <span class="hljs-keyword">add</span><span class="bash"> discord.js
+</span>pnpm <span class="hljs-keyword">add</span><span class="bash"> discord.js</span>
+</code></pre>
+<h2 id="usage">Usage</h2>
+<pre><code class="lang-ts"><span class="hljs-keyword">import</span> { <span class="hljs-built_in">Client</span>, Event, GatewayIntents, Registry, SolaceIntents } from <span class="hljs-string">"solace.js"</span>;
+<span class="hljs-keyword">import</span> ReadyEvent from <span class="hljs-string">"./events/ReadyEvent"</span>;
+
+<span class="hljs-comment">/**
+ * You can use intent groups such as SolaceIntents or just use an array of GatewayIntents
+**/</span>
+<span class="hljs-keyword">const</span> client = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Client</span>({ token: <span class="hljs-string">"BOT_TOKEN"</span>, intents: SolaceIntents.GENERAL });
+
+<span class="hljs-keyword">const</span> events: Event[] = [];
+
+Registry.registerEvents(client, <span class="hljs-keyword">new</span> ReadyEvent());
+
+client.login();
+</code></pre>
+<p><code>Ready Event example</code></p>
+<pre><code class="lang-ts"><span class="hljs-keyword">import</span> { <span class="hljs-type">Client</span>, <span class="hljs-type">Event</span> } from <span class="hljs-string">"solace.js"</span>;
+
+export <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReadyEvent</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Event</span> </span>{
+
+    constructor() {
+        <span class="hljs-keyword">super</span>(<span class="hljs-string">"ready"</span>, <span class="hljs-literal">true</span>);
+    }
+
+    public async execute(client: <span class="hljs-type">Client</span>) {
+        console.log(client.user!.username, <span class="hljs-string">"is online!"</span>);
+    }
+}
+</code></pre>
