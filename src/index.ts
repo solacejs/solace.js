@@ -9,6 +9,7 @@ import SolaceError from "./util/SolaceError";
 import SolaceIntents from "./config/SolaceIntents";
 import User from "./structures/User";
 import WebsocketClient from "./client/WebsocketClient";
+import Registry from "./helper/Registry";
 
 export {
     Client,
@@ -18,6 +19,7 @@ export {
     EventHandler,
     GatewayIntents,
     OpCodes,
+    Registry,
     SolaceError,
     SolaceIntents,
     User,
