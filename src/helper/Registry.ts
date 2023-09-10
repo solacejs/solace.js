@@ -1,7 +1,7 @@
 import Client from "../client/Client";
 import Event from "./Event";
 
-export default class EventRegistry {
+export default class Registry {
 
     public static registerEvents(client: Client, ...args: Event[]) {
         args.forEach((event) => {
