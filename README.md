@@ -4,9 +4,9 @@ Solace.js is an alternative to eris and discord.js, a nodejs wrapper for interfa
 
 ## Installation
 ```
-npm install discord.js
-yarn add discord.js
-pnpm add discord.js
+npm install solace.js
+yarn add solace.js
+pnpm add solace.js
 ```
 
 ## Usage
