@@ -6,16 +6,36 @@ import OpCodes from "../config/OpCodes";
 import SolaceError from "../util/SolaceError";
 import EventHandler from "../util/EventHandler";
 
+/**
+ * A WebSocket client for connecting to the Discord Gateway and handling communication.
+ */
 export default class WebsocketClient extends EventEmitter {
 
+    /**
+     *  Represents the URL of the Discord Gateway to which the WebSocket client will establish a connection
+     */
     private gateway: string | null = null;
+    /**
+     * Represents the WebSocket instance used for communication with the Discord Gateway
+     */
     private _ws: WebSocket | null = null;
+
+    /**
+     * represents a Node.js timeout object that is used to periodically send heartbeat messages to the Discord Gateway to maintain the connection.
+     */
     private heartbeatInterval: NodeJS.Timeout | null = null;
 
+    /**
+     * Creates a new WebsocketClient instance.
+     * @param {Client} client - The Discord client instance.
+     */
     constructor(private client: Client) {
         super();
     }
 
+    /**
+     * Establishes a connection to the Discord Gateway.
+     */
     public async connect() {
         try {
             const res = await fetch(Constants.GATEWAY);
@@ -38,7 +58,7 @@ export default class WebsocketClient extends EventEmitter {
                         this.startHeartbeat(heartbeat_interval);
                         break;
                     case OpCodes.DISPATCH:
-                        switch(t) {
+                        switch (t) {
                             case "READY":
                                 EventHandler.READY(this.client, d);
                                 break;
@@ -60,15 +80,22 @@ export default class WebsocketClient extends EventEmitter {
         }
     }
 
+    /**
+     * Initiates the reconnection process to the Discord Gateway.
+     * Stops sending heartbeats, clears the WebSocket instance, and attempts to reconnect after a delay.
+     */
     private reconnect() {
         // Stop sending heartbeats
         this.stopHeartbeat();
         // Clear the WebSocket instance
         this._ws = null;
-        // Reconnect to discord
+        // Reconnect to Discord after a delay (e.g., 5 seconds)
         setTimeout(() => this.connect(), 5000);
     }
 
+    /**
+     * Sends the IDENTIFY payload to the Discord Gateway upon establishing a connection.
+     */
     private identify() {
         const payload = {
             op: OpCodes.IDENTIFY,
@@ -89,16 +116,26 @@ export default class WebsocketClient extends EventEmitter {
         this.sendHeartbeat();
     }
 
+    /**
+     * Starts sending heartbeats at the specified interval.
+     * @param {number} interval - The heartbeat interval in milliseconds.
+     */
     private startHeartbeat(interval: number) {
         this.heartbeatInterval = setInterval(() => {
             this.sendHeartbeat();
         }, interval);
     }
 
+    /**
+     * Stops sending heartbeats.
+     */
     private stopHeartbeat() {
-        if(this.heartbeatInterval) clearInterval(this.heartbeatInterval);
+        if (this.heartbeatInterval) clearInterval(this.heartbeatInterval);
     }
 
+    /**
+     * Sends a heartbeat to the Discord Gateway.
+     */
     private sendHeartbeat() {
         this._ws?.send(JSON.stringify({ op: 1, d: null }));
     }

@@ -1,9 +1,12 @@
 import GatewayIntents from "./GatewayIntents";
 
+/**
+ * A utility class for defining intent combinations for different types of Discord bots.
+ */
 export default class SolaceIntents {
 
     /**
-     * Intents that help with general discord bots.
+     * Intents that help with general-purpose Discord bots.
      */
     public static GENERAL = GatewayIntents.combineIntents(
         GatewayIntents.DIRECT_MESSAGES,
@@ -11,10 +14,10 @@ export default class SolaceIntents {
         GatewayIntents.GUILD_MESSAGES,
         GatewayIntents.GUILDS,
         GatewayIntents.MESSAGE_CONTENT,
-    )
+    );
 
     /**
-     * Intents that help with moderation discord bots.
+     * Intents that help with moderation Discord bots.
      */
     public static MODERATION = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_MEMBERS,
@@ -27,7 +30,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with music discord bots.
+     * Intents that help with music Discord bots.
      */
     public static MUSIC = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_MESSAGE_REACTIONS,
@@ -39,7 +42,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with invite tracker discord bots.
+     * Intents that help with invite tracker Discord bots.
      */
     public static INVITE_TRACKER = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_INVITES,
@@ -47,7 +50,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with emoji and sticker management discord bots.
+     * Intents that help with emoji and sticker management Discord bots.
      */
     public static EMOJI_MANAGER = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_EMOJIS_AND_STICKERS,
@@ -55,7 +58,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with guild integration management discord bots.
+     * Intents that help with guild integration management Discord bots.
      */
     public static INTEGRATION_MANAGER = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_INTEGRATIONS,
@@ -63,7 +66,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with webhook management discord bots.
+     * Intents that help with webhook management Discord bots.
      */
     public static WEBHOOK_MANAGER = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_WEBHOOKS,
@@ -71,7 +74,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with voice state monitor discord bots.
+     * Intents that help with voice state monitor Discord bots.
      */
     public static VOICE_STATE_MONITOR = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_VOICE_STATES,
@@ -79,7 +82,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with guild presence monitor discord bots.
+     * Intents that help with guild presence monitor Discord bots.
      */
     public static PRESENCE_MONITOR = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_PRESENCES,
@@ -87,7 +90,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with direct message monitor discord bots.
+     * Intents that help with direct message monitor Discord bots.
      */
     public static DIRECT_MESSAGE_MONITOR = GatewayIntents.combineIntents(
         GatewayIntents.DIRECT_MESSAGE_REACTIONS,
@@ -96,7 +99,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with message content monitor discord bots.
+     * Intents that help with message content monitor Discord bots.
      */
     public static MESSAGE_CONTENT_MONITOR = GatewayIntents.combineIntents(
         GatewayIntents.GUILD_MESSAGES,
@@ -104,7 +107,7 @@ export default class SolaceIntents {
     );
 
     /**
-     * Intents that help with auto moderation discord bots.
+     * Intents that help with auto-moderation Discord bots.
      */
     public static AUTO_MODERATION = GatewayIntents.combineIntents(
         GatewayIntents.AUTO_MODERATION_CONFIGURATION,

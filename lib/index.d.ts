@@ -10,4 +10,5 @@ import SolaceIntents from "./config/SolaceIntents";
 import User from "./structures/User";
 import WebsocketClient from "./client/WebsocketClient";
 import Registry from "./helper/Registry";
-export { Client, ClientOptions, Constants, Event, EventHandler, GatewayIntents, OpCodes, Registry, SolaceError, SolaceIntents, User, WebsocketClient, };
+import ClientEvents from "./interfaces/ClientEvents";
+export { Client, ClientEvents, ClientOptions, Constants, Event, EventHandler, GatewayIntents, OpCodes, Registry, SolaceError, SolaceIntents, User, WebsocketClient, };

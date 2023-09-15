@@ -1,7 +1,7 @@
 {
   "name": "solace.js",
   "description": "An alternative to the package eris, a nodejs wrapper for interfacing with discord.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index",
   "typings": "lib/index",
   "repository": "https://github.com/solacejs/solace.js.git",
@@ -11,13 +11,14 @@
     "ws": "^8.14.1"
   },
   "devDependencies": {
-    "@types/node": "^20.6.0",
     "@types/ws": "^8.5.5",
     "ts-node": "^10.9.1",
+    "typedoc": "^0.25.1",
+    "typedoc-plugin-markdown": "^3.16.0",
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p . && typedoc --json website/docs.json"
   },
   "files": [
     "lib/index.js",

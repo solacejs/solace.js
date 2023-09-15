@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: hsl(48, 96%, 43%);
+  --background: rgb(232, 232, 232);
+  --code: hsl(0, 0%, 88%);
+  --foreground: rgb(5, 5, 5);
+  --foreground-2: rgb(128, 128, 0);
+  --input: hsl(0, 0%, 75%);
+  --link: hsl(270, 100%, 76%);
+  --nav-active: hsl(0, 0%, 78%);
+  --nav-border: rgb(194, 194, 194);
+  --sidebar: hsl(0, 0%, 78%);
+
+  --syntax-keyword: rgb(255, 49, 46);
+  --syntax-string: rgb(20, 153, 255);
+  --syntax-comment: rgb(131, 144, 160);
+  --syntax-entity: rgb(143, 31, 255);
+  --syntax-constant: rgb(41, 155, 255);
+}
+
+[data-theme="dark"] {
+  --accent: rgb(250, 204, 20);
+  --background: rgb(23 23 23);
+  --code: rgb(13, 13, 13);
+  --foreground: rgb(250 250 250);
+  --foreground-2: rgb(255 255 0);
+  --input: rgb(38 38 38);
+  --nav-active: rgb(31, 31, 31);
+  --nav-border: rgb(61, 61, 61);
+  --sidebar: hsl(0, 0%, 12%);
+
+  --syntax-keyword: rgb(255, 148, 146);
+  --syntax-string: rgb(71, 175, 255);
+  --syntax-comment: rgb(189, 196, 204);
+  --syntax-entity: rgb(219, 183, 255);
+  --syntax-constant: rgb(145, 203, 255);
+}
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* pre#code {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(33 33 33);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+} */
+
+span.syntax-keyword {
+  color: var(--syntax-keyword);
+}
+
+span.syntax-string {
+  color: var(--syntax-string)
+}
+
+span.syntax-comment {
+  color: var(--syntax-comment);
+}
+
+span.syntax-entity {
+  color: var(--syntax-entity);
+}
+
+span.syntax-constant {
+  color: var(--syntax-constant);
+}
+
+a.nav.active {
+  background-color: var(--nav-active);
+}
+
+a.link {
+  color: var(--link);
+}

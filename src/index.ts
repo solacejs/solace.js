@@ -10,9 +10,11 @@ import SolaceIntents from "./config/SolaceIntents";
 import User from "./structures/User";
 import WebsocketClient from "./client/WebsocketClient";
 import Registry from "./helper/Registry";
+import ClientEvents from "./interfaces/ClientEvents";
 
 export {
     Client,
+    ClientEvents,
     ClientOptions,
     Constants,
     Event,
