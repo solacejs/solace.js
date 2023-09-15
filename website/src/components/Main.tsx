@@ -304,6 +304,6 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
                 </main>
             )
         default:
-            return <div>test</div>;
+            return <div></div>;
     }
 }
