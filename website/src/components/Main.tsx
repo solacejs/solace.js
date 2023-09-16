@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import docs from "../../docs.json";
 import Sidebar from "./Sidebar";
@@ -41,11 +40,16 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
             });
         }
 
+        console.log(result?.children.find((child) => child.kind == 1024));
+
     result?.children.forEach((child: any) => {
+        let href = ""
         if (!child.sources) return;
         if (!child.sources[0].url) return;
+        href = child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main");
         switch (child.kind) {
             case 1024:
+                console.log(child);
                 if (!child.comment) return;
                 properties.push({
                     name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary[0].text, types: () => {
@@ -84,12 +88,12 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
                     }
                 })
 
-                methods.push({ name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.signatures[0].comment.summary[0].text, parameters: parameters });
+                methods.push({ name: child.name, href: href, description: child.signatures[0].comment.summary[0].text, parameters: parameters });
                 break;
         }
     });
 
-    console.log(methods);
+    console.log(properties);
 
     switch (type) {
         case "class":

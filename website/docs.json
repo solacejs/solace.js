@@ -31,7 +31,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 27,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L27"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L27"
 						}
 					],
 					"signatures": [
@@ -54,7 +54,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 27,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L27"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L27"
 								}
 							],
 							"parameters": [
@@ -120,7 +120,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 27,
 							"character": 23,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L27"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L27"
 						}
 					],
 					"type": {
@@ -151,7 +151,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 21,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L21"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L21"
 						}
 					],
 					"type": {
@@ -163,7 +163,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 235,
+								"target": 251,
 								"name": "default",
 								"package": "solace.js"
 							}
@@ -192,7 +192,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 16,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L16"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L16"
 						}
 					],
 					"type": {
@@ -204,7 +204,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							}
@@ -1402,7 +1402,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 60,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L60"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L60"
 						}
 					],
 					"signatures": [
@@ -1425,7 +1425,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 60,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L60"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L60"
 								}
 							],
 							"type": {
@@ -1627,7 +1627,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 53,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L53"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L53"
 						}
 					],
 					"signatures": [
@@ -1661,7 +1661,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 53,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L53"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L53"
 								}
 							],
 							"typeParameter": [
@@ -1726,7 +1726,7 @@
 													"fileName": "src/client/Client.ts",
 													"line": 53,
 													"character": 57,
-													"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L53"
+													"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L53"
 												}
 											],
 											"signatures": [
@@ -1741,7 +1741,7 @@
 															"fileName": "src/client/Client.ts",
 															"line": 53,
 															"character": 57,
-															"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L53"
+															"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L53"
 														}
 													],
 													"parameters": [
@@ -1810,7 +1810,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 43,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L43"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L43"
 						}
 					],
 					"signatures": [
@@ -1844,7 +1844,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 43,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L43"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L43"
 								}
 							],
 							"typeParameter": [
@@ -1909,7 +1909,7 @@
 													"fileName": "src/client/Client.ts",
 													"line": 43,
 													"character": 59,
-													"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L43"
+													"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L43"
 												}
 											],
 											"signatures": [
@@ -1924,7 +1924,7 @@
 															"fileName": "src/client/Client.ts",
 															"line": 43,
 															"character": 59,
-															"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L43"
+															"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L43"
 														}
 													],
 													"parameters": [
@@ -4563,7 +4563,7 @@
 					"fileName": "src/client/Client.ts",
 					"line": 11,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/Client.ts#L11"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/Client.ts#L11"
 				}
 			],
 			"extendedTypes": [
@@ -4637,7 +4637,7 @@
 							"fileName": "src/config/Constants.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/Constants.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/Constants.ts#L9"
 						}
 					],
 					"type": {
@@ -4668,7 +4668,7 @@
 							"fileName": "src/config/Constants.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/Constants.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/Constants.ts#L14"
 						}
 					],
 					"type": {
@@ -4698,7 +4698,7 @@
 					"fileName": "src/config/Constants.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/Constants.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/Constants.ts#L4"
 				}
 			]
 		},
@@ -4728,7 +4728,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L14"
 						}
 					],
 					"signatures": [
@@ -4751,7 +4751,7 @@
 									"fileName": "src/helper/Event.ts",
 									"line": 14,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L14"
 								}
 							],
 							"parameters": [
@@ -4824,7 +4824,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 23,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L14"
 						}
 					],
 					"type": {
@@ -4853,7 +4853,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 56,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L14"
 						}
 					],
 					"type": {
@@ -4874,7 +4874,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 23,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L23"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L23"
 						}
 					],
 					"signatures": [
@@ -4908,7 +4908,7 @@
 									"fileName": "src/helper/Event.ts",
 									"line": 23,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L23"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L23"
 								}
 							],
 							"parameters": [
@@ -5003,7 +5003,7 @@
 					"fileName": "src/helper/Event.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Event.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Event.ts#L7"
 				}
 			]
 		},
@@ -5058,7 +5058,7 @@
 							"fileName": "src/util/EventHandler.ts",
 							"line": 27,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/EventHandler.ts#L27"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/EventHandler.ts#L27"
 						}
 					],
 					"signatures": [
@@ -5081,7 +5081,7 @@
 									"fileName": "src/util/EventHandler.ts",
 									"line": 27,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/EventHandler.ts#L27"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/EventHandler.ts#L27"
 								}
 							],
 							"parameters": [
@@ -5147,7 +5147,7 @@
 							"fileName": "src/util/EventHandler.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/EventHandler.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/EventHandler.ts#L14"
 						}
 					],
 					"signatures": [
@@ -5170,7 +5170,7 @@
 									"fileName": "src/util/EventHandler.ts",
 									"line": 14,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/EventHandler.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/EventHandler.ts#L14"
 								}
 							],
 							"parameters": [
@@ -5243,7 +5243,7 @@
 					"fileName": "src/util/EventHandler.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/EventHandler.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/EventHandler.ts#L7"
 				}
 			]
 		},
@@ -5306,7 +5306,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 94,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L94"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L94"
 						}
 					],
 					"type": {
@@ -5337,7 +5337,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 99,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L99"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L99"
 						}
 					],
 					"type": {
@@ -5368,7 +5368,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 69,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L69"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L69"
 						}
 					],
 					"type": {
@@ -5399,7 +5399,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 74,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L74"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L74"
 						}
 					],
 					"type": {
@@ -5430,7 +5430,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 79,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L79"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L79"
 						}
 					],
 					"type": {
@@ -5461,7 +5461,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L9"
 						}
 					],
 					"type": {
@@ -5492,7 +5492,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 24,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L24"
 						}
 					],
 					"type": {
@@ -5523,7 +5523,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 29,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L29"
 						}
 					],
 					"type": {
@@ -5554,7 +5554,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 39,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L39"
 						}
 					],
 					"type": {
@@ -5585,7 +5585,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L14"
 						}
 					],
 					"type": {
@@ -5616,7 +5616,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 54,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L54"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L54"
 						}
 					],
 					"type": {
@@ -5647,7 +5647,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 59,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L59"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L59"
 						}
 					],
 					"type": {
@@ -5678,7 +5678,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 64,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L64"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L64"
 						}
 					],
 					"type": {
@@ -5709,7 +5709,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 19,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L19"
 						}
 					],
 					"type": {
@@ -5740,7 +5740,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 49,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L49"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L49"
 						}
 					],
 					"type": {
@@ -5771,7 +5771,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 89,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L89"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L89"
 						}
 					],
 					"type": {
@@ -5802,7 +5802,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 44,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L44"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L44"
 						}
 					],
 					"type": {
@@ -5833,7 +5833,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 34,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L34"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L34"
 						}
 					],
 					"type": {
@@ -5864,7 +5864,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 84,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L84"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L84"
 						}
 					],
 					"type": {
@@ -5887,7 +5887,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 106,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L106"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L106"
 						}
 					],
 					"signatures": [
@@ -5921,7 +5921,7 @@
 									"fileName": "src/config/GatewayIntents.ts",
 									"line": 106,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L106"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L106"
 								}
 							],
 							"parameters": [
@@ -6001,7 +6001,7 @@
 					"fileName": "src/config/GatewayIntents.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/GatewayIntents.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/GatewayIntents.ts#L4"
 				}
 			]
 		},
@@ -6064,7 +6064,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L9"
 						}
 					],
 					"type": {
@@ -6095,7 +6095,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L14"
 						}
 					],
 					"type": {
@@ -6126,7 +6126,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 59,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L59"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L59"
 						}
 					],
 					"type": {
@@ -6157,7 +6157,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 54,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L54"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L54"
 						}
 					],
 					"type": {
@@ -6188,7 +6188,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 19,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L19"
 						}
 					],
 					"type": {
@@ -6219,7 +6219,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 49,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L49"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L49"
 						}
 					],
 					"type": {
@@ -6250,7 +6250,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 24,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L24"
 						}
 					],
 					"type": {
@@ -6281,7 +6281,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 39,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L39"
 						}
 					],
 					"type": {
@@ -6312,7 +6312,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 44,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L44"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L44"
 						}
 					],
 					"type": {
@@ -6343,7 +6343,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 34,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L34"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L34"
 						}
 					],
 					"type": {
@@ -6374,7 +6374,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 29,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L29"
 						}
 					],
 					"type": {
@@ -6413,12 +6413,423 @@
 					"fileName": "src/config/OpCodes.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/OpCodes.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/OpCodes.ts#L4"
 				}
 			]
 		},
 		{
 			"id": 196,
+			"name": "Plugin",
+			"variant": "declaration",
+			"kind": 128,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Represents a plugin that can be registered and ran alongside your bot."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 197,
+					"name": "constructor",
+					"variant": "declaration",
+					"kind": 512,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 12,
+							"character": 4
+						}
+					],
+					"signatures": [
+						{
+							"id": 198,
+							"name": "new Plugin",
+							"variant": "signature",
+							"kind": 16384,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Set the name of the plugin."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/helper/Plugin.ts",
+									"line": 12,
+									"character": 4
+								}
+							],
+							"parameters": [
+								{
+									"id": 199,
+									"name": "name",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the plugin."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 196,
+								"name": "default",
+								"package": "solace.js"
+							}
+						}
+					]
+				},
+				{
+					"id": 200,
+					"name": "name",
+					"variant": "declaration",
+					"kind": 1024,
+					"flags": {
+						"isPrivate": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The name of the plugin."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 12,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 210,
+					"name": "getName",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 39,
+							"character": 11
+						}
+					],
+					"signatures": [
+						{
+							"id": 211,
+							"name": "getName",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Gets the name of the plugin"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "The name of the plugin"
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/helper/Plugin.ts",
+									"line": 39,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					]
+				},
+				{
+					"id": 204,
+					"name": "onDisable",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 24,
+							"character": 11
+						}
+					],
+					"signatures": [
+						{
+							"id": 205,
+							"name": "onDisable",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Called when the plugin is disabled."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/helper/Plugin.ts",
+									"line": 24,
+									"character": 11
+								}
+							],
+							"parameters": [
+								{
+									"id": 206,
+									"name": "client",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The client instance that manages the bot."
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"target": 1,
+										"name": "default",
+										"package": "solace.js"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 201,
+					"name": "onEnable",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 18,
+							"character": 11
+						}
+					],
+					"signatures": [
+						{
+							"id": 202,
+							"name": "onEnable",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Called when the plugin is enabled."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/helper/Plugin.ts",
+									"line": 18,
+									"character": 11
+								}
+							],
+							"parameters": [
+								{
+									"id": 203,
+									"name": "client",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The client instance that manages the bot."
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"target": 1,
+										"name": "default",
+										"package": "solace.js"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 207,
+					"name": "resolveDependencies",
+					"variant": "declaration",
+					"kind": 2048,
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "src/helper/Plugin.ts",
+							"line": 31,
+							"character": 11
+						}
+					],
+					"signatures": [
+						{
+							"id": 208,
+							"name": "resolveDependencies",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Resolves dependencies required by the plugin."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "An array of unresolved dependencies (plugins that need to be loaded first)."
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/helper/Plugin.ts",
+									"line": 31,
+									"character": 11
+								}
+							],
+							"parameters": [
+								{
+									"id": 209,
+									"name": "dependencies",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "An array of plugin names that this plugin depends on."
+											}
+										]
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"children": [
+						197
+					]
+				},
+				{
+					"title": "Properties",
+					"children": [
+						200
+					]
+				},
+				{
+					"title": "Methods",
+					"children": [
+						210,
+						204,
+						201,
+						207
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/helper/Plugin.ts",
+					"line": 6,
+					"character": 21
+				}
+			]
+		},
+		{
+			"id": 212,
 			"name": "Registry",
 			"variant": "declaration",
 			"kind": 128,
@@ -6433,21 +6844,21 @@
 			},
 			"children": [
 				{
-					"id": 201,
+					"id": 217,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
 					"flags": {},
 					"signatures": [
 						{
-							"id": 202,
+							"id": 218,
 							"name": "new Registry",
 							"variant": "signature",
 							"kind": 16384,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 196,
+								"target": 212,
 								"name": "default",
 								"package": "solace.js"
 							}
@@ -6455,7 +6866,7 @@
 					]
 				},
 				{
-					"id": 197,
+					"id": 213,
 					"name": "registerEvents",
 					"variant": "declaration",
 					"kind": 2048,
@@ -6468,12 +6879,12 @@
 							"fileName": "src/helper/Registry.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Registry.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Registry.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 198,
+							"id": 214,
 							"name": "registerEvents",
 							"variant": "signature",
 							"kind": 4096,
@@ -6491,12 +6902,12 @@
 									"fileName": "src/helper/Registry.ts",
 									"line": 14,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Registry.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Registry.ts#L14"
 								}
 							],
 							"parameters": [
 								{
-									"id": 199,
+									"id": 215,
 									"name": "client",
 									"variant": "param",
 									"kind": 32768,
@@ -6517,7 +6928,7 @@
 									}
 								},
 								{
-									"id": 200,
+									"id": 216,
 									"name": "args",
 									"variant": "param",
 									"kind": 32768,
@@ -6555,13 +6966,13 @@
 				{
 					"title": "Constructors",
 					"children": [
-						201
+						217
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						197
+						213
 					]
 				}
 			],
@@ -6570,12 +6981,12 @@
 					"fileName": "src/helper/Registry.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/helper/Registry.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/helper/Registry.ts#L7"
 				}
 			]
 		},
 		{
-			"id": 203,
+			"id": 219,
 			"name": "SolaceError",
 			"variant": "declaration",
 			"kind": 128,
@@ -6590,7 +7001,7 @@
 			},
 			"children": [
 				{
-					"id": 214,
+					"id": 230,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -6600,12 +7011,12 @@
 							"fileName": "src/util/SolaceError.ts",
 							"line": 9,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/SolaceError.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/SolaceError.ts#L9"
 						}
 					],
 					"signatures": [
 						{
-							"id": 215,
+							"id": 231,
 							"name": "new SolaceError",
 							"variant": "signature",
 							"kind": 16384,
@@ -6623,12 +7034,12 @@
 									"fileName": "src/util/SolaceError.ts",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/SolaceError.ts#L9"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/SolaceError.ts#L9"
 								}
 							],
 							"parameters": [
 								{
-									"id": 216,
+									"id": 232,
 									"name": "code",
 									"variant": "param",
 									"kind": 32768,
@@ -6649,7 +7060,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 203,
+								"target": 219,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -6667,7 +7078,7 @@
 					}
 				},
 				{
-					"id": 218,
+					"id": 234,
 					"name": "message",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6692,7 +7103,7 @@
 					}
 				},
 				{
-					"id": 217,
+					"id": 233,
 					"name": "name",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6717,7 +7128,7 @@
 					}
 				},
 				{
-					"id": 219,
+					"id": 235,
 					"name": "stack",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6743,7 +7154,7 @@
 					}
 				},
 				{
-					"id": 208,
+					"id": 224,
 					"name": "prepareStackTrace",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6762,7 +7173,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 209,
+							"id": 225,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -6778,7 +7189,7 @@
 							],
 							"signatures": [
 								{
-									"id": 210,
+									"id": 226,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -6813,7 +7224,7 @@
 									],
 									"parameters": [
 										{
-											"id": 211,
+											"id": 227,
 											"name": "err",
 											"variant": "param",
 											"kind": 32768,
@@ -6831,7 +7242,7 @@
 											}
 										},
 										{
-											"id": 212,
+											"id": 228,
 											"name": "stackTraces",
 											"variant": "param",
 											"kind": 32768,
@@ -6868,7 +7279,7 @@
 					}
 				},
 				{
-					"id": 213,
+					"id": 229,
 					"name": "stackTraceLimit",
 					"variant": "declaration",
 					"kind": 1024,
@@ -6894,7 +7305,7 @@
 					}
 				},
 				{
-					"id": 204,
+					"id": 220,
 					"name": "captureStackTrace",
 					"variant": "declaration",
 					"kind": 2048,
@@ -6911,7 +7322,7 @@
 					],
 					"signatures": [
 						{
-							"id": 205,
+							"id": 221,
 							"name": "captureStackTrace",
 							"variant": "signature",
 							"kind": 4096,
@@ -6935,7 +7346,7 @@
 							],
 							"parameters": [
 								{
-									"id": 206,
+									"id": 222,
 									"name": "targetObject",
 									"variant": "param",
 									"kind": 32768,
@@ -6948,7 +7359,7 @@
 									}
 								},
 								{
-									"id": 207,
+									"id": 223,
 									"name": "constructorOpt",
 									"variant": "param",
 									"kind": 32768,
@@ -6989,23 +7400,23 @@
 				{
 					"title": "Constructors",
 					"children": [
-						214
+						230
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						218,
-						217,
-						219,
-						208,
-						213
+						234,
+						233,
+						235,
+						224,
+						229
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						204
+						220
 					]
 				}
 			],
@@ -7014,7 +7425,7 @@
 					"fileName": "src/util/SolaceError.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/util/SolaceError.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/util/SolaceError.ts#L4"
 				}
 			],
 			"extendedTypes": [
@@ -7030,7 +7441,7 @@
 			]
 		},
 		{
-			"id": 220,
+			"id": 236,
 			"name": "SolaceIntents",
 			"variant": "declaration",
 			"kind": 128,
@@ -7045,21 +7456,21 @@
 			},
 			"children": [
 				{
-					"id": 233,
+					"id": 249,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
 					"flags": {},
 					"signatures": [
 						{
-							"id": 234,
+							"id": 250,
 							"name": "new SolaceIntents",
 							"variant": "signature",
 							"kind": 16384,
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"target": 220,
+								"target": 236,
 								"name": "default",
 								"package": "solace.js"
 							}
@@ -7067,7 +7478,7 @@
 					]
 				},
 				{
-					"id": 232,
+					"id": 248,
 					"name": "AUTO_MODERATION",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7088,7 +7499,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 112,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L112"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L112"
 						}
 					],
 					"type": {
@@ -7098,7 +7509,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 230,
+					"id": 246,
 					"name": "DIRECT_MESSAGE_MONITOR",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7119,7 +7530,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 95,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L95"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L95"
 						}
 					],
 					"type": {
@@ -7129,7 +7540,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 225,
+					"id": 241,
 					"name": "EMOJI_MANAGER",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7150,7 +7561,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 55,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L55"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L55"
 						}
 					],
 					"type": {
@@ -7160,7 +7571,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 221,
+					"id": 237,
 					"name": "GENERAL",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7181,7 +7592,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 11,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L11"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L11"
 						}
 					],
 					"type": {
@@ -7191,7 +7602,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 226,
+					"id": 242,
 					"name": "INTEGRATION_MANAGER",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7212,7 +7623,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 63,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L63"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L63"
 						}
 					],
 					"type": {
@@ -7222,7 +7633,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 224,
+					"id": 240,
 					"name": "INVITE_TRACKER",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7243,7 +7654,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 47,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L47"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L47"
 						}
 					],
 					"type": {
@@ -7253,7 +7664,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 231,
+					"id": 247,
 					"name": "MESSAGE_CONTENT_MONITOR",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7274,7 +7685,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 104,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L104"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L104"
 						}
 					],
 					"type": {
@@ -7284,7 +7695,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 222,
+					"id": 238,
 					"name": "MODERATION",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7305,7 +7716,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 22,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L22"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L22"
 						}
 					],
 					"type": {
@@ -7315,7 +7726,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 223,
+					"id": 239,
 					"name": "MUSIC",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7336,7 +7747,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 35,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L35"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L35"
 						}
 					],
 					"type": {
@@ -7346,7 +7757,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 229,
+					"id": 245,
 					"name": "PRESENCE_MONITOR",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7367,7 +7778,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 87,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L87"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L87"
 						}
 					],
 					"type": {
@@ -7377,7 +7788,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 228,
+					"id": 244,
 					"name": "VOICE_STATE_MONITOR",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7398,7 +7809,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 79,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L79"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L79"
 						}
 					],
 					"type": {
@@ -7408,7 +7819,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 227,
+					"id": 243,
 					"name": "WEBHOOK_MANAGER",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7429,7 +7840,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 71,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L71"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L71"
 						}
 					],
 					"type": {
@@ -7443,24 +7854,24 @@
 				{
 					"title": "Constructors",
 					"children": [
-						233
+						249
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						232,
-						230,
-						225,
-						221,
-						226,
-						224,
-						231,
-						222,
-						223,
-						229,
-						228,
-						227
+						248,
+						246,
+						241,
+						237,
+						242,
+						240,
+						247,
+						238,
+						239,
+						245,
+						244,
+						243
 					]
 				}
 			],
@@ -7469,12 +7880,12 @@
 					"fileName": "src/config/SolaceIntents.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/config/SolaceIntents.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/config/SolaceIntents.ts#L6"
 				}
 			]
 		},
 		{
-			"id": 235,
+			"id": 251,
 			"name": "User",
 			"variant": "declaration",
 			"kind": 128,
@@ -7489,7 +7900,7 @@
 			},
 			"children": [
 				{
-					"id": 236,
+					"id": 252,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -7499,12 +7910,12 @@
 							"fileName": "src/structures/User.ts",
 							"line": 95,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L95"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L95"
 						}
 					],
 					"signatures": [
 						{
-							"id": 237,
+							"id": 253,
 							"name": "new User",
 							"variant": "signature",
 							"kind": 16384,
@@ -7522,12 +7933,12 @@
 									"fileName": "src/structures/User.ts",
 									"line": 95,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L95"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L95"
 								}
 							],
 							"parameters": [
 								{
-									"id": 238,
+									"id": 254,
 									"name": "data",
 									"variant": "param",
 									"kind": 32768,
@@ -7548,7 +7959,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 235,
+								"target": 251,
 								"name": "default",
 								"package": "solace.js"
 							}
@@ -7556,7 +7967,7 @@
 					]
 				},
 				{
-					"id": 239,
+					"id": 255,
 					"name": "accentColor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7576,7 +7987,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 9,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L9"
 						}
 					],
 					"type": {
@@ -7594,7 +8005,7 @@
 					}
 				},
 				{
-					"id": 240,
+					"id": 256,
 					"name": "avatar",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7614,7 +8025,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 14,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L14"
 						}
 					],
 					"type": {
@@ -7632,7 +8043,7 @@
 					}
 				},
 				{
-					"id": 241,
+					"id": 257,
 					"name": "avatarDecoration",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7652,7 +8063,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 19,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L19"
 						}
 					],
 					"type": {
@@ -7670,7 +8081,7 @@
 					}
 				},
 				{
-					"id": 242,
+					"id": 258,
 					"name": "banner",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7690,7 +8101,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 24,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L24"
 						}
 					],
 					"type": {
@@ -7708,7 +8119,7 @@
 					}
 				},
 				{
-					"id": 243,
+					"id": 259,
 					"name": "bot",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7728,7 +8139,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 29,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L29"
 						}
 					],
 					"type": {
@@ -7737,7 +8148,7 @@
 					}
 				},
 				{
-					"id": 244,
+					"id": 260,
 					"name": "discriminator",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7757,7 +8168,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 34,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L34"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L34"
 						}
 					],
 					"type": {
@@ -7766,7 +8177,7 @@
 					}
 				},
 				{
-					"id": 245,
+					"id": 261,
 					"name": "email",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7786,7 +8197,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 39,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L39"
 						}
 					],
 					"type": {
@@ -7804,7 +8215,7 @@
 					}
 				},
 				{
-					"id": 246,
+					"id": 262,
 					"name": "flags",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7824,7 +8235,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 44,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L44"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L44"
 						}
 					],
 					"type": {
@@ -7842,7 +8253,7 @@
 					}
 				},
 				{
-					"id": 247,
+					"id": 263,
 					"name": "globalName",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7862,7 +8273,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 49,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L49"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L49"
 						}
 					],
 					"type": {
@@ -7880,7 +8291,7 @@
 					}
 				},
 				{
-					"id": 248,
+					"id": 264,
 					"name": "id",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7900,7 +8311,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 54,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L54"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L54"
 						}
 					],
 					"type": {
@@ -7909,7 +8320,7 @@
 					}
 				},
 				{
-					"id": 249,
+					"id": 265,
 					"name": "locale",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7929,7 +8340,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 59,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L59"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L59"
 						}
 					],
 					"type": {
@@ -7947,7 +8358,7 @@
 					}
 				},
 				{
-					"id": 250,
+					"id": 266,
 					"name": "mfaEnabled",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7967,7 +8378,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 64,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L64"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L64"
 						}
 					],
 					"type": {
@@ -7976,7 +8387,7 @@
 					}
 				},
 				{
-					"id": 251,
+					"id": 267,
 					"name": "premiumType",
 					"variant": "declaration",
 					"kind": 1024,
@@ -7996,7 +8407,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 69,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L69"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L69"
 						}
 					],
 					"type": {
@@ -8014,7 +8425,7 @@
 					}
 				},
 				{
-					"id": 252,
+					"id": 268,
 					"name": "publicFlags",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8034,7 +8445,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 74,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L74"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L74"
 						}
 					],
 					"type": {
@@ -8052,7 +8463,7 @@
 					}
 				},
 				{
-					"id": 253,
+					"id": 269,
 					"name": "system",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8072,7 +8483,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 79,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L79"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L79"
 						}
 					],
 					"type": {
@@ -8081,7 +8492,7 @@
 					}
 				},
 				{
-					"id": 254,
+					"id": 270,
 					"name": "username",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8101,7 +8512,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 84,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L84"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L84"
 						}
 					],
 					"type": {
@@ -8110,7 +8521,7 @@
 					}
 				},
 				{
-					"id": 255,
+					"id": 271,
 					"name": "verified",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8130,7 +8541,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 89,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L89"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L89"
 						}
 					],
 					"type": {
@@ -8143,29 +8554,29 @@
 				{
 					"title": "Constructors",
 					"children": [
-						236
+						252
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						239,
-						240,
-						241,
-						242,
-						243,
-						244,
-						245,
-						246,
-						247,
-						248,
-						249,
-						250,
-						251,
-						252,
-						253,
-						254,
-						255
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271
 					]
 				}
 			],
@@ -8174,12 +8585,12 @@
 					"fileName": "src/structures/User.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/structures/User.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/structures/User.ts#L4"
 				}
 			]
 		},
 		{
-			"id": 256,
+			"id": 272,
 			"name": "WebsocketClient",
 			"variant": "declaration",
 			"kind": 128,
@@ -8194,7 +8605,7 @@
 			},
 			"children": [
 				{
-					"id": 297,
+					"id": 313,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -8204,12 +8615,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 32,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L32"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L32"
 						}
 					],
 					"signatures": [
 						{
-							"id": 298,
+							"id": 314,
 							"name": "new WebsocketClient",
 							"variant": "signature",
 							"kind": 16384,
@@ -8227,12 +8638,12 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 32,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L32"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L32"
 								}
 							],
 							"parameters": [
 								{
-									"id": 299,
+									"id": 315,
 									"name": "client",
 									"variant": "param",
 									"kind": 32768,
@@ -8255,7 +8666,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -8273,7 +8684,7 @@
 					}
 				},
 				{
-					"id": 301,
+					"id": 317,
 					"name": "_ws",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8293,7 +8704,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 21,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L21"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L21"
 						}
 					],
 					"type": {
@@ -8317,7 +8728,7 @@
 					"defaultValue": "null"
 				},
 				{
-					"id": 303,
+					"id": 319,
 					"name": "client",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8337,7 +8748,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 32,
 							"character": 24,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L32"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L32"
 						}
 					],
 					"type": {
@@ -8348,7 +8759,7 @@
 					}
 				},
 				{
-					"id": 300,
+					"id": 316,
 					"name": "gateway",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8368,7 +8779,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 17,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L17"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L17"
 						}
 					],
 					"type": {
@@ -8387,7 +8798,7 @@
 					"defaultValue": "null"
 				},
 				{
-					"id": 302,
+					"id": 318,
 					"name": "heartbeatInterval",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8407,7 +8818,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 26,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L26"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L26"
 						}
 					],
 					"type": {
@@ -8432,7 +8843,7 @@
 					"defaultValue": "null"
 				},
 				{
-					"id": 294,
+					"id": 310,
 					"name": "captureRejectionSymbol",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8500,7 +8911,7 @@
 					}
 				},
 				{
-					"id": 295,
+					"id": 311,
 					"name": "captureRejections",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8561,7 +8972,7 @@
 					}
 				},
 				{
-					"id": 296,
+					"id": 312,
 					"name": "defaultMaxListeners",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8782,7 +9193,7 @@
 					}
 				},
 				{
-					"id": 293,
+					"id": 309,
 					"name": "errorMonitor",
 					"variant": "declaration",
 					"kind": 1024,
@@ -8866,7 +9277,7 @@
 					}
 				},
 				{
-					"id": 317,
+					"id": 333,
 					"name": "addListener",
 					"variant": "declaration",
 					"kind": 2048,
@@ -8882,7 +9293,7 @@
 					],
 					"signatures": [
 						{
-							"id": 318,
+							"id": 334,
 							"name": "addListener",
 							"variant": "signature",
 							"kind": 4096,
@@ -8925,7 +9336,7 @@
 							],
 							"parameters": [
 								{
-									"id": 319,
+									"id": 335,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -8947,7 +9358,7 @@
 									}
 								},
 								{
-									"id": 320,
+									"id": 336,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -8957,7 +9368,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 321,
+											"id": 337,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -8973,7 +9384,7 @@
 											],
 											"signatures": [
 												{
-													"id": 322,
+													"id": 338,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -8989,7 +9400,7 @@
 													],
 													"parameters": [
 														{
-															"id": 323,
+															"id": 339,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -9018,7 +9429,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -9036,7 +9447,7 @@
 					}
 				},
 				{
-					"id": 304,
+					"id": 320,
 					"name": "connect",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9048,12 +9459,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 39,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L39"
 						}
 					],
 					"signatures": [
 						{
-							"id": 305,
+							"id": 321,
 							"name": "connect",
 							"variant": "signature",
 							"kind": 4096,
@@ -9071,7 +9482,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 39,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L39"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L39"
 								}
 							],
 							"type": {
@@ -9093,7 +9504,7 @@
 					]
 				},
 				{
-					"id": 366,
+					"id": 382,
 					"name": "emit",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9109,7 +9520,7 @@
 					],
 					"signatures": [
 						{
-							"id": 367,
+							"id": 383,
 							"name": "emit",
 							"variant": "signature",
 							"kind": 4096,
@@ -9172,7 +9583,7 @@
 							],
 							"parameters": [
 								{
-									"id": 368,
+									"id": 384,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -9194,7 +9605,7 @@
 									}
 								},
 								{
-									"id": 369,
+									"id": 385,
 									"name": "args",
 									"variant": "param",
 									"kind": 32768,
@@ -9229,7 +9640,7 @@
 					}
 				},
 				{
-					"id": 388,
+					"id": 404,
 					"name": "eventNames",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9245,7 +9656,7 @@
 					],
 					"signatures": [
 						{
-							"id": 389,
+							"id": 405,
 							"name": "eventNames",
 							"variant": "signature",
 							"kind": 4096,
@@ -9320,7 +9731,7 @@
 					}
 				},
 				{
-					"id": 358,
+					"id": 374,
 					"name": "getMaxListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9336,7 +9747,7 @@
 					],
 					"signatures": [
 						{
-							"id": 359,
+							"id": 375,
 							"name": "getMaxListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -9369,7 +9780,7 @@
 										"kind": "inline-tag",
 										"tag": "@link",
 										"text": "defaultMaxListeners",
-										"target": 296
+										"target": 312
 									},
 									{
 										"kind": "text",
@@ -9413,7 +9824,7 @@
 					}
 				},
 				{
-					"id": 308,
+					"id": 324,
 					"name": "identify",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9425,12 +9836,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 99,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L99"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L99"
 						}
 					],
 					"signatures": [
 						{
-							"id": 309,
+							"id": 325,
 							"name": "identify",
 							"variant": "signature",
 							"kind": 4096,
@@ -9448,7 +9859,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 99,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L99"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L99"
 								}
 							],
 							"type": {
@@ -9459,7 +9870,7 @@
 					]
 				},
 				{
-					"id": 370,
+					"id": 386,
 					"name": "listenerCount",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9475,7 +9886,7 @@
 					],
 					"signatures": [
 						{
-							"id": 371,
+							"id": 387,
 							"name": "listenerCount",
 							"variant": "signature",
 							"kind": 4096,
@@ -9526,7 +9937,7 @@
 							],
 							"parameters": [
 								{
-									"id": 372,
+									"id": 388,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -9556,7 +9967,7 @@
 									}
 								},
 								{
-									"id": 373,
+									"id": 389,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -9601,7 +10012,7 @@
 					}
 				},
 				{
-					"id": 360,
+					"id": 376,
 					"name": "listeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9617,7 +10028,7 @@
 					],
 					"signatures": [
 						{
-							"id": 361,
+							"id": 377,
 							"name": "listeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -9664,7 +10075,7 @@
 							],
 							"parameters": [
 								{
-									"id": 362,
+									"id": 378,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -9712,7 +10123,7 @@
 					}
 				},
 				{
-					"id": 345,
+					"id": 361,
 					"name": "off",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9728,7 +10139,7 @@
 					],
 					"signatures": [
 						{
-							"id": 346,
+							"id": 362,
 							"name": "off",
 							"variant": "signature",
 							"kind": 4096,
@@ -9771,7 +10182,7 @@
 							],
 							"parameters": [
 								{
-									"id": 347,
+									"id": 363,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -9793,7 +10204,7 @@
 									}
 								},
 								{
-									"id": 348,
+									"id": 364,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -9803,7 +10214,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 349,
+											"id": 365,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -9819,7 +10230,7 @@
 											],
 											"signatures": [
 												{
-													"id": 350,
+													"id": 366,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -9835,7 +10246,7 @@
 													],
 													"parameters": [
 														{
-															"id": 351,
+															"id": 367,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -9864,7 +10275,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -9882,7 +10293,7 @@
 					}
 				},
 				{
-					"id": 324,
+					"id": 340,
 					"name": "on",
 					"variant": "declaration",
 					"kind": 2048,
@@ -9898,7 +10309,7 @@
 					],
 					"signatures": [
 						{
-							"id": 325,
+							"id": 341,
 							"name": "on",
 							"variant": "signature",
 							"kind": 4096,
@@ -10009,7 +10420,7 @@
 							],
 							"parameters": [
 								{
-									"id": 326,
+									"id": 342,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -10039,7 +10450,7 @@
 									}
 								},
 								{
-									"id": 327,
+									"id": 343,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -10057,7 +10468,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 328,
+											"id": 344,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -10073,7 +10484,7 @@
 											],
 											"signatures": [
 												{
-													"id": 329,
+													"id": 345,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -10089,7 +10500,7 @@
 													],
 													"parameters": [
 														{
-															"id": 330,
+															"id": 346,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -10118,7 +10529,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -10136,7 +10547,7 @@
 					}
 				},
 				{
-					"id": 331,
+					"id": 347,
 					"name": "once",
 					"variant": "declaration",
 					"kind": 2048,
@@ -10152,7 +10563,7 @@
 					],
 					"signatures": [
 						{
-							"id": 332,
+							"id": 348,
 							"name": "once",
 							"variant": "signature",
 							"kind": 4096,
@@ -10239,7 +10650,7 @@
 							],
 							"parameters": [
 								{
-									"id": 333,
+									"id": 349,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -10269,7 +10680,7 @@
 									}
 								},
 								{
-									"id": 334,
+									"id": 350,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -10287,7 +10698,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 335,
+											"id": 351,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -10303,7 +10714,7 @@
 											],
 											"signatures": [
 												{
-													"id": 336,
+													"id": 352,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -10319,7 +10730,7 @@
 													],
 													"parameters": [
 														{
-															"id": 337,
+															"id": 353,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -10348,7 +10759,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -10366,7 +10777,7 @@
 					}
 				},
 				{
-					"id": 374,
+					"id": 390,
 					"name": "prependListener",
 					"variant": "declaration",
 					"kind": 2048,
@@ -10382,7 +10793,7 @@
 					],
 					"signatures": [
 						{
-							"id": 375,
+							"id": 391,
 							"name": "prependListener",
 							"variant": "signature",
 							"kind": 4096,
@@ -10481,7 +10892,7 @@
 							],
 							"parameters": [
 								{
-									"id": 376,
+									"id": 392,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -10511,7 +10922,7 @@
 									}
 								},
 								{
-									"id": 377,
+									"id": 393,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -10529,7 +10940,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 378,
+											"id": 394,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -10545,7 +10956,7 @@
 											],
 											"signatures": [
 												{
-													"id": 379,
+													"id": 395,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -10561,7 +10972,7 @@
 													],
 													"parameters": [
 														{
-															"id": 380,
+															"id": 396,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -10590,7 +11001,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -10608,7 +11019,7 @@
 					}
 				},
 				{
-					"id": 381,
+					"id": 397,
 					"name": "prependOnceListener",
 					"variant": "declaration",
 					"kind": 2048,
@@ -10624,7 +11035,7 @@
 					],
 					"signatures": [
 						{
-							"id": 382,
+							"id": 398,
 							"name": "prependOnceListener",
 							"variant": "signature",
 							"kind": 4096,
@@ -10699,7 +11110,7 @@
 							],
 							"parameters": [
 								{
-									"id": 383,
+									"id": 399,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -10729,7 +11140,7 @@
 									}
 								},
 								{
-									"id": 384,
+									"id": 400,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -10747,7 +11158,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 385,
+											"id": 401,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -10763,7 +11174,7 @@
 											],
 											"signatures": [
 												{
-													"id": 386,
+													"id": 402,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -10779,7 +11190,7 @@
 													],
 													"parameters": [
 														{
-															"id": 387,
+															"id": 403,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -10808,7 +11219,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -10826,7 +11237,7 @@
 					}
 				},
 				{
-					"id": 363,
+					"id": 379,
 					"name": "rawListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -10842,7 +11253,7 @@
 					],
 					"signatures": [
 						{
-							"id": 364,
+							"id": 380,
 							"name": "rawListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -10897,7 +11308,7 @@
 							],
 							"parameters": [
 								{
-									"id": 365,
+									"id": 381,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -10945,7 +11356,7 @@
 					}
 				},
 				{
-					"id": 306,
+					"id": 322,
 					"name": "reconnect",
 					"variant": "declaration",
 					"kind": 2048,
@@ -10957,12 +11368,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 87,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L87"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L87"
 						}
 					],
 					"signatures": [
 						{
-							"id": 307,
+							"id": 323,
 							"name": "reconnect",
 							"variant": "signature",
 							"kind": 4096,
@@ -10980,7 +11391,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 87,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L87"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L87"
 								}
 							],
 							"type": {
@@ -10991,7 +11402,7 @@
 					]
 				},
 				{
-					"id": 352,
+					"id": 368,
 					"name": "removeAllListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11007,7 +11418,7 @@
 					],
 					"signatures": [
 						{
-							"id": 353,
+							"id": 369,
 							"name": "removeAllListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -11066,7 +11477,7 @@
 							],
 							"parameters": [
 								{
-									"id": 354,
+									"id": 370,
 									"name": "event",
 									"variant": "param",
 									"kind": 32768,
@@ -11091,7 +11502,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -11109,7 +11520,7 @@
 					}
 				},
 				{
-					"id": 338,
+					"id": 354,
 					"name": "removeListener",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11125,7 +11536,7 @@
 					],
 					"signatures": [
 						{
-							"id": 339,
+							"id": 355,
 							"name": "removeListener",
 							"variant": "signature",
 							"kind": 4096,
@@ -11280,7 +11691,7 @@
 							],
 							"parameters": [
 								{
-									"id": 340,
+									"id": 356,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -11302,7 +11713,7 @@
 									}
 								},
 								{
-									"id": 341,
+									"id": 357,
 									"name": "listener",
 									"variant": "param",
 									"kind": 32768,
@@ -11312,7 +11723,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 342,
+											"id": 358,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -11328,7 +11739,7 @@
 											],
 											"signatures": [
 												{
-													"id": 343,
+													"id": 359,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -11344,7 +11755,7 @@
 													],
 													"parameters": [
 														{
-															"id": 344,
+															"id": 360,
 															"name": "args",
 															"variant": "param",
 															"kind": 32768,
@@ -11373,7 +11784,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -11391,7 +11802,7 @@
 					}
 				},
 				{
-					"id": 315,
+					"id": 331,
 					"name": "sendHeartbeat",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11403,12 +11814,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 139,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L139"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L139"
 						}
 					],
 					"signatures": [
 						{
-							"id": 316,
+							"id": 332,
 							"name": "sendHeartbeat",
 							"variant": "signature",
 							"kind": 4096,
@@ -11426,7 +11837,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 139,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L139"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L139"
 								}
 							],
 							"type": {
@@ -11437,7 +11848,7 @@
 					]
 				},
 				{
-					"id": 355,
+					"id": 371,
 					"name": "setMaxListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11453,7 +11864,7 @@
 					],
 					"signatures": [
 						{
-							"id": 356,
+							"id": 372,
 							"name": "setMaxListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -11544,7 +11955,7 @@
 							],
 							"parameters": [
 								{
-									"id": 357,
+									"id": 373,
 									"name": "n",
 									"variant": "param",
 									"kind": 32768,
@@ -11559,7 +11970,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 256,
+								"target": 272,
 								"name": "default",
 								"package": "solace.js"
 							},
@@ -11577,7 +11988,7 @@
 					}
 				},
 				{
-					"id": 310,
+					"id": 326,
 					"name": "startHeartbeat",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11589,12 +12000,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 123,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L123"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L123"
 						}
 					],
 					"signatures": [
 						{
-							"id": 311,
+							"id": 327,
 							"name": "startHeartbeat",
 							"variant": "signature",
 							"kind": 4096,
@@ -11612,12 +12023,12 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 123,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L123"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L123"
 								}
 							],
 							"parameters": [
 								{
-									"id": 312,
+									"id": 328,
 									"name": "interval",
 									"variant": "param",
 									"kind": 32768,
@@ -11644,7 +12055,7 @@
 					]
 				},
 				{
-					"id": 313,
+					"id": 329,
 					"name": "stopHeartbeat",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11656,12 +12067,12 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 132,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L132"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L132"
 						}
 					],
 					"signatures": [
 						{
-							"id": 314,
+							"id": 330,
 							"name": "stopHeartbeat",
 							"variant": "signature",
 							"kind": 4096,
@@ -11679,7 +12090,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 132,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L132"
+									"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L132"
 								}
 							],
 							"type": {
@@ -11690,7 +12101,7 @@
 					]
 				},
 				{
-					"id": 286,
+					"id": 302,
 					"name": "addAbortListener",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11707,7 +12118,7 @@
 					],
 					"signatures": [
 						{
-							"id": 287,
+							"id": 303,
 							"name": "addAbortListener",
 							"variant": "signature",
 							"kind": 4096,
@@ -11814,7 +12225,7 @@
 							],
 							"parameters": [
 								{
-									"id": 288,
+									"id": 304,
 									"name": "signal",
 									"variant": "param",
 									"kind": 32768,
@@ -11832,7 +12243,7 @@
 									}
 								},
 								{
-									"id": 289,
+									"id": 305,
 									"name": "resource",
 									"variant": "param",
 									"kind": 32768,
@@ -11842,7 +12253,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 290,
+											"id": 306,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -11858,7 +12269,7 @@
 											],
 											"signatures": [
 												{
-													"id": 291,
+													"id": 307,
 													"name": "__type",
 													"variant": "signature",
 													"kind": 4096,
@@ -11874,7 +12285,7 @@
 													],
 													"parameters": [
 														{
-															"id": 292,
+															"id": 308,
 															"name": "event",
 															"variant": "param",
 															"kind": 32768,
@@ -11925,7 +12336,7 @@
 					}
 				},
 				{
-					"id": 275,
+					"id": 291,
 					"name": "getEventListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -11942,7 +12353,7 @@
 					],
 					"signatures": [
 						{
-							"id": 276,
+							"id": 292,
 							"name": "getEventListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -12013,7 +12424,7 @@
 							],
 							"parameters": [
 								{
-									"id": 277,
+									"id": 293,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12046,7 +12457,7 @@
 									}
 								},
 								{
-									"id": 278,
+									"id": 294,
 									"name": "name",
 									"variant": "param",
 									"kind": 32768,
@@ -12094,7 +12505,7 @@
 					}
 				},
 				{
-					"id": 279,
+					"id": 295,
 					"name": "getMaxListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -12111,7 +12522,7 @@
 					],
 					"signatures": [
 						{
-							"id": 280,
+							"id": 296,
 							"name": "getMaxListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -12174,7 +12585,7 @@
 							],
 							"parameters": [
 								{
-									"id": 281,
+									"id": 297,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12225,7 +12636,7 @@
 					}
 				},
 				{
-					"id": 271,
+					"id": 287,
 					"name": "listenerCount",
 					"variant": "declaration",
 					"kind": 2048,
@@ -12242,7 +12653,7 @@
 					],
 					"signatures": [
 						{
-							"id": 272,
+							"id": 288,
 							"name": "listenerCount",
 							"variant": "signature",
 							"kind": 4096,
@@ -12314,7 +12725,7 @@
 							],
 							"parameters": [
 								{
-									"id": 273,
+									"id": 289,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12341,7 +12752,7 @@
 									}
 								},
 								{
-									"id": 274,
+									"id": 290,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -12389,7 +12800,7 @@
 					}
 				},
 				{
-					"id": 266,
+					"id": 282,
 					"name": "on",
 					"variant": "declaration",
 					"kind": 2048,
@@ -12406,7 +12817,7 @@
 					],
 					"signatures": [
 						{
-							"id": 267,
+							"id": 283,
 							"name": "on",
 							"variant": "signature",
 							"kind": 4096,
@@ -12518,7 +12929,7 @@
 							],
 							"parameters": [
 								{
-									"id": 268,
+									"id": 284,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12537,7 +12948,7 @@
 									}
 								},
 								{
-									"id": 269,
+									"id": 285,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -12558,7 +12969,7 @@
 									}
 								},
 								{
-									"id": 270,
+									"id": 286,
 									"name": "options",
 									"variant": "param",
 									"kind": 32768,
@@ -12606,7 +13017,7 @@
 					}
 				},
 				{
-					"id": 257,
+					"id": 273,
 					"name": "once",
 					"variant": "declaration",
 					"kind": 2048,
@@ -12628,7 +13039,7 @@
 					],
 					"signatures": [
 						{
-							"id": 258,
+							"id": 274,
 							"name": "once",
 							"variant": "signature",
 							"kind": 4096,
@@ -12779,7 +13190,7 @@
 							],
 							"parameters": [
 								{
-									"id": 259,
+									"id": 275,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12797,7 +13208,7 @@
 									}
 								},
 								{
-									"id": 260,
+									"id": 276,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -12819,7 +13230,7 @@
 									}
 								},
 								{
-									"id": 261,
+									"id": 277,
 									"name": "options",
 									"variant": "param",
 									"kind": 32768,
@@ -12863,7 +13274,7 @@
 							}
 						},
 						{
-							"id": 262,
+							"id": 278,
 							"name": "once",
 							"variant": "signature",
 							"kind": 4096,
@@ -12879,7 +13290,7 @@
 							],
 							"parameters": [
 								{
-									"id": 263,
+									"id": 279,
 									"name": "emitter",
 									"variant": "param",
 									"kind": 32768,
@@ -12897,7 +13308,7 @@
 									}
 								},
 								{
-									"id": 264,
+									"id": 280,
 									"name": "eventName",
 									"variant": "param",
 									"kind": 32768,
@@ -12910,7 +13321,7 @@
 									}
 								},
 								{
-									"id": 265,
+									"id": 281,
 									"name": "options",
 									"variant": "param",
 									"kind": 32768,
@@ -12961,7 +13372,7 @@
 					}
 				},
 				{
-					"id": 282,
+					"id": 298,
 					"name": "setMaxListeners",
 					"variant": "declaration",
 					"kind": 2048,
@@ -12978,7 +13389,7 @@
 					],
 					"signatures": [
 						{
-							"id": 283,
+							"id": 299,
 							"name": "setMaxListeners",
 							"variant": "signature",
 							"kind": 4096,
@@ -13013,7 +13424,7 @@
 							],
 							"parameters": [
 								{
-									"id": 284,
+									"id": 300,
 									"name": "n",
 									"variant": "param",
 									"kind": 32768,
@@ -13043,7 +13454,7 @@
 									}
 								},
 								{
-									"id": 285,
+									"id": 301,
 									"name": "eventTargets",
 									"variant": "param",
 									"kind": 32768,
@@ -13102,53 +13513,53 @@
 				{
 					"title": "Constructors",
 					"children": [
-						297
+						313
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						301,
-						303,
-						300,
-						302,
-						294,
-						295,
-						296,
-						293
+						317,
+						319,
+						316,
+						318,
+						310,
+						311,
+						312,
+						309
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						317,
-						304,
-						366,
-						388,
-						358,
-						308,
-						370,
-						360,
-						345,
-						324,
-						331,
+						333,
+						320,
+						382,
+						404,
 						374,
-						381,
-						363,
-						306,
-						352,
-						338,
-						315,
-						355,
-						310,
-						313,
-						286,
-						275,
-						279,
-						271,
-						266,
-						257,
-						282
+						324,
+						386,
+						376,
+						361,
+						340,
+						347,
+						390,
+						397,
+						379,
+						322,
+						368,
+						354,
+						331,
+						371,
+						326,
+						329,
+						302,
+						291,
+						295,
+						287,
+						282,
+						273,
+						298
 					]
 				}
 			],
@@ -13157,7 +13568,7 @@
 					"fileName": "src/client/WebsocketClient.ts",
 					"line": 12,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/client/WebsocketClient.ts#L12"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/client/WebsocketClient.ts#L12"
 				}
 			],
 			"extendedTypes": [
@@ -13218,7 +13629,7 @@
 							"fileName": "src/interfaces/ClientEvents.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/interfaces/ClientEvents.ts#L13"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/interfaces/ClientEvents.ts#L13"
 						}
 					],
 					"type": {
@@ -13252,7 +13663,7 @@
 					"fileName": "src/interfaces/ClientEvents.ts",
 					"line": 6,
 					"character": 25,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/interfaces/ClientEvents.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/interfaces/ClientEvents.ts#L6"
 				}
 			]
 		},
@@ -13308,7 +13719,7 @@
 							"fileName": "src/interfaces/ClientOptions.ts",
 							"line": 19,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/interfaces/ClientOptions.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/interfaces/ClientOptions.ts#L19"
 						}
 					],
 					"type": {
@@ -13355,7 +13766,7 @@
 							"fileName": "src/interfaces/ClientOptions.ts",
 							"line": 12,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/interfaces/ClientOptions.ts#L12"
+							"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/interfaces/ClientOptions.ts#L12"
 						}
 					],
 					"type": {
@@ -13378,7 +13789,7 @@
 					"fileName": "src/interfaces/ClientOptions.ts",
 					"line": 6,
 					"character": 25,
-					"url": "https://github.com/solacejs/solace.js/blob/03d1a9c/src/interfaces/ClientOptions.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/ae62d14/src/interfaces/ClientOptions.ts#L6"
 				}
 			]
 		}
@@ -13394,10 +13805,11 @@
 				157,
 				182,
 				196,
-				203,
-				220,
-				235,
-				256
+				212,
+				219,
+				236,
+				251,
+				272
 			]
 		},
 		{
@@ -14198,762 +14610,826 @@
 			"qualifiedName": "default.HEARTBEAT_ACK"
 		},
 		"196": {
-			"sourceFileName": "src/helper/Registry.ts",
+			"sourceFileName": "src/helper/Plugin.ts",
 			"qualifiedName": "default"
 		},
 		"197": {
-			"sourceFileName": "src/helper/Registry.ts",
-			"qualifiedName": "default.registerEvents"
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.__constructor"
 		},
 		"198": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default"
+		},
+		"199": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "name"
+		},
+		"200": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.name"
+		},
+		"201": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.onEnable"
+		},
+		"202": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.onEnable"
+		},
+		"203": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "client"
+		},
+		"204": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.onDisable"
+		},
+		"205": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.onDisable"
+		},
+		"206": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "client"
+		},
+		"207": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.resolveDependencies"
+		},
+		"208": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.resolveDependencies"
+		},
+		"209": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "dependencies"
+		},
+		"210": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.getName"
+		},
+		"211": {
+			"sourceFileName": "src/helper/Plugin.ts",
+			"qualifiedName": "default.getName"
+		},
+		"212": {
+			"sourceFileName": "src/helper/Registry.ts",
+			"qualifiedName": "default"
+		},
+		"213": {
 			"sourceFileName": "src/helper/Registry.ts",
 			"qualifiedName": "default.registerEvents"
 		},
-		"199": {
+		"214": {
+			"sourceFileName": "src/helper/Registry.ts",
+			"qualifiedName": "default.registerEvents"
+		},
+		"215": {
 			"sourceFileName": "src/helper/Registry.ts",
 			"qualifiedName": "client"
 		},
-		"200": {
+		"216": {
 			"sourceFileName": "src/helper/Registry.ts",
 			"qualifiedName": "args"
 		},
-		"203": {
+		"219": {
 			"sourceFileName": "src/util/SolaceError.ts",
 			"qualifiedName": "default"
 		},
-		"204": {
+		"220": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "ErrorConstructor.captureStackTrace"
 		},
-		"205": {
+		"221": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "ErrorConstructor.captureStackTrace"
 		},
-		"206": {
+		"222": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "targetObject"
 		},
-		"207": {
+		"223": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "constructorOpt"
 		},
-		"208": {
+		"224": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "ErrorConstructor.prepareStackTrace"
 		},
-		"209": {
+		"225": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "__type"
 		},
-		"210": {
+		"226": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "__type"
 		},
-		"211": {
+		"227": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "err"
 		},
-		"212": {
+		"228": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "stackTraces"
 		},
-		"213": {
+		"229": {
 			"sourceFileName": "node_modules/@types/node/globals.d.ts",
 			"qualifiedName": "ErrorConstructor.stackTraceLimit"
 		},
-		"214": {
+		"230": {
 			"sourceFileName": "src/util/SolaceError.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"215": {
+		"231": {
 			"sourceFileName": "src/util/SolaceError.ts",
 			"qualifiedName": "default"
 		},
-		"216": {
+		"232": {
 			"sourceFileName": "src/util/SolaceError.ts",
 			"qualifiedName": "code"
 		},
-		"217": {
+		"233": {
 			"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
 			"qualifiedName": "Error.name"
 		},
-		"218": {
+		"234": {
 			"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
 			"qualifiedName": "Error.message"
 		},
-		"219": {
+		"235": {
 			"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
 			"qualifiedName": "Error.stack"
 		},
-		"220": {
+		"236": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default"
 		},
-		"221": {
+		"237": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.GENERAL"
 		},
-		"222": {
+		"238": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.MODERATION"
 		},
-		"223": {
+		"239": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.MUSIC"
 		},
-		"224": {
+		"240": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.INVITE_TRACKER"
 		},
-		"225": {
+		"241": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.EMOJI_MANAGER"
 		},
-		"226": {
+		"242": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.INTEGRATION_MANAGER"
 		},
-		"227": {
+		"243": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.WEBHOOK_MANAGER"
 		},
-		"228": {
+		"244": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.VOICE_STATE_MONITOR"
 		},
-		"229": {
+		"245": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.PRESENCE_MONITOR"
 		},
-		"230": {
+		"246": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.DIRECT_MESSAGE_MONITOR"
 		},
-		"231": {
+		"247": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.MESSAGE_CONTENT_MONITOR"
 		},
-		"232": {
+		"248": {
 			"sourceFileName": "src/config/SolaceIntents.ts",
 			"qualifiedName": "default.AUTO_MODERATION"
 		},
-		"235": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default"
-		},
-		"236": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.__constructor"
-		},
-		"237": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default"
-		},
-		"238": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "data"
-		},
-		"239": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.accentColor"
-		},
-		"240": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.avatar"
-		},
-		"241": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.avatarDecoration"
-		},
-		"242": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.banner"
-		},
-		"243": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.bot"
-		},
-		"244": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.discriminator"
-		},
-		"245": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.email"
-		},
-		"246": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.flags"
-		},
-		"247": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.globalName"
-		},
-		"248": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.id"
-		},
-		"249": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.locale"
-		},
-		"250": {
-			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.mfaEnabled"
-		},
 		"251": {
 			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.premiumType"
+			"qualifiedName": "default"
 		},
 		"252": {
 			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.publicFlags"
+			"qualifiedName": "default.__constructor"
 		},
 		"253": {
 			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.system"
+			"qualifiedName": "default"
 		},
 		"254": {
 			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.username"
+			"qualifiedName": "data"
 		},
 		"255": {
 			"sourceFileName": "src/structures/User.ts",
-			"qualifiedName": "default.verified"
+			"qualifiedName": "default.accentColor"
 		},
 		"256": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.avatar"
 		},
 		"257": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.once"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.avatarDecoration"
 		},
 		"258": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.once"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.banner"
 		},
 		"259": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.bot"
 		},
 		"260": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.discriminator"
 		},
 		"261": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "options"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.email"
 		},
 		"262": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.once"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.flags"
 		},
 		"263": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.globalName"
 		},
 		"264": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.id"
 		},
 		"265": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "options"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.locale"
 		},
 		"266": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.on"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.mfaEnabled"
 		},
 		"267": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.on"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.premiumType"
 		},
 		"268": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.publicFlags"
 		},
 		"269": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.system"
 		},
 		"270": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "options"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.username"
 		},
 		"271": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.listenerCount"
+			"sourceFileName": "src/structures/User.ts",
+			"qualifiedName": "default.verified"
 		},
 		"272": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.listenerCount"
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default"
 		},
 		"273": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"qualifiedName": "EventEmitter.once"
 		},
 		"274": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "EventEmitter.once"
 		},
 		"275": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.getEventListeners"
+			"qualifiedName": "emitter"
 		},
 		"276": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.getEventListeners"
+			"qualifiedName": "eventName"
 		},
 		"277": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"qualifiedName": "options"
 		},
 		"278": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "name"
+			"qualifiedName": "EventEmitter.once"
 		},
 		"279": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.getMaxListeners"
+			"qualifiedName": "emitter"
 		},
 		"280": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.getMaxListeners"
+			"qualifiedName": "eventName"
 		},
 		"281": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "emitter"
+			"qualifiedName": "options"
 		},
 		"282": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.setMaxListeners"
+			"qualifiedName": "EventEmitter.on"
 		},
 		"283": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.setMaxListeners"
+			"qualifiedName": "EventEmitter.on"
 		},
 		"284": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "n"
+			"qualifiedName": "emitter"
 		},
 		"285": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventTargets"
+			"qualifiedName": "eventName"
 		},
 		"286": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.addAbortListener"
+			"qualifiedName": "options"
 		},
 		"287": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.addAbortListener"
+			"qualifiedName": "EventEmitter.listenerCount"
 		},
 		"288": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "signal"
+			"qualifiedName": "EventEmitter.listenerCount"
 		},
 		"289": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "resource"
+			"qualifiedName": "emitter"
 		},
 		"290": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "eventName"
 		},
 		"291": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "EventEmitter.getEventListeners"
 		},
 		"292": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "event"
+			"qualifiedName": "EventEmitter.getEventListeners"
 		},
 		"293": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.errorMonitor"
+			"qualifiedName": "emitter"
 		},
 		"294": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.captureRejectionSymbol"
+			"qualifiedName": "name"
 		},
 		"295": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.captureRejections"
+			"qualifiedName": "EventEmitter.getMaxListeners"
 		},
 		"296": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "EventEmitter.defaultMaxListeners"
+			"qualifiedName": "EventEmitter.getMaxListeners"
 		},
 		"297": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.__constructor"
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "emitter"
 		},
 		"298": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.setMaxListeners"
 		},
 		"299": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "client"
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.setMaxListeners"
 		},
 		"300": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.gateway"
-		},
-		"301": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default._ws"
-		},
-		"302": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.heartbeatInterval"
-		},
-		"303": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.client"
-		},
-		"304": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.connect"
-		},
-		"305": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.connect"
-		},
-		"306": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.reconnect"
-		},
-		"307": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.reconnect"
-		},
-		"308": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.identify"
-		},
-		"309": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.identify"
-		},
-		"310": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.startHeartbeat"
-		},
-		"311": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.startHeartbeat"
-		},
-		"312": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "interval"
-		},
-		"313": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.stopHeartbeat"
-		},
-		"314": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.stopHeartbeat"
-		},
-		"315": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.sendHeartbeat"
-		},
-		"316": {
-			"sourceFileName": "src/client/WebsocketClient.ts",
-			"qualifiedName": "default.sendHeartbeat"
-		},
-		"317": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.addListener"
-		},
-		"318": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.addListener"
-		},
-		"319": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
-		},
-		"320": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
-		},
-		"321": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"322": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"323": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
-		},
-		"324": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.on"
-		},
-		"325": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.on"
-		},
-		"326": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
-		},
-		"327": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
-		},
-		"328": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"329": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"330": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
-		},
-		"331": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.once"
-		},
-		"332": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.once"
-		},
-		"333": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
-		},
-		"334": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
-		},
-		"335": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"336": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"337": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
-		},
-		"338": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.removeListener"
-		},
-		"339": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.removeListener"
-		},
-		"340": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
-		},
-		"341": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
-		},
-		"342": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"343": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"344": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
-		},
-		"345": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.off"
-		},
-		"346": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.off"
-		},
-		"347": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
-		},
-		"348": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
-		},
-		"349": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"350": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
-		},
-		"351": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
-		},
-		"352": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.removeAllListeners"
-		},
-		"353": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.removeAllListeners"
-		},
-		"354": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "event"
-		},
-		"355": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.setMaxListeners"
-		},
-		"356": {
-			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.setMaxListeners"
-		},
-		"357": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
 			"qualifiedName": "n"
 		},
+		"301": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventTargets"
+		},
+		"302": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.addAbortListener"
+		},
+		"303": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.addAbortListener"
+		},
+		"304": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "signal"
+		},
+		"305": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "resource"
+		},
+		"306": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"307": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"308": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "event"
+		},
+		"309": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.errorMonitor"
+		},
+		"310": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.captureRejectionSymbol"
+		},
+		"311": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.captureRejections"
+		},
+		"312": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "EventEmitter.defaultMaxListeners"
+		},
+		"313": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.__constructor"
+		},
+		"314": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default"
+		},
+		"315": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "client"
+		},
+		"316": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.gateway"
+		},
+		"317": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default._ws"
+		},
+		"318": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.heartbeatInterval"
+		},
+		"319": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.client"
+		},
+		"320": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.connect"
+		},
+		"321": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.connect"
+		},
+		"322": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.reconnect"
+		},
+		"323": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.reconnect"
+		},
+		"324": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.identify"
+		},
+		"325": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.identify"
+		},
+		"326": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.startHeartbeat"
+		},
+		"327": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.startHeartbeat"
+		},
+		"328": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "interval"
+		},
+		"329": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.stopHeartbeat"
+		},
+		"330": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.stopHeartbeat"
+		},
+		"331": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.sendHeartbeat"
+		},
+		"332": {
+			"sourceFileName": "src/client/WebsocketClient.ts",
+			"qualifiedName": "default.sendHeartbeat"
+		},
+		"333": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.addListener"
+		},
+		"334": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.addListener"
+		},
+		"335": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"336": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"337": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"338": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"339": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "args"
+		},
+		"340": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.on"
+		},
+		"341": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.on"
+		},
+		"342": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"343": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"344": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"345": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"346": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "args"
+		},
+		"347": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.once"
+		},
+		"348": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.once"
+		},
+		"349": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"350": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"351": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"352": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"353": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "args"
+		},
+		"354": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.removeListener"
+		},
+		"355": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.removeListener"
+		},
+		"356": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"357": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
 		"358": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.getMaxListeners"
+			"qualifiedName": "__type"
 		},
 		"359": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.getMaxListeners"
+			"qualifiedName": "__type"
 		},
 		"360": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.listeners"
+			"qualifiedName": "args"
 		},
 		"361": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.listeners"
+			"qualifiedName": "__global.NodeJS.EventEmitter.off"
 		},
 		"362": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__global.NodeJS.EventEmitter.off"
 		},
 		"363": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.rawListeners"
+			"qualifiedName": "eventName"
 		},
 		"364": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.rawListeners"
+			"qualifiedName": "listener"
 		},
 		"365": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__type"
 		},
 		"366": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.emit"
+			"qualifiedName": "__type"
 		},
 		"367": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.emit"
+			"qualifiedName": "args"
 		},
 		"368": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__global.NodeJS.EventEmitter.removeAllListeners"
 		},
 		"369": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
+			"qualifiedName": "__global.NodeJS.EventEmitter.removeAllListeners"
 		},
 		"370": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.listenerCount"
+			"qualifiedName": "event"
 		},
 		"371": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.listenerCount"
+			"qualifiedName": "__global.NodeJS.EventEmitter.setMaxListeners"
 		},
 		"372": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__global.NodeJS.EventEmitter.setMaxListeners"
 		},
 		"373": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
+			"qualifiedName": "n"
 		},
 		"374": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.prependListener"
+			"qualifiedName": "__global.NodeJS.EventEmitter.getMaxListeners"
 		},
 		"375": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.prependListener"
+			"qualifiedName": "__global.NodeJS.EventEmitter.getMaxListeners"
 		},
 		"376": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__global.NodeJS.EventEmitter.listeners"
 		},
 		"377": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
+			"qualifiedName": "__global.NodeJS.EventEmitter.listeners"
 		},
 		"378": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "eventName"
 		},
 		"379": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "__global.NodeJS.EventEmitter.rawListeners"
 		},
 		"380": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
+			"qualifiedName": "__global.NodeJS.EventEmitter.rawListeners"
 		},
 		"381": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.prependOnceListener"
+			"qualifiedName": "eventName"
 		},
 		"382": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.prependOnceListener"
+			"qualifiedName": "__global.NodeJS.EventEmitter.emit"
 		},
 		"383": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "eventName"
+			"qualifiedName": "__global.NodeJS.EventEmitter.emit"
 		},
 		"384": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "listener"
+			"qualifiedName": "eventName"
 		},
 		"385": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "args"
 		},
 		"386": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "__global.NodeJS.EventEmitter.listenerCount"
 		},
 		"387": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "args"
+			"qualifiedName": "__global.NodeJS.EventEmitter.listenerCount"
 		},
 		"388": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
-			"qualifiedName": "__global.NodeJS.EventEmitter.eventNames"
+			"qualifiedName": "eventName"
 		},
 		"389": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"390": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.prependListener"
+		},
+		"391": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.prependListener"
+		},
+		"392": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"393": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"394": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"395": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"396": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "args"
+		},
+		"397": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.prependOnceListener"
+		},
+		"398": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.prependOnceListener"
+		},
+		"399": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "eventName"
+		},
+		"400": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "listener"
+		},
+		"401": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"402": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__type"
+		},
+		"403": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "args"
+		},
+		"404": {
+			"sourceFileName": "node_modules/@types/node/events.d.ts",
+			"qualifiedName": "__global.NodeJS.EventEmitter.eventNames"
+		},
+		"405": {
 			"sourceFileName": "node_modules/@types/node/events.d.ts",
 			"qualifiedName": "__global.NodeJS.EventEmitter.eventNames"
 		}
