@@ -48,7 +48,7 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
             case 1024:
                 if (!child.comment) return;
                 properties.push({
-                    name: child.name, href: child.sources[0].url, description: child.comment.summary[0].text, types: () => {
+                    name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary[0].text, types: () => {
                         switch (child.type.type) {
                             case "union":
                                 return child.type.types.map((type: any) => {
@@ -84,12 +84,12 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
                     }
                 })
 
-                methods.push({ name: child.name, href: child.sources[0].url, description: child.signatures[0].comment.summary[0].text, parameters: parameters });
+                methods.push({ name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.signatures[0].comment.summary[0].text, parameters: parameters });
                 break;
         }
     });
 
-    console.log(properties);
+    console.log(methods);
 
     switch (type) {
         case "class":
