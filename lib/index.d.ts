@@ -12,4 +12,7 @@ import SolaceError from "./util/SolaceError";
 import SolaceIntents from "./config/SolaceIntents";
 import User from "./structures/User";
 import WebsocketClient from "./client/WebsocketClient";
-export { Client, ClientEvents, ClientOptions, Constants, Event, EventHandler, GatewayIntents, OpCodes, Plugin, Registry, SolaceError, SolaceIntents, User, WebsocketClient, };
+import IUser from "./interfaces/IUser";
+import IMessage from "./interfaces/IMessage";
+import Message from "./structures/Message";
+export { Client, ClientEvents, ClientOptions, Constants, Event, EventHandler, GatewayIntents, IMessage, IUser, Message, OpCodes, Plugin, Registry, SolaceError, SolaceIntents, User, WebsocketClient, };

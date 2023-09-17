@@ -3,7 +3,7 @@ import CodeBlock from "@/components/CodeBlock";
 export default function Home() {
   return (
     <main className='w-full h-full flex justify-center'>
-      <div className="w-[50rem] h-full">
+      <div className="w-full p-2 md:w-[50rem] md:p-0 h-full">
         <h1>Solace.js</h1>
         <p>Solace.js is an alternative to eris and discord.js, a nodejs wrapper for interfacing with discord. The goal of solace.js is to make discord bot development faster. The project structure is sort of similar to discord.js making it easy to move to. With solace.js you can get work done in a faster way.</p>
         <h2>Installation</h2>

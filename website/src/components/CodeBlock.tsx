@@ -29,6 +29,6 @@ export default function CodeBlock({ language, children }: { language?: string, c
     }, []);
 
     return (
-        <pre ref={ref} className="w-fit h-fit bg-code p-4 rounded-md font-mono"/>
+        <pre ref={ref} className="w-fit h-fit break-word max-w-full bg-code p-4 rounded-md font-mono overflow-auto"/>
     )
 }
