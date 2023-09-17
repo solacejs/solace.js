@@ -69,9 +69,9 @@ export default function Sidebar() {
     }, [showSettings, showClasses, showInterfaces]);
 
     return (
-        <div ref={ref} className="h-full w-fit z-10 fixed">
+        <div ref={ref} className="h-full z-10 fixed">
             <button className={`${open ? "hidden" : "block"} absolute md:hidden p-2 bg-accent -rotate-90 rounded-b-lg mt-4`} onClick={() => setOpen(true)}><DropdownIcon></DropdownIcon></button>
-            <div className={`${open ? "fixed" : "hidden"} md:fixed md:w-72 md:flex h-full bg-sidebar flex-col py-2 px-4 overflow-y-auto select-none`}>
+            <div className={`${open ? "fixed" : "hidden"} md:fixed w-60 md:w-72 md:flex h-full bg-sidebar flex-col py-2 px-4 overflow-y-auto select-none`}>
                 <button onClick={() => setShowSettings(!showSettings)} className="py-2 text-md font-bold uppercase flex gap-1 items-center">
                     {<DropdownIcon className={`${showSettings ? "rotate-0" : "rotate-[270deg]"}`} />}
                     <span>Settings</span>
