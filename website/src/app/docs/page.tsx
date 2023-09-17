@@ -6,7 +6,7 @@ export default function Docs() {
     return (
         <main className="w-full h-full flex">
             <Sidebar />
-            <Main type="none" />
+            <Main />
         </main>
     )
 }
