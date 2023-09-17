@@ -31,7 +31,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 29,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L29"
 						}
 					],
 					"signatures": [
@@ -54,7 +54,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 29,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L29"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L29"
 								}
 							],
 							"parameters": [
@@ -120,7 +120,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 29,
 							"character": 23,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L29"
 						}
 					],
 					"type": {
@@ -151,7 +151,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 23,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L23"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L23"
 						}
 					],
 					"type": {
@@ -192,7 +192,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 18,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L18"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L18"
 						}
 					],
 					"type": {
@@ -827,9 +827,9 @@
 					"sources": [
 						{
 							"fileName": "src/client/Client.ts",
-							"line": 66,
+							"line": 72,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L66"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L72"
 						}
 					],
 					"signatures": [
@@ -839,12 +839,31 @@
 							"variant": "signature",
 							"kind": 4096,
 							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Asynchronously creates a new message in a specified channel."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@throws",
+										"content": [
+											{
+												"kind": "text",
+												"text": "If an error occurs during the message creation process."
+											}
+										]
+									}
+								]
+							},
 							"sources": [
 								{
 									"fileName": "src/client/Client.ts",
-									"line": 66,
+									"line": 72,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L66"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L72"
 								}
 							],
 							"parameters": [
@@ -854,6 +873,14 @@
 									"variant": "param",
 									"kind": 32768,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The unique identifier of the target channel where the message will be sent."
+											}
+										]
+									},
 									"type": {
 										"type": "intrinsic",
 										"name": "string"
@@ -865,6 +892,14 @@
 									"variant": "param",
 									"kind": 32768,
 									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The content of the message to be sent."
+											}
+										]
+									},
 									"type": {
 										"type": "intrinsic",
 										"name": "string"
@@ -1475,7 +1510,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 62,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L62"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L62"
 						}
 					],
 					"signatures": [
@@ -1498,7 +1533,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 62,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L62"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L62"
 								}
 							],
 							"type": {
@@ -1700,7 +1735,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 55,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L55"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L55"
 						}
 					],
 					"signatures": [
@@ -1734,7 +1769,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 55,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L55"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L55"
 								}
 							],
 							"typeParameter": [
@@ -1805,7 +1840,7 @@
 													"fileName": "src/client/Client.ts",
 													"line": 55,
 													"character": 57,
-													"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L55"
+													"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L55"
 												}
 											],
 											"signatures": [
@@ -1820,7 +1855,7 @@
 															"fileName": "src/client/Client.ts",
 															"line": 55,
 															"character": 57,
-															"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L55"
+															"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L55"
 														}
 													],
 													"parameters": [
@@ -1889,7 +1924,7 @@
 							"fileName": "src/client/Client.ts",
 							"line": 45,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L45"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L45"
 						}
 					],
 					"signatures": [
@@ -1923,7 +1958,7 @@
 									"fileName": "src/client/Client.ts",
 									"line": 45,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L45"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L45"
 								}
 							],
 							"typeParameter": [
@@ -1994,7 +2029,7 @@
 													"fileName": "src/client/Client.ts",
 													"line": 45,
 													"character": 59,
-													"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L45"
+													"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L45"
 												}
 											],
 											"signatures": [
@@ -2009,7 +2044,7 @@
 															"fileName": "src/client/Client.ts",
 															"line": 45,
 															"character": 59,
-															"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L45"
+															"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L45"
 														}
 													],
 													"parameters": [
@@ -4649,7 +4684,7 @@
 					"fileName": "src/client/Client.ts",
 					"line": 13,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/Client.ts#L13"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/Client.ts#L13"
 				}
 			],
 			"extendedTypes": [
@@ -4723,7 +4758,7 @@
 							"fileName": "src/config/Constants.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/Constants.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/Constants.ts#L9"
 						}
 					],
 					"type": {
@@ -4754,7 +4789,7 @@
 							"fileName": "src/config/Constants.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/Constants.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/Constants.ts#L14"
 						}
 					],
 					"type": {
@@ -4784,7 +4819,7 @@
 					"fileName": "src/config/Constants.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/Constants.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/Constants.ts#L4"
 				}
 			]
 		},
@@ -4814,7 +4849,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L14"
 						}
 					],
 					"signatures": [
@@ -4837,7 +4872,7 @@
 									"fileName": "src/helper/Event.ts",
 									"line": 14,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L14"
 								}
 							],
 							"parameters": [
@@ -4916,7 +4951,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 23,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L14"
 						}
 					],
 					"type": {
@@ -4951,7 +4986,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 14,
 							"character": 56,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L14"
 						}
 					],
 					"type": {
@@ -4972,7 +5007,7 @@
 							"fileName": "src/helper/Event.ts",
 							"line": 23,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L23"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L23"
 						}
 					],
 					"signatures": [
@@ -5006,7 +5041,7 @@
 									"fileName": "src/helper/Event.ts",
 									"line": 23,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L23"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L23"
 								}
 							],
 							"parameters": [
@@ -5101,7 +5136,7 @@
 					"fileName": "src/helper/Event.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Event.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Event.ts#L7"
 				}
 			]
 		},
@@ -5156,7 +5191,7 @@
 							"fileName": "src/util/EventHandler.ts",
 							"line": 27,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/EventHandler.ts#L27"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/EventHandler.ts#L27"
 						}
 					],
 					"signatures": [
@@ -5179,7 +5214,7 @@
 									"fileName": "src/util/EventHandler.ts",
 									"line": 27,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/EventHandler.ts#L27"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/EventHandler.ts#L27"
 								}
 							],
 							"parameters": [
@@ -5245,7 +5280,7 @@
 							"fileName": "src/util/EventHandler.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/EventHandler.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/EventHandler.ts#L14"
 						}
 					],
 					"signatures": [
@@ -5268,7 +5303,7 @@
 									"fileName": "src/util/EventHandler.ts",
 									"line": 14,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/EventHandler.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/EventHandler.ts#L14"
 								}
 							],
 							"parameters": [
@@ -5341,7 +5376,7 @@
 					"fileName": "src/util/EventHandler.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/EventHandler.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/EventHandler.ts#L7"
 				}
 			]
 		},
@@ -5404,7 +5439,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 94,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L94"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L94"
 						}
 					],
 					"type": {
@@ -5435,7 +5470,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 99,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L99"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L99"
 						}
 					],
 					"type": {
@@ -5466,7 +5501,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 69,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L69"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L69"
 						}
 					],
 					"type": {
@@ -5497,7 +5532,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 74,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L74"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L74"
 						}
 					],
 					"type": {
@@ -5528,7 +5563,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 79,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L79"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L79"
 						}
 					],
 					"type": {
@@ -5559,7 +5594,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L9"
 						}
 					],
 					"type": {
@@ -5590,7 +5625,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 24,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L24"
 						}
 					],
 					"type": {
@@ -5621,7 +5656,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 29,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L29"
 						}
 					],
 					"type": {
@@ -5652,7 +5687,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 39,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L39"
 						}
 					],
 					"type": {
@@ -5683,7 +5718,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L14"
 						}
 					],
 					"type": {
@@ -5714,7 +5749,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 54,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L54"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L54"
 						}
 					],
 					"type": {
@@ -5745,7 +5780,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 59,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L59"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L59"
 						}
 					],
 					"type": {
@@ -5776,7 +5811,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 64,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L64"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L64"
 						}
 					],
 					"type": {
@@ -5807,7 +5842,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 19,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L19"
 						}
 					],
 					"type": {
@@ -5838,7 +5873,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 49,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L49"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L49"
 						}
 					],
 					"type": {
@@ -5869,7 +5904,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 89,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L89"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L89"
 						}
 					],
 					"type": {
@@ -5900,7 +5935,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 44,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L44"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L44"
 						}
 					],
 					"type": {
@@ -5931,7 +5966,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 34,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L34"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L34"
 						}
 					],
 					"type": {
@@ -5962,7 +5997,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 84,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L84"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L84"
 						}
 					],
 					"type": {
@@ -5985,7 +6020,7 @@
 							"fileName": "src/config/GatewayIntents.ts",
 							"line": 106,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L106"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L106"
 						}
 					],
 					"signatures": [
@@ -6019,7 +6054,7 @@
 									"fileName": "src/config/GatewayIntents.ts",
 									"line": 106,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L106"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L106"
 								}
 							],
 							"parameters": [
@@ -6099,7 +6134,7 @@
 					"fileName": "src/config/GatewayIntents.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/GatewayIntents.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/GatewayIntents.ts#L4"
 				}
 			]
 		},
@@ -6162,7 +6197,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 9,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L9"
 						}
 					],
 					"type": {
@@ -6193,7 +6228,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L14"
 						}
 					],
 					"type": {
@@ -6224,7 +6259,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 59,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L59"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L59"
 						}
 					],
 					"type": {
@@ -6255,7 +6290,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 54,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L54"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L54"
 						}
 					],
 					"type": {
@@ -6286,7 +6321,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 19,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L19"
 						}
 					],
 					"type": {
@@ -6317,7 +6352,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 49,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L49"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L49"
 						}
 					],
 					"type": {
@@ -6348,7 +6383,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 24,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L24"
 						}
 					],
 					"type": {
@@ -6379,7 +6414,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 39,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L39"
 						}
 					],
 					"type": {
@@ -6410,7 +6445,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 44,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L44"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L44"
 						}
 					],
 					"type": {
@@ -6441,7 +6476,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 34,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L34"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L34"
 						}
 					],
 					"type": {
@@ -6472,7 +6507,7 @@
 							"fileName": "src/config/OpCodes.ts",
 							"line": 29,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L29"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L29"
 						}
 					],
 					"type": {
@@ -6511,7 +6546,7 @@
 					"fileName": "src/config/OpCodes.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/OpCodes.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/OpCodes.ts#L4"
 				}
 			]
 		},
@@ -6541,7 +6576,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 12,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L12"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L12"
 						}
 					],
 					"signatures": [
@@ -6564,7 +6599,7 @@
 									"fileName": "src/helper/Plugin.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L12"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L12"
 								}
 							],
 							"parameters": [
@@ -6618,7 +6653,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 12,
 							"character": 24,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L12"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L12"
 						}
 					],
 					"type": {
@@ -6639,7 +6674,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 39,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L39"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L39"
 						}
 					],
 					"signatures": [
@@ -6673,7 +6708,7 @@
 									"fileName": "src/helper/Plugin.ts",
 									"line": 39,
 									"character": 11,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L39"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L39"
 								}
 							],
 							"type": {
@@ -6696,7 +6731,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 24,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L24"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L24"
 						}
 					],
 					"signatures": [
@@ -6719,7 +6754,7 @@
 									"fileName": "src/helper/Plugin.ts",
 									"line": 24,
 									"character": 11,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L24"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L24"
 								}
 							],
 							"parameters": [
@@ -6765,7 +6800,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 18,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L18"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L18"
 						}
 					],
 					"signatures": [
@@ -6788,7 +6823,7 @@
 									"fileName": "src/helper/Plugin.ts",
 									"line": 18,
 									"character": 11,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L18"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L18"
 								}
 							],
 							"parameters": [
@@ -6834,7 +6869,7 @@
 							"fileName": "src/helper/Plugin.ts",
 							"line": 31,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L31"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L31"
 						}
 					],
 					"signatures": [
@@ -6868,7 +6903,7 @@
 									"fileName": "src/helper/Plugin.ts",
 									"line": 31,
 									"character": 11,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L31"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L31"
 								}
 							],
 							"parameters": [
@@ -6934,7 +6969,7 @@
 					"fileName": "src/helper/Plugin.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Plugin.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Plugin.ts#L6"
 				}
 			]
 		},
@@ -6989,7 +7024,7 @@
 							"fileName": "src/helper/Registry.ts",
 							"line": 14,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Registry.ts#L14"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Registry.ts#L14"
 						}
 					],
 					"signatures": [
@@ -7012,7 +7047,7 @@
 									"fileName": "src/helper/Registry.ts",
 									"line": 14,
 									"character": 18,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Registry.ts#L14"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Registry.ts#L14"
 								}
 							],
 							"parameters": [
@@ -7091,7 +7126,7 @@
 					"fileName": "src/helper/Registry.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/helper/Registry.ts#L7"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/helper/Registry.ts#L7"
 				}
 			]
 		},
@@ -7121,7 +7156,7 @@
 							"fileName": "src/util/SolaceError.ts",
 							"line": 9,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/SolaceError.ts#L9"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/SolaceError.ts#L9"
 						}
 					],
 					"signatures": [
@@ -7144,7 +7179,7 @@
 									"fileName": "src/util/SolaceError.ts",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/SolaceError.ts#L9"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/SolaceError.ts#L9"
 								}
 							],
 							"parameters": [
@@ -7535,7 +7570,7 @@
 					"fileName": "src/util/SolaceError.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/util/SolaceError.ts#L4"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/util/SolaceError.ts#L4"
 				}
 			],
 			"extendedTypes": [
@@ -7609,7 +7644,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 112,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L112"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L112"
 						}
 					],
 					"type": {
@@ -7640,7 +7675,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 95,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L95"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L95"
 						}
 					],
 					"type": {
@@ -7671,7 +7706,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 55,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L55"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L55"
 						}
 					],
 					"type": {
@@ -7702,7 +7737,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 11,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L11"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L11"
 						}
 					],
 					"type": {
@@ -7733,7 +7768,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 63,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L63"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L63"
 						}
 					],
 					"type": {
@@ -7764,7 +7799,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 47,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L47"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L47"
 						}
 					],
 					"type": {
@@ -7795,7 +7830,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 104,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L104"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L104"
 						}
 					],
 					"type": {
@@ -7826,7 +7861,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 22,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L22"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L22"
 						}
 					],
 					"type": {
@@ -7857,7 +7892,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 35,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L35"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L35"
 						}
 					],
 					"type": {
@@ -7888,7 +7923,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 87,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L87"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L87"
 						}
 					],
 					"type": {
@@ -7919,7 +7954,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 79,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L79"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L79"
 						}
 					],
 					"type": {
@@ -7950,7 +7985,7 @@
 							"fileName": "src/config/SolaceIntents.ts",
 							"line": 71,
 							"character": 18,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L71"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L71"
 						}
 					],
 					"type": {
@@ -7990,7 +8025,7 @@
 					"fileName": "src/config/SolaceIntents.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/config/SolaceIntents.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/config/SolaceIntents.ts#L6"
 				}
 			]
 		},
@@ -8020,7 +8055,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 97,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L97"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L97"
 						}
 					],
 					"signatures": [
@@ -8043,7 +8078,7 @@
 									"fileName": "src/structures/User.ts",
 									"line": 97,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L97"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L97"
 								}
 							],
 							"parameters": [
@@ -8102,7 +8137,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 11,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L11"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L11"
 						}
 					],
 					"type": {
@@ -8140,7 +8175,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 16,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L16"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L16"
 						}
 					],
 					"type": {
@@ -8178,7 +8213,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 21,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L21"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L21"
 						}
 					],
 					"type": {
@@ -8216,7 +8251,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 26,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L26"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L26"
 						}
 					],
 					"type": {
@@ -8254,7 +8289,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 31,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L31"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L31"
 						}
 					],
 					"type": {
@@ -8283,7 +8318,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 36,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L36"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L36"
 						}
 					],
 					"type": {
@@ -8312,7 +8347,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 41,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L41"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L41"
 						}
 					],
 					"type": {
@@ -8350,7 +8385,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 46,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L46"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L46"
 						}
 					],
 					"type": {
@@ -8388,7 +8423,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 51,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L51"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L51"
 						}
 					],
 					"type": {
@@ -8426,7 +8461,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 56,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L56"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L56"
 						}
 					],
 					"type": {
@@ -8455,7 +8490,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 61,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L61"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L61"
 						}
 					],
 					"type": {
@@ -8493,7 +8528,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 66,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L66"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L66"
 						}
 					],
 					"type": {
@@ -8522,7 +8557,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 71,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L71"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L71"
 						}
 					],
 					"type": {
@@ -8560,7 +8595,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 76,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L76"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L76"
 						}
 					],
 					"type": {
@@ -8598,7 +8633,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 81,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L81"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L81"
 						}
 					],
 					"type": {
@@ -8627,7 +8662,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 86,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L86"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L86"
 						}
 					],
 					"type": {
@@ -8656,7 +8691,7 @@
 							"fileName": "src/structures/User.ts",
 							"line": 91,
 							"character": 11,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L91"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L91"
 						}
 					],
 					"type": {
@@ -8700,7 +8735,7 @@
 					"fileName": "src/structures/User.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/structures/User.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/structures/User.ts#L6"
 				}
 			]
 		},
@@ -8730,7 +8765,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 33,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L33"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L33"
 						}
 					],
 					"signatures": [
@@ -8753,7 +8788,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 33,
 									"character": 4,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L33"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L33"
 								}
 							],
 							"parameters": [
@@ -8819,7 +8854,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 22,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L22"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L22"
 						}
 					],
 					"type": {
@@ -8863,7 +8898,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 33,
 							"character": 24,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L33"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L33"
 						}
 					],
 					"type": {
@@ -8894,7 +8929,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 18,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L18"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L18"
 						}
 					],
 					"type": {
@@ -8933,7 +8968,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 27,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L27"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L27"
 						}
 					],
 					"type": {
@@ -9574,7 +9609,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 40,
 							"character": 17,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L40"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L40"
 						}
 					],
 					"signatures": [
@@ -9597,7 +9632,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 40,
 									"character": 17,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L40"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L40"
 								}
 							],
 							"type": {
@@ -9951,7 +9986,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 100,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L100"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L100"
 						}
 					],
 					"signatures": [
@@ -9974,7 +10009,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 100,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L100"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L100"
 								}
 							],
 							"type": {
@@ -11483,7 +11518,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 88,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L88"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L88"
 						}
 					],
 					"signatures": [
@@ -11506,7 +11541,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 88,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L88"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L88"
 								}
 							],
 							"type": {
@@ -11929,7 +11964,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 140,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L140"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L140"
 						}
 					],
 					"signatures": [
@@ -11952,7 +11987,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 140,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L140"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L140"
 								}
 							],
 							"type": {
@@ -12115,7 +12150,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 124,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L124"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L124"
 						}
 					],
 					"signatures": [
@@ -12138,7 +12173,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 124,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L124"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L124"
 								}
 							],
 							"parameters": [
@@ -12182,7 +12217,7 @@
 							"fileName": "src/client/WebsocketClient.ts",
 							"line": 133,
 							"character": 12,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L133"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L133"
 						}
 					],
 					"signatures": [
@@ -12205,7 +12240,7 @@
 									"fileName": "src/client/WebsocketClient.ts",
 									"line": 133,
 									"character": 12,
-									"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L133"
+									"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L133"
 								}
 							],
 							"type": {
@@ -13683,7 +13718,7 @@
 					"fileName": "src/client/WebsocketClient.ts",
 					"line": 13,
 					"character": 21,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/client/WebsocketClient.ts#L13"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/client/WebsocketClient.ts#L13"
 				}
 			],
 			"extendedTypes": [
@@ -13754,7 +13789,7 @@
 							"fileName": "src/interfaces/ClientEvents.ts",
 							"line": 21,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientEvents.ts#L21"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientEvents.ts#L21"
 						}
 					],
 					"type": {
@@ -13814,7 +13849,7 @@
 							"fileName": "src/interfaces/ClientEvents.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientEvents.ts#L13"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientEvents.ts#L13"
 						}
 					],
 					"type": {
@@ -13849,7 +13884,7 @@
 					"fileName": "src/interfaces/ClientEvents.ts",
 					"line": 6,
 					"character": 25,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientEvents.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientEvents.ts#L6"
 				}
 			]
 		},
@@ -13905,7 +13940,7 @@
 							"fileName": "src/interfaces/ClientOptions.ts",
 							"line": 19,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientOptions.ts#L19"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientOptions.ts#L19"
 						}
 					],
 					"type": {
@@ -13952,7 +13987,7 @@
 							"fileName": "src/interfaces/ClientOptions.ts",
 							"line": 12,
 							"character": 4,
-							"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientOptions.ts#L12"
+							"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientOptions.ts#L12"
 						}
 					],
 					"type": {
@@ -13975,7 +14010,7 @@
 					"fileName": "src/interfaces/ClientOptions.ts",
 					"line": 6,
 					"character": 25,
-					"url": "https://github.com/solacejs/solace.js/blob/8f5aacc/src/interfaces/ClientOptions.ts#L6"
+					"url": "https://github.com/solacejs/solace.js/blob/f8448b9/src/interfaces/ClientOptions.ts#L6"
 				}
 			]
 		}

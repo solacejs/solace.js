@@ -63,16 +63,26 @@ export default class Client extends EventEmitter {
         await this.ws?.connect();
     }
 
+    /**
+     * Asynchronously creates a new message in a specified channel.
+     * @param channelId - The unique identifier of the target channel where the message will be sent.
+     * @param message - The content of the message to be sent.
+     * @throws {Error} If an error occurs during the message creation process.
+     */
     public async createMessage(channelId: string, message: string): Promise<void> {
-        await fetch(`${Constants.API}/channels/${channelId}/messages`, {
-            method: "POST",
-            headers: {
-                Authorization: `Bot ${this.options.token}`,
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                content: message
-            })
-        });
+        try {
+            await fetch(`${Constants.API}/channels/${channelId}/messages`, {
+                method: "POST",
+                headers: {
+                    Authorization: `Bot ${this.options.token}`,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    content: message
+                })
+            });
+        } catch (err) {
+            throw new Error(`Failed to create message: ${err}`);
+        }
     }
 }

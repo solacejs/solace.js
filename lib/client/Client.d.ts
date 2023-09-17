@@ -39,5 +39,11 @@ export default class Client extends EventEmitter {
      * Asynchronously log in the client by establishing a WebSocket connection.
      */
     login(): Promise<void>;
+    /**
+     * Asynchronously creates a new message in a specified channel.
+     * @param channelId - The unique identifier of the target channel where the message will be sent.
+     * @param message - The content of the message to be sent.
+     * @throws {Error} If an error occurs during the message creation process.
+     */
     createMessage(channelId: string, message: string): Promise<void>;
 }
