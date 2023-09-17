@@ -60,6 +60,14 @@ export interface SymbolMap {
     sourceFileName: string;
 }
 
+export interface Class {
+    name: string;
+}
+
+export interface Interface {
+    name: string;
+}
+
 interface Flags {
 }
 

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import docs from "../../docs.json";
 import { DropdownIcon } from "./Icon";
 import Link from "next/link";
+import { Class, Interface } from "@/Documentation";
 
 const settings = {
     "settings": true,
@@ -14,8 +15,8 @@ export default function Sidebar() {
 
     const ref = useRef<HTMLDivElement>(null);
 
-    const [classes, setClasses] = useState<any>([]);
-    const [interfaces, setInterfaces] = useState<any>([]);
+    const [classes, setClasses] = useState<Class[]>([]);
+    const [interfaces, setInterfaces] = useState<Interface[]>([]);
 
     const [showSettings, setShowSettings] = useState<boolean | null>(null)
     const [showClasses, setShowClasses] = useState<boolean | null>(null);
@@ -43,10 +44,10 @@ export default function Sidebar() {
         docs.children.forEach((child) => {
             switch (child.kind) {
                 case 128:
-                    setClasses((prevClasses: any) => [...prevClasses, child]);
+                    setClasses((prevClasses) => [...prevClasses, child]);
                     break;
                 case 256:
-                    setInterfaces((prevInterfaces: any) => [...prevInterfaces, child]);
+                    setInterfaces((prevInterfaces) => [...prevInterfaces, child]);
                     break;
             }
         });
@@ -82,7 +83,7 @@ export default function Sidebar() {
                     <span>Classes</span>
                 </button>
                 {showClasses && <ul className="w-full">
-                    {classes.map((CLASS: any, index: number) => {
+                    {classes.map((CLASS, index: number) => {
                         return <li className="w-full p-1" key={index}><Link className="w-full border-l-4 border-transparent hover:border-accent px-2" href={`/docs/classes/${CLASS.name}`}>{CLASS.name}</Link></li>
                     })}
                 </ul>}
@@ -92,7 +93,7 @@ export default function Sidebar() {
                     <span>Interfaces</span>
                 </button>
                 {showInterfaces && <ul className="w-full">
-                    {interfaces.map((INTERFACE: any, index: number) => {
+                    {interfaces.map((INTERFACE, index: number) => {
                         return <li className="w-full p-1" key={index}><Link className="w-full border-l-4 border-transparent hover:border-accent px-2" href={`/docs/interfaces/${INTERFACE.name}`}>{INTERFACE.name}</Link></li>
                     })}
                 </ul>}
