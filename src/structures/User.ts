@@ -1,3 +1,5 @@
+import IUser from "../interfaces/IUser";
+
 /**
  * Represents a user on Discord.
  */
@@ -90,9 +92,9 @@ export default class User {
 
     /**
      * Constructs a new User instance.
-     * @param {Object} data - The user data.
+     * @param {IUser} data - The user data.
      */
-    constructor(data: any) {
+    constructor(data: IUser) {
         this.accentColor = data.accent_color ?? null;
         this.avatar = data.avatar;
         this.avatarDecoration = data.avatar_decoration ?? null;

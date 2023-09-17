@@ -1,3 +1,4 @@
+import IUser from "../interfaces/IUser";
 /**
  * Represents a user on Discord.
  */
@@ -72,7 +73,7 @@ export default class User {
     verified: boolean;
     /**
      * Constructs a new User instance.
-     * @param {Object} data - The user data.
+     * @param {IUser} data - The user data.
      */
-    constructor(data: any);
+    constructor(data: IUser);
 }

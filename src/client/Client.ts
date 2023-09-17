@@ -4,6 +4,8 @@ import WebsocketClient from "./WebsocketClient";
 import GatewayIntents from "../config/GatewayIntents";
 import User from "../structures/User";
 import ClientEvents from "../interfaces/ClientEvents";
+import Message from "../structures/Message";
+import Constants from "../config/Constants";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -59,5 +61,18 @@ export default class Client extends EventEmitter {
      */
     public async login() {
         await this.ws?.connect();
+    }
+
+    public async createMessage(channelId: string, message: string): Promise<void> {
+        await fetch(`${Constants.API}/channels/${channelId}/messages`, {
+            method: "POST",
+            headers: {
+                Authorization: `Bot ${this.options.token}`,
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                content: message
+            })
+        });
     }
 }
