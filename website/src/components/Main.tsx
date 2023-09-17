@@ -101,7 +101,7 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
             return (
                 <main className="w-full h-full flex">
                     <Sidebar />
-                    <div className="w-[calc(100%-18rem)] h-full py-4 px-8 overflow-y-auto">
+                    <div className="z-[-1] w-full md:w-[calc(100%-18rem)] h-full py-4 px-8">
                         <div className="w-full h-full">
                             <h1>{result.name}</h1>
                             <p>{result.comment?.summary.find((summary) => summary.kind == "text")?.text}</p>
@@ -112,7 +112,7 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
                                         {`new ${result.name}(${constructorParams.map((param, index) => index == 0 ? param.name : ` ${param.name}`)});`}
                                     </CodeBlock>
 
-                                    <table className="bg-code mt-4 min-w-max xl:min-w-0 rounded-lg text-center">
+                                    <table className="bg-code mt-4 w-full xl:min-w-0 rounded-lg text-center">
                                         <thead className="bg-accent">
                                             <tr className="!uppercase">
                                                 <th className="!p-4 rounded-tl-lg">Parameter</th>
