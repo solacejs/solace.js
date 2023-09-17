@@ -5,42 +5,64 @@ import Sidebar from "./Sidebar";
 import CodeBlock from "./CodeBlock";
 import Link from "next/link";
 import { DevelopmentIcon, DropdownIcon } from "./Icon";
+import { Child, Constructor, ConstructorParam, Method, Param, ParametersEntity, Property, SignaturesEntity, SymbolMap } from "@/Documentation";
 
-export default function Main({ name, type }: { name?: string, type: "class" | "interface" | "none" }) {
+export default function Main({ name }: { name?: string }) {
 
     const result = docs.children.find((child) => child.name == name);
 
     const [showProperties, setShowProperties] = useState(true);
     const [showMethods, setShowMethods] = useState(true);
 
-    let constructor: any = result?.children.find((child) => child.name == "constructor");
-    if (constructor) constructor = (constructor as any).signatures;
+    let constructor = result?.children.find((child) => child.name == "constructor") as Constructor;
+    let signatures: SignaturesEntity[] | undefined | null;
+    let symbolMap = docs.symbolIdMap as unknown as SymbolMap[];
 
-    let constructorParams: any[] = [];
-    const properties: any[] = [];
-    const methods: any[] = [];
+    if (constructor) signatures = constructor.signatures;
+
+    let constructorParams: ConstructorParam[] = [];
+    const properties: Property[] = [];
+    const methods: Method[] = [];
 
     if (constructor)
-        if (constructor[0].parameters) {
-            constructor[0].parameters.forEach((param: any) => {
+        if (signatures![0].parameters) {
+            signatures![0].parameters.forEach((param) => {
                 switch (param.type.type) {
                     case "reference":
-                        constructorParams.push({ name: param.name, type: (docs.symbolIdMap as any)[param.type.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, ''), description: param.comment.summary[0].text, href: `/docs/${docs.children.find((child) => child.name == (docs.symbolIdMap as any)[param.type.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, ''))!.kind == 128 ? "classes" : "interfaces"}/${(docs.symbolIdMap as any)[param.type.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '')}` })
+                        constructorParams.push({ name: param.name, type: symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''), description: param.comment.summary![0].text, href: `/docs/${docs.children.find((child) => child.name == symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''))!.kind == 128 ? "classes" : "interfaces"}/${symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}` })
                         break;
                     case "typeOperator":
-                        constructorParams.push({ name: param.name, type: `${param.type.operator} ${(docs.symbolIdMap as any)[param.type.target.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '')}`, description: "", href: `/docs/interfaces/${(docs.symbolIdMap as any)[param.type.target.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '')}` })
+                        constructorParams.push({ name: param.name, type: `${param.type.operator} ${symbolMap[(param.type.target as { target: number }).target].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}`, description: "", href: `/docs/interfaces/${symbolMap[(param.type.target as { target: number }).target].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}` })
                         break;
                     case "intrinsic":
-                        constructorParams.push({ name: param.name, type: param.type.name, description: param.comment.summary[0].text, href: param.type.name == "any" ? `https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any&_blank` : `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${[param.type.name]}&_blank` });
+                        constructorParams.push({ name: param.name, type: param.type.name, description: param.comment.summary![0].text, href: param.type.name == "any" ? `https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any&_blank` : `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${[param.type.name]}&_blank` });
                         break;
                     case "literal":
-                        constructorParams.push({ name: param.name, type: `"${param.type.value}"`, description: param.comment.summary[0].text, href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string&_blank` });
+                        constructorParams.push({ name: param.name, type: `"${param.type.value}"`, description: param.comment.summary![0].text, href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string&_blank` });
                         break;
                 }
             });
         }
 
-    result?.children.forEach((child: any) => {
+    const iterateOverTypes = (child: Child): string[] => {
+        switch (child.type.type) {
+            case "union":
+                return child.type.types.map((type) => {
+                    switch (type.type) {
+                        case "intrinsic":
+                            return type.name;
+                        case "reference":
+                            return symbolMap[type.target].sourceFileName.split("/").pop()!.replace(/\.[^.]+$/, '');
+                        case "array":
+                            return `${symbolMap[type.elementType.target]?.sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}`
+                    }
+                    return "";
+                })
+        }
+        return [];
+    }
+
+    (result?.children as unknown as Child[]).forEach((child) => {
         let href = ""
         if (!child.sources) return;
         if (!child.sources[0].url) return;
@@ -49,43 +71,29 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
             case 1024:
                 if (!child.comment) return;
                 properties.push({
-                    name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary[0].text, types: () => {
-                        switch (child.type.type) {
-                            case "union":
-                                return child.type.types.map((type: any) => {
-                                    switch (type.type) {
-                                        case "intrinsic":
-                                            return type.name;
-                                        case "reference":
-                                            return (docs.symbolIdMap as any)[type.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '');
-                                        case "array":
-                                            return `${(docs.symbolIdMap as any)[type.elementType.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '')}`
-                                    }
-                                })
-                        }
-                    }
+                    name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary![0].text, types: iterateOverTypes(child)
                 });
                 break;
             case 2048:
-                const parameters: any[] = [];
+                const parameters: Param[] = [];
 
-                child.signatures[0].parameters?.forEach((param: any) => {
+                child.signatures[0].parameters?.forEach((param: ParametersEntity) => {
                     switch (param.type.type) {
                         case "reference":
-                            if (param.type.target < 0) return;
-                            parameters.push({ name: (docs.symbolIdMap as any)[param.type.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '') })
+                            if (param.type.target as number < 0) return;
+                            parameters.push({ name: symbolMap[param.type.target as number].sourceFileName.split("/").pop()!.replace(/\.[^.]+$/, '') })
                             break;
                         case "array":
                             switch (param.type.elementType.type) {
                                 case "reference":
-                                    parameters.push((docs.symbolIdMap as any)[param.type.elementType.target].sourceFileName.split("/").pop().replace(/\.[^.]+$/, '') + "[]")
+                                    parameters.push({ name: symbolMap[param.type.elementType.target].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '') + "[]" })
                                     break;
                             }
                             break;
                     }
                 })
 
-                methods.push({ name: child.name, href: href, description: child.signatures[0].comment.summary[0].text, parameters: parameters });
+                methods.push({ name: child.name, href: href, description: child.signatures[0].comment.summary![0].text, parameters: parameters });
                 break;
         }
     });
@@ -98,7 +106,7 @@ export default function Main({ name, type }: { name?: string, type: "class" | "i
                 <div className="w-full h-full">
                     <h1>{result.name}</h1>
                     <p>{result.comment?.summary.find((summary) => summary.kind == "text")?.text}</p>
-                    {constructor ? constructor[0].comment && (
+                    {signatures ? signatures[0].comment && (
                         <div>
                             <h2 className="mt-2">Constructor</h2>
                             <CodeBlock language="typescript">
