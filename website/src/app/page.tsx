@@ -1,6 +1,13 @@
+"use client";
 import CodeBlock from "@/components/CodeBlock";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    document.title = "Solace.js";
+  })
+
   return (
     <main className='w-full h-full flex justify-center'>
       <div className="w-full p-2 md:w-[50rem] md:p-0 h-full">

@@ -54,7 +54,7 @@ export default function Main({ name }: { name?: string }) {
                         case "intrinsic":
                             return type.name;
                         case "reference":
-                            return symbolMap[type.target].sourceFileName.split("/").pop()!.replace(/\.[^.]+$/, '');
+                            return symbolMap[type.target]?.sourceFileName.split("/").pop()!.replace(/\.[^.]+$/, '');
                         case "array":
                             return `${symbolMap[type.elementType.target]?.sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}`
                     }

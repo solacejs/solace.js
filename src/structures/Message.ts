@@ -1,4 +1,12 @@
 import IMessage from "../interfaces/IMessage";
+import Activity from "./Activity";
+import Application from "./Application";
+import Attachment from "./Attachment";
+import Embed from "./Embed";
+import Interaction from "./Interaction";
+import Reaction, { RoleSubscriptionData } from "./Reaction";
+import Sticker, { StickerItem } from "./Sticker";
+import ThreadChannel from "./ThreadChannel";
 import User from "./User";
 
 /**
@@ -9,22 +17,22 @@ export default class Message {
     /**
      * Sent with Rich Presence-related chat embeds
      */
-    public activity: any | null;
-    
+    public activity: Activity | null;
+
     /**
      * 	Sent with Rich Presence-related chat embeds
      */
-    public application: any | null;
-    
+    public application: Application | null;
+
     /**
      * 	If the message is an Interaction or application-owned webhook, this is the id of the application
      */
     public applicationId: string | null;
-    
+
     /**
      * An array of attachments (e.g., files, images) sent with the message.
      */
-    public attachments: any[];
+    public attachments: Attachment[];
 
     /**
      * The user who sent the message.
@@ -54,7 +62,7 @@ export default class Message {
     /**
      * Embeds (rich media content) included in the message.
      */
-    public embeds: any[];
+    public embeds: Embed[];
 
     /**
      * Flags associated with the message, if any.
@@ -69,7 +77,7 @@ export default class Message {
     /**
      * Interaction data, if the message is part of an interaction.
      */
-    public interaction: any | null;
+    public interaction: Interaction | null;
 
     /**
      * Indicates whether the message mentions everyone in the channel.
@@ -105,7 +113,7 @@ export default class Message {
      * Indicates whether the message is pinned in the channel.
      */
     public pinned: boolean;
-    
+
     /**
      * The position of the message in the channel, if applicable.
      */
@@ -114,7 +122,7 @@ export default class Message {
     /**
      * Reactions (e.g., emojis) added to the message, if any.
      */
-    public reactions: any[] | null;
+    public reactions: Reaction[] | null;
 
     /**
      * The message that this message references, if applicable.
@@ -124,22 +132,22 @@ export default class Message {
     /**
      * Subscription data related to roles, if any.
      */
-    public roleSubscriptionData: any | null;
+    public roleSubscriptionData: RoleSubscriptionData | null;
 
     /**
      * Items associated with stickers sent in the message, if any.
      */
-    public stickerItems: any[] | null;
+    public stickerItems: StickerItem[] | null;
 
     /**
      * Stickers used in the message, if any.
      */
-    public stickers: any[] | null;
+    public stickers: Sticker[] | null;
 
     /**
      * The thread associated with the message, if part of a threaded conversation.
      */
-    public thread: any | null;
+    public thread: ThreadChannel | null;
 
     /**
      * Timestamp indicating when the message was sent.
@@ -166,19 +174,19 @@ export default class Message {
      * @param {IMessage} data - The message data.
      */
     constructor(data: IMessage) {
-        this.activity = data.activity ?? null;
-        this.application = data.application ?? null;
+        this.activity = data.activity ? new Activity(data.activity) : null;
+        this.application = data.application ? new Application(data.application) : null;
         this.applicationId = data.application_id ?? null;
-        this.attachments = data.attachments;
+        this.attachments = data.attachments.map((attachment) => new Attachment(attachment));
         this.author = new User(data.author);
         this.channelId = data.channel_id ?? null;
         this.components = data.components ?? null;
         this.content = data.content;
         this.editedTimestamp = data.edited_timestamp;
-        this.embeds = data.embeds;
+        this.embeds = data.embeds ? data.embeds.map((embed) => new Embed(embed)) : [];
         this.flags = data.flags ?? null;
         this.id = data.id;
-        this.interaction = data.interaction ?? null;
+        this.interaction = data.interaction ? new Interaction(data.interaction) : null;
         this.mentionEveryone = data.mention_everyone;
         this.mentionChannels = data.mention_channels ?? null;
         this.mentionRoles = data.mention_roles;
@@ -187,12 +195,12 @@ export default class Message {
         this.nonce = data.nonce ?? null;
         this.pinned = data.pinned;
         this.position = data.position ?? null;
-        this.reactions = data.reactions ?? null;
+        this.reactions = data.reactions ? data.reactions.map((reaction) => new Reaction(reaction)) : [];
         this.referencedMessage = data.referenced_message ?? null;
-        this.roleSubscriptionData = data.role_subscription_data ?? null;
-        this.stickerItems = data.sticker_items ?? null;
-        this.stickers = data.stickers ?? null;
-        this.thread = data.thread ?? null;
+        this.roleSubscriptionData = data.role_subscription_data ? new RoleSubscriptionData(data.role_subscription_data) : null;
+        this.stickerItems = data.sticker_items ? data.sticker_items.map((stickerItem) => new StickerItem(stickerItem)) : [];
+        this.stickers = data.stickers ? data.stickers.map((sticker) => new Sticker(sticker)) : [];
+        this.thread = data.thread ? new ThreadChannel(data.thread) : null;
         this.timestamp = data.timestamp;
         this.tts = data.tts;
         this.type = data.type;

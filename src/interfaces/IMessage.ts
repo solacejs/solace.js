@@ -1,3 +1,12 @@
+import IActivity from "./IActivity";
+import IApplication from "./IApplication";
+import IAttachment from "./IAttachment";
+import IEmbed from "./IEmbed";
+import IInteraction from "./IInteraction";
+import IReaction from "./IReaction";
+import { IRoleSubscriptionData } from "./IRole";
+import ISticker, { IStickerItem } from "./ISticker";
+import IThreadChannel from "./IThreadChannel";
 import IUser from "./IUser";
 
 /**
@@ -7,12 +16,12 @@ export default interface IMessage {
     /**
      * Sent with Rich Presence-related chat embeds
      */
-    activity?: any,
+    activity?: IActivity,
 
     /**
      * 	Sent with Rich Presence-related chat embeds
      */
-    application?: any,
+    application?: IApplication,
 
     /**
      * The ID of the application associated with the message, if applicable.
@@ -22,7 +31,7 @@ export default interface IMessage {
     /**
      * An array of attachments (e.g., files, images) sent with the message.
      */
-    attachments: any[],
+    attachments: IAttachment[],
 
     /**
      * The user who sent the message.
@@ -52,7 +61,7 @@ export default interface IMessage {
     /**
      * An array of embedded content within the message (e.g., rich media).
      */
-    embeds: any[],
+    embeds: IEmbed[],
 
     /**
      * Flags associated with the message, if any.
@@ -67,7 +76,7 @@ export default interface IMessage {
     /**
      * Information about an interaction associated with the message, if any.
      */
-    interaction?: any,
+    interaction?: IInteraction,
 
     /**
      * An array of mentioned channels in the message content, if any.
@@ -92,7 +101,7 @@ export default interface IMessage {
     /**
      * Information about a referenced message, if any.
      */
-    message_reference?: any,
+    message_reference?: IMessageChannelMention,
 
     /**
      * A nonce value that can be used for verification or tracking purposes.
@@ -112,32 +121,32 @@ export default interface IMessage {
     /**
      * An array of reactions (e.g., emojis) associated with the message, if any.
      */
-    reactions?: any[],
+    reactions?: IReaction[],
 
     /**
      * Information about a message that is being replied to, if any.
      */
-    referenced_message?: any | null,
+    referenced_message?: IMessage | null,
 
     /**
      * Data related to role subscription (not a standard property).
      */
-    role_subscription_data?: any,
+    role_subscription_data?: IRoleSubscriptionData,
 
     /**
      * An array of sticker items included in the message, if any.
      */
-    sticker_items?: any[],
+    sticker_items?: IStickerItem[],
 
     /**
      * An array of stickers included in the message, if any.
      */
-    stickers?: any[],
+    stickers?: ISticker[],
 
     /**
      * Information about a thread associated with the message, if any.
      */
-    thread?: any,
+    thread?: IThreadChannel,
 
     /**
      * The timestamp when the message was sent.
@@ -158,4 +167,29 @@ export default interface IMessage {
      * The ID of the webhook that sent the message, if applicable.
      */
     webhook_id?: string,
+}
+
+/**
+ * Interface defining the structure of a mentioned channel.
+ */
+export interface IMessageChannelMention {
+    /**
+     * The unique identifier of the mentioned channel.
+     */
+    id: string;
+
+    /**
+     * The ID of the guild (server) where the mentioned channel is located.
+     */
+    guild_id: string;
+
+    /**
+     * The type of the mentioned channel.
+     */
+    type: number;
+
+    /**
+     * The name of the mentioned channel.
+     */
+    name: string;
 }
