@@ -13,6 +13,7 @@
   --nav-active: hsl(0, 0%, 78%);
   --nav-border: rgb(194, 194, 194);
   --sidebar: hsl(0, 0%, 78%);
+  --table-title: rgb(0, 0, 0);
 
   --syntax-keyword: rgb(255, 49, 46);
   --syntax-string: rgb(20, 153, 255);
