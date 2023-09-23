@@ -11,7 +11,6 @@ export default function MarkdownRenderer({ children, className }: { children: st
 
     useEffect(() => {
         const ast = remark().use(html as any).parse(children);
-        console.log(ast);
         if (ref.current) ref.current!.innerHTML = ast.children.map((node) => {
             switch (node.type) {
                 case "heading":
