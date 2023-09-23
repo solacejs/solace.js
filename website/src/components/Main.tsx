@@ -110,7 +110,7 @@ export default function Main({ name }: { name?: string }) {
                     {signatures ? signatures[0].comment && (
                         <div>
                             <h2 className="mt-2">Constructor</h2>
-                            <CodeBlock language="typescript">
+                            <CodeBlock language="ts">
                                 {`new ${result.name}(${constructorParams.map((param, index) => index == 0 ? param.name : ` ${param.name}`)});`}
                             </CodeBlock>
 
