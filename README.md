@@ -3,7 +3,7 @@
 Solace.js is an alternative to eris and discord.js, a nodejs wrapper for interfacing with discord. The goal of solace.js is to make discord bot development faster. The project structure is sort of similar to discord.js making it easy to move to. With solace.js you can get work done in a faster way.
 
 ## Installation
-```
+```bash
 npm install solace.js
 yarn add solace.js
 pnpm add solace.js
