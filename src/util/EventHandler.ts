@@ -1,10 +1,10 @@
-import Client from "../client/Client";
-import User from "../structures/User";
+import { Client } from "../client/Client";
+import { User } from "../structures/User";
 
 /**
  * A utility class for handling Discord events received by the client.
  */
-export default class EventHandler {
+export class EventHandler {
 
     /**
      * Handles the "READY" event.

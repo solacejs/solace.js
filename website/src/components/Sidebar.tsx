@@ -1,9 +1,10 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import docs from "../../docs.json";
 import { DropdownIcon } from "./Icon";
 import Link from "next/link";
 import { Class, Interface } from "@/Documentation";
+import { SidebarContext } from "./SidebarContext";
 
 const settings = {
     "settings": true,
@@ -12,6 +13,8 @@ const settings = {
 }
 
 export default function Sidebar() {
+
+    const { isSidebarOpen, setIsSidebarOpen } = useContext(SidebarContext);
 
     const ref = useRef<HTMLDivElement>(null);
 
@@ -25,6 +28,7 @@ export default function Sidebar() {
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
+        setIsSidebarOpen(true);
         if (localStorage.getItem("settings") == null) localStorage.setItem("settings", JSON.stringify(settings));
 
         if (showSettings == null || showClasses == null || showInterfaces == null) {
@@ -41,16 +45,18 @@ export default function Sidebar() {
             }
         }
 
-        docs.children.forEach((child) => {
-            switch (child.kind) {
-                case 128:
-                    setClasses((prevClasses) => [...prevClasses, child]);
-                    break;
-                case 256:
-                    setInterfaces((prevInterfaces) => [...prevInterfaces, child]);
-                    break;
-            }
-        });
+        if (classes.length < 1 || interfaces.length < 1) {
+            docs.children.forEach((child) => {
+                switch (child.kind) {
+                    case 128:
+                        setClasses((prevClasses) => [...prevClasses, child]);
+                        break;
+                    case 256:
+                        setInterfaces((prevInterfaces) => [...prevInterfaces, child]);
+                        break;
+                }
+            });
+        }
 
         const handleClickOutside = (event: MouseEvent) => {
             if (ref.current && !ref.current.contains(event.target as Node)) setOpen(false);
@@ -59,8 +65,6 @@ export default function Sidebar() {
         document.addEventListener("mousedown", (event) => handleClickOutside(event));
 
         return () => {
-            setClasses([]);
-            setInterfaces([]);
             document.removeEventListener("mousedown", (event) => handleClickOutside(event));
         }
     }, []);
@@ -70,9 +74,9 @@ export default function Sidebar() {
     }, [showSettings, showClasses, showInterfaces]);
 
     return (
-        <div ref={ref} className="h-full z-10 fixed">
+        <div ref={ref} className="h-full z-10 fixed ${isSidebarOpen ? 'open' : 'closed'}">
             <button className={`${open ? "hidden" : "block"} absolute md:hidden p-2 bg-accent -rotate-90 rounded-b-lg mt-4`} onClick={() => setOpen(true)}><DropdownIcon></DropdownIcon></button>
-            <div className={`${open ? "fixed" : "hidden"} md:fixed w-60 md:w-72 md:flex h-full bg-sidebar flex-col py-2 px-4 overflow-y-auto select-none`}>
+            <div className={`${open ? "fixed" : "hidden"} md:fixed w-60 md:w-72 md:flex h-full bg-sidebar flex-col pt-2 px-4 overflow-y-auto select-none`}>
                 <button onClick={() => setShowSettings(!showSettings)} className="py-2 text-md font-bold uppercase flex gap-1 items-center">
                     {<DropdownIcon className={`${showSettings ? "rotate-0" : "rotate-[270deg]"}`} />}
                     <span>Settings</span>
@@ -84,7 +88,7 @@ export default function Sidebar() {
                 </button>
                 {showClasses && <ul className="w-full">
                     {classes.map((CLASS, index: number) => {
-                        return <li className="w-full p-1" key={index}><Link className="w-full border-l-4 border-transparent hover:border-accent px-2" href={`/docs/classes/${CLASS.name}`}>{CLASS.name}</Link></li>
+                        return <li className="w-full p-1" id={`sidebar-${CLASS.name}`} key={index}><Link className="w-full border-l-4 border-transparent hover:border-accent px-2" href={`/docs/classes/${CLASS.name}`}>{CLASS.name}</Link></li>
                     })}
                 </ul>}
 

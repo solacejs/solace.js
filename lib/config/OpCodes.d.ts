@@ -1,7 +1,7 @@
 /**
  * A utility class for managing Discord Gateway operation codes (OpCodes).
  */
-export default class OpCodes {
+export declare class OpCodes {
     /**
      * Represents the "DISPATCH" operation code used for dispatching events from discord.
      */

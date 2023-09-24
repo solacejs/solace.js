@@ -1,7 +1,7 @@
 /**
  * A utility class for defining intent combinations for different types of Discord bots.
  */
-export default class SolaceIntents {
+export declare class SolaceIntents {
     /**
      * Intents that help with general-purpose Discord bots.
      */

@@ -1,8 +1,8 @@
-import Client from "../client/Client";
+import { Client } from "../client/Client";
 /**
  * A utility class for handling Discord events received by the client.
  */
-export default class EventHandler {
+export declare class EventHandler {
     /**
      * Handles the "READY" event.
      * @param {Client} client - The client instance.

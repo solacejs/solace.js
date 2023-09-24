@@ -1,9 +1,9 @@
-import GatewayIntents from "../config/GatewayIntents";
+import { GatewayIntents } from "../config/GatewayIntents";
 
 /**
  * Interface defining the structure of client options required for initializing a Discord client.
  */
-export default interface ClientOptions {
+export interface ClientOptions {
 
     /**
      * The Discord bot token used for authentication and authorization.

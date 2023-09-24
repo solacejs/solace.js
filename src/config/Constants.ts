@@ -1,7 +1,7 @@
 /**
  * A utility class containing constants related to the Discord API.
  */
-export default class Constants {
+export class Constants {
 
     /**
      * The base URL of the Discord API (v10).

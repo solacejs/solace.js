@@ -1,11 +1,11 @@
-import IGuild from "./ApiGuild";
-import ITeam from "./ApiTeam";
-import IUser from "./ApiUser";
+import { ApiGuild } from "./ApiGuild";
+import { ApiTeam } from "./ApiTeam";
+import { ApiUser } from "./ApiUser";
 
 /**
  * Interface defining the structure of an Application which is sent with Rich Presence-related chat embeds
  */
-export default interface ApiApplication {
+export interface ApiApplication {
     /**
      * The approximate number of guilds (servers) the bot is in, if applicable.
      */
@@ -44,7 +44,7 @@ export default interface ApiApplication {
     /**
      * Partial guild object representing the linked guild, if applicable.
      */
-    guild?: IGuild;
+    guild?: ApiGuild;
 
     /**
      * The ID of the guild (server) linked to the application, if applicable.
@@ -69,7 +69,7 @@ export default interface ApiApplication {
     /**
      * Partial user object representing the owner of the application, if applicable.
      */
-    owner?: IUser;
+    owner?: ApiUser;
 
     /**
      * URL to the privacy policy for the application, if provided.
@@ -104,7 +104,7 @@ export default interface ApiApplication {
     /**
      * Information about the team associated with the application, if applicable.
      */
-    team: ITeam | null;
+    team: ApiTeam | null;
 
     /**
      * URL to the terms of service for the application, if provided.

@@ -1,12 +1,12 @@
 /// <reference types="node" />
 import EventEmitter from "events";
-import ClientOptions from "../interfaces/ClientOptions";
-import User from "../structures/User";
-import ClientEvents from "../interfaces/ClientEvents";
+import { ClientOptions } from "../interfaces/ClientOptions";
+import { User } from "../structures/User";
+import { ClientEvents } from "../interfaces/ClientEvents";
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
  */
-export default class Client extends EventEmitter {
+export declare class Client extends EventEmitter {
     options: ClientOptions;
     /**
      * The WebSocket client used by the main client.

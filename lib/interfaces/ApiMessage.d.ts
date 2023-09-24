@@ -1,15 +1,17 @@
-import { ApiEmbed, ApiInteraction, ApiReaction } from "..";
-import ApiActivity from "./ApiActivity";
-import ApiApplication from "./ApiApplication";
-import ApiAttachment from "./ApiAttachment";
+import { ApiActivity } from "./ApiActivity";
+import { ApiApplication } from "./ApiApplication";
+import { ApiAttachment } from "./ApiAttachment";
 import { ApiRoleSubscriptionData } from "./ApiRole";
-import ApiSticker, { ApiStickerItem } from "./ApiSticker";
-import ApiUser from "./ApiUser";
-import ApiThreadChannel from "../interfaces/ApiThreadChannel";
+import { ApiSticker, ApiStickerItem } from "./ApiSticker";
+import { ApiUser } from "./ApiUser";
+import { ApiThreadChannel } from "../interfaces/ApiThreadChannel";
+import { ApiEmbed } from "./ApiEmbed";
+import { ApiInteraction } from "./ApiInteraction";
+import { ApiReaction } from "./ApiReaction";
 /**
  * Interface defining the structure of message data.
  */
-export default interface ApiMessage {
+export interface ApiMessage {
     /**
      * Sent with Rich Presence-related chat embeds
      */

@@ -1,7 +1,7 @@
 /**
  * A utility class for managing Discord Gateway Intents.
  */
-export default class GatewayIntents {
+export class GatewayIntents {
 
     /**
      * Represents the "GUILDS" intent, allowing access to guilds and guild-related data.

@@ -1,8 +1,8 @@
-import IUser from "../interfaces/ApiUser";
+import { ApiUser } from "../interfaces/ApiUser";
 /**
- * Represents a user on Discord.
+ * Represents a user.
  */
-export default class User {
+export declare class User {
     /**
      * The user's base 10 accent color.
      */
@@ -73,7 +73,7 @@ export default class User {
     verified: boolean;
     /**
      * Constructs a new User instance.
-     * @param {IUser} data - The user data.
+     * @param {ApiUser} data - The user data.
      */
-    constructor(data: IUser);
+    constructor(data: ApiUser);
 }

@@ -1,7 +1,7 @@
 /**
  * Interface defining the structure of an attachment, such as files or media, within a message.
  */
-export default interface ApiAttachment {
+export interface ApiAttachment {
     /**
      * The content type of the attachment, if applicable.
      */

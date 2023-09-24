@@ -1,16 +1,15 @@
 import EventEmitter from "events";
-import ClientOptions from "../interfaces/ClientOptions";
-import WebsocketClient from "./WebsocketClient";
-import GatewayIntents from "../config/GatewayIntents";
-import User from "../structures/User";
-import ClientEvents from "../interfaces/ClientEvents";
-import Message from "../structures/Message";
-import Constants from "../config/Constants";
+import { ClientOptions } from "../interfaces/ClientOptions";
+import { WebsocketClient } from "./WebsocketClient";
+import { GatewayIntents } from "../config/GatewayIntents";
+import { User } from "../structures/User";
+import { ClientEvents } from "../interfaces/ClientEvents";
+import { Constants } from "../config/Constants";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
  */
-export default class Client extends EventEmitter {
+export class Client extends EventEmitter {
 
     /**
      * The WebSocket client used by the main client.

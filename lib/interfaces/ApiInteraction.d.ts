@@ -1,10 +1,31 @@
-import ApiGuildMember from "./ApiGuildMember";
-import ApiUser from "./ApiUser";
-export default interface ApiInteraction {
+import { ApiGuildMember } from "./ApiGuildMember";
+import { ApiUser } from "./ApiUser";
+/**
+ * Represents an interaction in an API response.
+ */
+export interface ApiInteraction {
+    /**
+     * The unique ID of the interaction.
+     */
     id: string;
-    type: ApiInteractionType;
-    name: string;
-    user: ApiUser;
+    /**
+     * Information about the guild member (user) who triggered the interaction (if applicable).
+     */
     member?: ApiGuildMember;
+    /**
+     * The name of the interaction.
+     */
+    name: string;
+    /**
+     * The type of the interaction.
+     */
+    type: ApiInteractionType;
+    /**
+     * Information about the user who triggered the interaction.
+     */
+    user: ApiUser;
 }
+/**
+ * Represents the possible types of an interaction.
+ */
 export type ApiInteractionType = 1 | 2 | 3 | 4 | 5;

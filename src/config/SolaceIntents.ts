@@ -1,9 +1,9 @@
-import GatewayIntents from "./GatewayIntents";
+import { GatewayIntents } from "./GatewayIntents";
 
 /**
  * A utility class for defining intent combinations for different types of Discord bots.
  */
-export default class SolaceIntents {
+export class SolaceIntents {
 
     /**
      * Intents that help with general-purpose Discord bots.

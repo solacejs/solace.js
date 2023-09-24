@@ -1,7 +1,7 @@
 /**
  * Interface defining the structure of user data.
  */
-export default interface ApiUser {
+export interface ApiUser {
     /**
      * The accent color associated with the user, if any.
      */

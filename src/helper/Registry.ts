@@ -1,10 +1,10 @@
-import Client from "../client/Client";
-import Event from "./Event";
+import { Client } from "../client/Client";
+import { Event } from "./Event";
 
 /**
  * A utility class that can be used to register commands, events, and more.
  */
-export default class Registry {
+export class Registry {
 
     /**
      * Registers a list of events with a Discord client.

@@ -1,16 +1,16 @@
 import EventEmitter from "events";
-import Client from "./Client";
-import Constants from "../config/Constants";
+import { Client } from "./Client";
+import { Constants } from "../config/Constants";
 import WebSocket from "ws";
-import OpCodes from "../config/OpCodes";
-import SolaceError from "../util/SolaceError";
-import EventHandler from "../util/EventHandler";
-import Message from "../structures/Message";
+import { OpCodes } from "../config/OpCodes";
+import { SolaceError } from "../util/SolaceError";
+import { EventHandler } from "../util/EventHandler";
+import { Message } from "../structures/Message";
 
 /**
  * A WebSocket client for connecting to the Discord Gateway and handling communication.
  */
-export default class WebsocketClient extends EventEmitter {
+export class WebsocketClient extends EventEmitter {
 
     /**
      *  Represents the URL of the Discord Gateway to which the WebSocket client will establish a connection

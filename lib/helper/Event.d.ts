@@ -1,9 +1,9 @@
-import Client from "../client/Client";
-import ClientEvents from "../interfaces/ClientEvents";
+import { Client } from "../client/Client";
+import { ClientEvents } from "../interfaces/ClientEvents";
 /**
  * Represents an event that can be handled by the client.
  */
-export default class Event {
+export declare class Event {
     name: keyof ClientEvents;
     once: boolean;
     /**

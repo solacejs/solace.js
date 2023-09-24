@@ -1,8 +1,8 @@
-import Client from "../client/Client";
+import { Client } from "../client/Client";
 /**
  * Represents a plugin that can be registered and ran alongside your bot.
  */
-export default class Plugin {
+export declare class Plugin {
     private name;
     /**
      * Set the name of the plugin.

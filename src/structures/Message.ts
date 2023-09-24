@@ -1,18 +1,24 @@
-import IMessage from "../interfaces/ApiMessage";
-import Activity from "./Activity";
-import Application from "./Application";
-import Attachment from "./Attachment";
-import Embed from "./Embed";
-import Interaction from "./Interaction";
-import Reaction, { RoleSubscriptionData } from "./Reaction";
-import Sticker, { StickerItem } from "./Sticker";
-import ThreadChannel from "./ThreadChannel";
-import User from "./User";
+import { ApiMessage } from "../interfaces/ApiMessage";
+import { Activity } from "./Activity";
+import { Application } from "./Application";
+import { Attachment } from "./Attachment";
+import { Embed } from "./Embed";
+import { Interaction } from "./Interaction";
+import {
+    Reaction,
+    RoleSubscriptionData
+} from "./Reaction";
+import {
+    Sticker,
+    StickerItem
+} from "./Sticker";
+import { ThreadChannel } from "./ThreadChannel";
+import { User } from "./User";
 
 /**
  * Represents a message on discord
  */
-export default class Message {
+export class Message {
 
     /**
      * Sent with Rich Presence-related chat embeds
@@ -122,7 +128,7 @@ export default class Message {
     /**
      * Reactions (e.g., emojis) added to the message, if any.
      */
-    public reactions: Reaction[] | null;
+    public reactions: Reaction[];
 
     /**
      * The message that this message references, if applicable.
@@ -137,12 +143,12 @@ export default class Message {
     /**
      * Items associated with stickers sent in the message, if any.
      */
-    public stickerItems: StickerItem[] | null;
+    public stickerItems: StickerItem[];
 
     /**
      * Stickers used in the message, if any.
      */
-    public stickers: Sticker[] | null;
+    public stickers: Sticker[];
 
     /**
      * The thread associated with the message, if part of a threaded conversation.
@@ -171,9 +177,9 @@ export default class Message {
 
     /**
      * Constructs a new Message instance.
-     * @param {IMessage} data - The message data.
+     * @param {ApiMessage} data - The message data.
      */
-    constructor(data: IMessage) {
+    constructor(data: ApiMessage) {
         this.activity = data.activity ? new Activity(data.activity) : null;
         this.application = data.application ? new Application(data.application) : null;
         this.applicationId = data.application_id ?? null;

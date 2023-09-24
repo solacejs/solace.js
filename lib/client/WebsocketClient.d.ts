@@ -1,10 +1,10 @@
 /// <reference types="node" />
 import EventEmitter from "events";
-import Client from "./Client";
+import { Client } from "./Client";
 /**
  * A WebSocket client for connecting to the Discord Gateway and handling communication.
  */
-export default class WebsocketClient extends EventEmitter {
+export declare class WebsocketClient extends EventEmitter {
     private client;
     /**
      *  Represents the URL of the Discord Gateway to which the WebSocket client will establish a connection
