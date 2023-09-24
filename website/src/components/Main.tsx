@@ -16,7 +16,7 @@ export default function Main({ name }: { name?: string }) {
 
     if (!result) return <div></div>
 
-    let constructor = result?.children.find((child) => child.name == "constructor") as Constructor;
+    let constructor = result?.children?.find((child) => child.name == "constructor") as Constructor;
     let signatures: SignaturesEntity[] | undefined | null;
     let symbolMap = docs.symbolIdMap as unknown as SymbolMap[];
 
