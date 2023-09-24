@@ -1,4 +1,4 @@
-import ISticker, { IStickerItem } from "../interfaces/ISticker";
+import ISticker, { ApiStickerItem } from "../interfaces/ApiSticker";
 import User from "./User";
 
 export default class Sticker {
@@ -38,7 +38,7 @@ export class StickerItem {
     public id: string;
     public name: string;
 
-    constructor(data: IStickerItem) {
+    constructor(data: ApiStickerItem) {
         this.formatType = data.format_type;
         this.id = data.id;
         this.name = data.name;

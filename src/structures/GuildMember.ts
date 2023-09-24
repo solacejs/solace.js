@@ -1,4 +1,4 @@
-import IGuildMember from "../interfaces/IGuildMember";
+import IGuildMember from "../interfaces/ApiGuildMember";
 import User from "./User";
 
 export default class GuildMember {

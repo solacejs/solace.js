@@ -1,8 +1,8 @@
-import { IGuildWelcomeScreen } from "../interfaces/IGuild";
+import { ApiGuildWelcomeScreen } from "../interfaces/ApiGuild";
 
 export default class WelcomeScreen {
 
-    constructor(data: IGuildWelcomeScreen) {
+    constructor(data: ApiGuildWelcomeScreen) {
         
     }
 }

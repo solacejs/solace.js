@@ -1,4 +1,4 @@
-import IEmoji from "../interfaces/IEmoji";
+import IEmoji from "../interfaces/ApiEmoji";
 
 export default class Emoji {
 

@@ -1,4 +1,4 @@
-import IMessage from "../interfaces/IMessage";
+import IMessage from "../interfaces/ApiMessage";
 import Activity from "./Activity";
 import Application from "./Application";
 import Attachment from "./Attachment";

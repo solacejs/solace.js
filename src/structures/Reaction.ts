@@ -1,5 +1,5 @@
-import IReaction, { IReactionCountDetails } from "../interfaces/IReaction";
-import { IRoleSubscriptionData } from "../interfaces/IRole";
+import IReaction, { ApiReactionCountDetails } from "../interfaces/ApiReaction";
+import { ApiRoleSubscriptionData } from "../interfaces/ApiRole";
 import Emoji from "./Emoji";
 
 export default class Reaction {
@@ -26,7 +26,7 @@ export class ReactionCountDetails {
     public burst: number;
     public normal: number;
     
-    constructor(data: IReactionCountDetails) {
+    constructor(data: ApiReactionCountDetails) {
         this.burst = data.burst;
         this.normal = data.normal;
     }
@@ -39,7 +39,7 @@ export class RoleSubscriptionData {
     public tierName: string;
     public totalMonthsSubscribed: number;
 
-    constructor(data: IRoleSubscriptionData) {
+    constructor(data: ApiRoleSubscriptionData) {
         this.isRenewal = data.is_renewal;
         this.roleSubscriptionListingId = data.role_subscription_listing_id;
         this.tierName = data.tier_name;

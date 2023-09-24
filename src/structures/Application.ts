@@ -1,4 +1,4 @@
-import IApplication, { IApplicationInstallParams } from "../interfaces/IApplication";
+import IApplication, { ApiApplicationInstallParams } from "../interfaces/ApiApplication";
 import Guild from "./Guild";
 import Team from "./Team";
 import User from "./User";
@@ -59,7 +59,7 @@ export class ApplicationInstallParams {
     public permissions: string;
     public scopes: string[];
 
-    constructor(data: IApplicationInstallParams) {
+    constructor(data: ApiApplicationInstallParams) {
         this.permissions = data.permissions;
         this.scopes = data.scopes;
     }

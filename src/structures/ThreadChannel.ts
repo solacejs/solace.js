@@ -1,4 +1,4 @@
-import IThreadChannel from "../interfaces/IThreadChannel";
+import IThreadChannel from "../interfaces/ApiThreadChannel";
 import Channel from "./Channel";
 
 export default class ThreadChannel extends Channel {

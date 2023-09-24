@@ -1,4 +1,4 @@
-import IGuild from "../interfaces/IGuild";
+import IGuild from "../interfaces/ApiGuild";
 import Emoji from "./Emoji";
 import Role from "./Role";
 import Sticker from "./Sticker";

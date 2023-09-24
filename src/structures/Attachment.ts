@@ -1,4 +1,4 @@
-import IAttachment from "../interfaces/IAttachment";
+import IAttachment from "../interfaces/ApiAttachment";
 
 export default class Attachment {
     

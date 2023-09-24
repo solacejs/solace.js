@@ -1,4 +1,4 @@
-import IInteraction from "../interfaces/IInteraction";
+import IInteraction from "../interfaces/ApiInteraction";
 import GuildMember from "./GuildMember";
 import User from "./User";
 

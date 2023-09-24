@@ -1,4 +1,4 @@
-import { ITeamMember } from "../interfaces/ITeam";
+import { ApiTeamMember } from "../interfaces/ApiTeam";
 import User from "./User";
 
 export default class TeamMember {
@@ -8,7 +8,7 @@ export default class TeamMember {
     public user: User;
     public role: string;
 
-    constructor(data: ITeamMember) {
+    constructor(data: ApiTeamMember) {
         this.membershipState = data.membership_state;
         this.teamId = data.team_id;
         this.user = new User(data.user);

@@ -1,4 +1,4 @@
-import IUser from "../interfaces/IUser";
+import IUser from "../interfaces/ApiUser";
 /**
  * Represents a user on Discord.
  */

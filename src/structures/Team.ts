@@ -1,4 +1,4 @@
-import ITeam from "../interfaces/ITeam";
+import ITeam from "../interfaces/ApiTeam";
 import TeamMember from "./TeamMember";
 
 export default class Team {

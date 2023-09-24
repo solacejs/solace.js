@@ -1,4 +1,4 @@
-import IEmbed, { IEmbedAuthor, IEmbedField, IEmbedFooter, IEmbedImage, IEmbedProvider, IEmbedThumbnail, IEmbedVideo } from "../interfaces/IEmbed";
+import ApiEmbed, { ApiEmbedAuthor, ApiEmbedField, ApiEmbedFooter, ApiEmbedImage, ApiEmbedProvider, ApiEmbedThumbnail, ApiEmbedVideo } from "../interfaces/ApiEmbed";
 
 export default class Embed {
     author: EmbedAuthor | null;
@@ -15,7 +15,7 @@ export default class Embed {
     url: string | null;
     video: EmbedVideo | null;
 
-    constructor(data: IEmbed) {
+    constructor(data: ApiEmbed) {
         this.author = data.author ? new EmbedAuthor(data.author) : null;
         this.color = data.color ?? null;
         this.description = data.description ?? null;
@@ -38,7 +38,7 @@ export class EmbedFooter {
     public proxyIconUrl: string | null;
     public text: string;
 
-    constructor(data: IEmbedFooter) {
+    constructor(data: ApiEmbedFooter) {
         this.iconUrl = data.icon_url ?? null;
         this.proxyIconUrl = data.proxy_icon_url ?? null;
         this.text = data.text;
@@ -52,7 +52,7 @@ export class EmbedImage {
     public url: string;
     public width: number | null;
 
-    constructor(data: IEmbedImage) {
+    constructor(data: ApiEmbedImage) {
         this.height = data.height ?? null;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
@@ -67,7 +67,7 @@ export class EmbedThumbnail {
     public url: string;
     public width: number | null;
 
-    constructor(data: IEmbedThumbnail) {
+    constructor(data: ApiEmbedThumbnail) {
         this.height = data.height ?? null;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
@@ -82,7 +82,7 @@ export class EmbedVideo {
     public url: string;
     public width: number | null;
 
-    constructor(data: IEmbedVideo) {
+    constructor(data: ApiEmbedVideo) {
         this.height = data.height ?? null;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
@@ -95,7 +95,7 @@ export class EmbedProvider {
     public name: string | null;
     public url: string | null;
 
-    constructor(data: IEmbedProvider) {
+    constructor(data: ApiEmbedProvider) {
         this.name = data.name ?? null;
         this.url = data.url ?? null;
     }
@@ -108,7 +108,7 @@ export class EmbedAuthor {
     public proxyIconUrl: string | null;
     public url: string | null;
 
-    constructor(data: IEmbedAuthor) {
+    constructor(data: ApiEmbedAuthor) {
         this.iconUrl = data.icon_url ?? null;
         this.name = data.name;
         this.proxyIconUrl = data.proxy_icon_url ?? null;
@@ -122,7 +122,7 @@ export class EmbedField {
     public name: string;
     public value: string;
 
-    constructor(data: IEmbedField) {
+    constructor(data: ApiEmbedField) {
         this.inline = !!data.inline;
         this.name = data.name;
         this.value = data.value;

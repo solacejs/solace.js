@@ -1,4 +1,4 @@
-import IActivity from "../interfaces/IActivity";
+import IActivity from "../interfaces/ApiActivity";
 
 export default class Activity {
     

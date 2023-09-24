@@ -1,4 +1,12 @@
-import IMessage from "../interfaces/IMessage";
+import IMessage from "../interfaces/ApiMessage";
+import Activity from "./Activity";
+import Application from "./Application";
+import Attachment from "./Attachment";
+import Embed from "./Embed";
+import Interaction from "./Interaction";
+import Reaction, { RoleSubscriptionData } from "./Reaction";
+import Sticker, { StickerItem } from "./Sticker";
+import ThreadChannel from "./ThreadChannel";
 import User from "./User";
 /**
  * Represents a message on discord
@@ -7,11 +15,11 @@ export default class Message {
     /**
      * Sent with Rich Presence-related chat embeds
      */
-    activity: any | null;
+    activity: Activity | null;
     /**
      * 	Sent with Rich Presence-related chat embeds
      */
-    application: any | null;
+    application: Application | null;
     /**
      * 	If the message is an Interaction or application-owned webhook, this is the id of the application
      */
@@ -19,7 +27,7 @@ export default class Message {
     /**
      * An array of attachments (e.g., files, images) sent with the message.
      */
-    attachments: any[];
+    attachments: Attachment[];
     /**
      * The user who sent the message.
      */
@@ -43,7 +51,7 @@ export default class Message {
     /**
      * Embeds (rich media content) included in the message.
      */
-    embeds: any[];
+    embeds: Embed[];
     /**
      * Flags associated with the message, if any.
      */
@@ -55,7 +63,7 @@ export default class Message {
     /**
      * Interaction data, if the message is part of an interaction.
      */
-    interaction: any | null;
+    interaction: Interaction | null;
     /**
      * Indicates whether the message mentions everyone in the channel.
      */
@@ -91,7 +99,7 @@ export default class Message {
     /**
      * Reactions (e.g., emojis) added to the message, if any.
      */
-    reactions: any[] | null;
+    reactions: Reaction[] | null;
     /**
      * The message that this message references, if applicable.
      */
@@ -99,19 +107,19 @@ export default class Message {
     /**
      * Subscription data related to roles, if any.
      */
-    roleSubscriptionData: any | null;
+    roleSubscriptionData: RoleSubscriptionData | null;
     /**
      * Items associated with stickers sent in the message, if any.
      */
-    stickerItems: any[] | null;
+    stickerItems: StickerItem[] | null;
     /**
      * Stickers used in the message, if any.
      */
-    stickers: any[] | null;
+    stickers: Sticker[] | null;
     /**
      * The thread associated with the message, if part of a threaded conversation.
      */
-    thread: any | null;
+    thread: ThreadChannel | null;
     /**
      * Timestamp indicating when the message was sent.
      */
