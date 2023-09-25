@@ -1,4 +1,5 @@
 import { Client } from "../client/Client";
+import { Message } from "../structures/Message";
 import { User } from "../structures/User";
 
 /**
@@ -26,6 +27,14 @@ export class EventHandler {
      */
     public static MESSAGE_CREATE(client: Client, data: any) {
         // Emit a "messageCreate" event with the received data.
-        client.emit("messageCreate", data);
+        data.client = client;
+        if (data.guild_id) client.fetchGuild(data.guild_id).then((guild: any) => {
+            data.guild = guild;
+            client.fetchChannel(data.channel_id).then((channel) => {
+                data.channel = channel;
+                data.channel.client = client;
+                client.emit("messageCreate", new Message(data));
+            })
+        })
     }
 }

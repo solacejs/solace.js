@@ -67,9 +67,9 @@ export class Role {
 
     /**
      * Tags associated with the role, or undefined if not provided.
-     * @type {RoleTag[] | undefined}
+     * @type {RoleTag | null}
      */
-    public tags: RoleTag[] | undefined;
+    public tags: RoleTag | null;
 
     /**
      * The Unicode emoji associated with the role, or null if not provided.
@@ -92,7 +92,7 @@ export class Role {
         this.name = data.name;
         this.permissions = data.permissions;
         this.position = data.position;
-        this.tags = data.tags?.map((tag) => new RoleTag(tag));
+        this.tags = data.tags ? new RoleTag(data.tags) : null;
         this.unicodeEmoji = data.unicode_emoji ?? null;
     }
 }

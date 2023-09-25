@@ -15,22 +15,22 @@ import {
 export class Embed {
 
     /**
-   * The author of the embed, or null if not provided.
-   * @type {EmbedAuthor | null}
+   * The author of the embed, or undefined if not provided.
+   * @type {EmbedAuthor | undefined}
    */
-    author: EmbedAuthor | null;
+    author?: EmbedAuthor;
 
     /**
-     * The color of the embed, represented as a hexadecimal number, or null if not provided.
-     * @type {number | null}
+     * The color of the embed, represented as a hexadecimal number, or undefined if not provided.
+     * @type {number | undefined}
      */
-    color: number | null;
+    color?: number;
 
     /**
-     * The description of the embed, or null if not provided.
-     * @type {string | null}
+     * The description of the embed, or undefined if not provided.
+     * @type {string | undefined}
      */
-    description: string | null;
+    description?: string;
 
     /**
      * The array of fields in the embed.
@@ -39,77 +39,77 @@ export class Embed {
     fields: EmbedField[];
 
     /**
-     * The footer of the embed, or null if not provided.
-     * @type {EmbedFooter | null}
+     * The footer of the embed, or undefined if not provided.
+     * @type {EmbedFooter | undefined}
      */
-    footer: EmbedFooter | null;
+    footer?: EmbedFooter;
 
     /**
-     * The image within the embed, or null if not provided.
-     * @type {EmbedImage | null}
+     * The image within the embed, or undefined if not provided.
+     * @type {EmbedImage | undefined}
      */
-    image: EmbedImage | null;
+    image?: EmbedImage;
 
     /**
-     * The provider of the embed, or null if not provided.
-     * @type {EmbedProvider | null}
+     * The provider of the embed, or undefined if not provided.
+     * @type {EmbedProvider | undefined}
      */
-    provider: EmbedProvider | null;
+    provider?: EmbedProvider;
 
     /**
-     * The thumbnail image of the embed, or null if not provided.
-     * @type {EmbedThumbnail | null}
+     * The thumbnail image of the embed, or undefined if not provided.
+     * @type {EmbedThumbnail | undefined}
      */
-    thumbnail: EmbedThumbnail | null;
+    thumbnail?: EmbedThumbnail;
 
     /**
-     * The timestamp for the embed, or null if not provided.
-     * @type {string | null}
+     * The timestamp for the embed, or undefined if not provided.
+     * @type {string | undefined}
      */
-    timestamp: string | null;
+    timestamp?: string;
 
     /**
-     * The title of the embed, or null if not provided.
-     * @type {string | null}
+     * The title of the embed, or undefined if not provided.
+     * @type {string | undefined}
      */
-    title: string | null;
+    title?: string;
 
     /**
-     * The type of the embed, or null if not provided.
-     * @type {string | null}
+     * The type of the embed, or undefined if not provided.
+     * @type {string | undefined}
      */
-    type: string | null;
+    type?: string;
 
     /**
-     * The URL of the embed, or null if not provided.
-     * @type {string | null}
+     * The URL of the embed, or undefined if not provided.
+     * @type {string | undefined}
      */
-    url: string | null;
+    url?: string;
 
     /**
-     * The video within the embed, or null if not provided.
-     * @type {EmbedVideo | null}
+     * The video within the embed, or undefined if not provided.
+     * @type {EmbedVideo | undefined}
      */
-    video: EmbedVideo | null;
+    video?: EmbedVideo;
 
     /**
      * Creates a new Embed instance.
      * @param {ApiEmbed} data - The data object containing embed information.
      */
     constructor(data: ApiEmbed) {
-        this.author = data.author ? new EmbedAuthor(data.author) : null;
-        this.color = data.color ?? null;
-        this.description = data.description ?? null;
-        this.fields = data.fields.map((field) => new EmbedField(field));
-        this.footer = data.footer ? new EmbedFooter(data.footer) : null;
-        this.image = data.image ? new EmbedImage(data.image) : null;
-        this.provider = data.provider ? new EmbedProvider(data.provider) : null;
-        this.thumbnail = data.thumbnail ? new EmbedThumbnail(data.thumbnail) : null;
-        this.timestamp = data.timestamp ?? null;
-        this.title = data.title ?? null;
-        this.type = data.type ?? null;
-        this.url = data.url ?? null;
-        this.video = data.video ? new EmbedVideo(data.video) : null;
+        this.author = data.author ? new EmbedAuthor(data.author) : undefined;
+        this.color = data.color;
+        this.description = data.description;
+        this.fields = data.fields ? data.fields.map((field) => new EmbedField(field)) : [];
+        this.footer = data.footer ? new EmbedFooter(data.footer) : undefined;
+        this.image = data.image ? new EmbedImage(data.image) : undefined;
+        this.provider = data.provider ? new EmbedProvider(data.provider) : undefined;
+        this.thumbnail = data.thumbnail ? new EmbedThumbnail(data.thumbnail) : undefined;
+        this.timestamp = data.timestamp;
+        this.title = data.title;
+        this.type = data.type;
+        this.url = data.url;
+        this.video = data.video ? new EmbedVideo(data.video) : undefined;
     }
 }
 
@@ -119,16 +119,16 @@ export class Embed {
 export class EmbedFooter {
 
     /**
-     * The URL of the footer icon, or null if not provided.
-     * @type {string | null}
+     * The URL of the footer icon, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public iconUrl: string | null;
+    public iconUrl?: string;
 
     /**
-     * The URL of the proxy footer icon, or null if not provided.
-     * @type {string | null}
+     * The URL of the proxy footer icon, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public proxyIconUrl: string | null;
+    public proxyIconUrl?: string;
 
     /**
      * The text in the footer.
@@ -141,9 +141,17 @@ export class EmbedFooter {
      * @param {ApiEmbedFooter} data - The data object containing footer information.
      */
     constructor(data: ApiEmbedFooter) {
-        this.iconUrl = data.icon_url ?? null;
-        this.proxyIconUrl = data.proxy_icon_url ?? null;
+        this.iconUrl = data.icon_url;
+        this.proxyIconUrl = data.proxy_icon_url;
         this.text = data.text;
+    }
+
+    public toRaw() {
+        return {
+            icon_url: this.iconUrl,
+            proxy_icon_url: this.proxyIconUrl,
+            text: this.text
+        }
     }
 }
 
@@ -153,10 +161,10 @@ export class EmbedFooter {
 export class EmbedImage {
 
     /**
-     * The height of the image in pixels, or null if not provided.
-     * @type {number | null}
+     * The height of the image in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public height: number | null;
+    public height?: number;
 
     /**
      * The URL of the proxy image.
@@ -171,20 +179,29 @@ export class EmbedImage {
     public url: string;
 
     /**
-     * The width of the image in pixels, or null if not provided.
-     * @type {number | null}
+     * The width of the image in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public width: number | null;
+    public width?: number;
 
     /**
      * Creates a new EmbedImage instance.
      * @param {ApiEmbedImage} data - The data object containing image information.
      */
     constructor(data: ApiEmbedImage) {
-        this.height = data.height ?? null;
+        this.height = data.height;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
-        this.width = data.width ?? null;
+        this.width = data.width;
+    }
+
+    public toRaw() {
+        return {
+            height: this.height,
+            proxy_url: this.proxyUrl,
+            url: this.url,
+            width: this.width
+        }
     }
 }
 
@@ -194,10 +211,10 @@ export class EmbedImage {
 export class EmbedThumbnail {
 
     /**
-     * The height of the thumbnail image in pixels, or null if not provided.
-     * @type {number | null}
+     * The height of the thumbnail image in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public height: number | null;
+    public height: number | undefined;
 
     /**
      * The URL of the proxy thumbnail image.
@@ -212,20 +229,29 @@ export class EmbedThumbnail {
     public url: string;
 
     /**
-     * The width of the thumbnail image in pixels, or null if not provided.
-     * @type {number | null}
+     * The width of the thumbnail image in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public width: number | null;
+    public width?: number;
 
     /**
      * Creates a new EmbedThumbnail instance.
      * @param {ApiEmbedThumbnail} data - The data object containing thumbnail information.
      */
     constructor(data: ApiEmbedThumbnail) {
-        this.height = data.height ?? null;
+        this.height = data.height;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
-        this.width = data.width ?? null;
+        this.width = data.width;
+    }
+
+    public toRaw() {
+        return {
+            height: this.height,
+            proxy_url: this.proxyUrl,
+            url: this.url,
+            width: this.width
+        }
     }
 }
 
@@ -235,10 +261,10 @@ export class EmbedThumbnail {
 export class EmbedVideo {
 
     /**
-     * The height of the video in pixels, or null if not provided.
-     * @type {number | null}
+     * The height of the video in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public height: number | null;
+    public height?: number;
 
     /**
      * The URL of the proxy video.
@@ -253,20 +279,29 @@ export class EmbedVideo {
     public url: string;
 
     /**
-     * The width of the video in pixels, or null if not provided.
-     * @type {number | null}
+     * The width of the video in pixels, or undefined if not provided.
+     * @type {number | undefined}
      */
-    public width: number | null;
+    public width?: number;
 
     /**
      * Creates a new EmbedVideo instance.
      * @param {ApiEmbedVideo} data - The data object containing video information.
      */
     constructor(data: ApiEmbedVideo) {
-        this.height = data.height ?? null;
+        this.height = data.height;
         this.proxyUrl = data.proxy_url;
         this.url = data.url;
-        this.width = data.width ?? null;
+        this.width = data.width;
+    }
+
+    public toRaw() {
+        return {
+            height: this.height,
+            proxy_url: this.proxyUrl,
+            url: this.url,
+            width: this.width
+        }
     }
 }
 
@@ -276,27 +311,26 @@ export class EmbedVideo {
 export class EmbedProvider {
 
     /**
-     * The name of the provider, or null if not provided.
-     * @type {string | null}
+     * The name of the provider, or undefined if not provided.
+     * @type {string}
      */
-    public name: string | null;
+    public name?: string;
 
     /**
-     * The URL of the provider, or null if not provided.
-     * @type {string | null}
+     * The URL of the provider, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public url: string | null;
+    public url?: string;
 
     /**
      * Creates a new EmbedProvider instance.
      * @param {ApiEmbedProvider} data - The data object containing provider information.
      */
     constructor(data: ApiEmbedProvider) {
-        this.name = data.name ?? null;
-        this.url = data.url ?? null;
+        this.name = data.name;
+        this.url = data.url;
     }
 }
-
 
 /**
  * Represents the author of an embed.
@@ -304,10 +338,10 @@ export class EmbedProvider {
 export class EmbedAuthor {
 
     /**
-     * The URL of the author's icon, or null if not provided.
-     * @type {string | null}
+     * The URL of the author's icon, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public iconUrl: string | null;
+    public iconUrl?: string;
 
     /**
      * The name of the author.
@@ -316,26 +350,35 @@ export class EmbedAuthor {
     public name: string;
 
     /**
-     * The URL of the proxy author's icon, or null if not provided.
-     * @type {string | null}
+     * The URL of the proxy author's icon, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public proxyIconUrl: string | null;
+    public proxyIconUrl?: string;
 
     /**
-     * The URL of the author, or null if not provided.
-     * @type {string | null}
+     * The URL of the author, or undefined if not provided.
+     * @type {string | undefined}
      */
-    public url: string | null;
+    public url?: string;
 
     /**
      * Creates a new EmbedAuthor instance.
      * @param {ApiEmbedAuthor} data - The data object containing author information.
      */
     constructor(data: ApiEmbedAuthor) {
-        this.iconUrl = data.icon_url ?? null;
+        this.iconUrl = data.icon_url;
         this.name = data.name;
-        this.proxyIconUrl = data.proxy_icon_url ?? null;
-        this.url = data.url ?? null;
+        this.proxyIconUrl = data.proxy_icon_url;
+        this.url = data.url;
+    }
+
+    public toRaw() {
+        return {
+            icon_url: this.iconUrl,
+            name: this.name,
+            proxy_icon_url: this.proxyIconUrl,
+            url: this.url
+        }
     }
 }
 

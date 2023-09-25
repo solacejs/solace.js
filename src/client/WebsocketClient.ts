@@ -64,7 +64,7 @@ export class WebsocketClient extends EventEmitter {
                                 EventHandler.READY(this.client, d);
                                 break;
                             case "MESSAGE_CREATE":
-                                EventHandler.MESSAGE_CREATE(this.client, new Message(d));
+                                EventHandler.MESSAGE_CREATE(this.client, d);
                                 break;
                         }
                         break;

@@ -8,6 +8,9 @@ import { ApiThreadChannel } from "../interfaces/ApiThreadChannel";
 import { ApiEmbed } from "./ApiEmbed";
 import { ApiInteraction } from "./ApiInteraction";
 import { ApiReaction } from "./ApiReaction";
+import { Client } from "../client/Client";
+import { ApiGuild } from "./ApiGuild";
+import { ApiChannel } from "./ApiChannel";
 /**
  * Interface defining the structure of message data.
  */
@@ -33,9 +36,17 @@ export interface ApiMessage {
      */
     author: ApiUser;
     /**
+     * The channel the message was sent in.
+     */
+    channel: ApiChannel;
+    /**
      * The ID of the channel where the message was sent.
      */
     channel_id: string;
+    /**
+     * A instance of the client
+     */
+    client: Client;
     /**
      * An array of components included in the message, if any.
      */
@@ -56,6 +67,14 @@ export interface ApiMessage {
      * Flags associated with the message, if any.
      */
     flags?: number;
+    /**
+     * The guild/server if the message is in a guild.
+     */
+    guild?: ApiGuild;
+    /**
+     * The guild/server id if the message is in a guild.
+     */
+    guild_id?: string;
     /**
      * The unique identifier of the message.
      */

@@ -5,6 +5,10 @@ import { GatewayIntents } from "../config/GatewayIntents";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
 import { Constants } from "../config/Constants";
+import { GuildTextChannel } from "../structures/GuildTextChannel";
+import { ApiChannel } from "../interfaces/ApiChannel";
+import { Guild } from "../structures/Guild";
+import { ApiGuildTextChannel } from "../interfaces/ApiGuildTextChannel";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -83,5 +87,27 @@ export class Client extends EventEmitter {
         } catch (err) {
             throw new Error(`Failed to create message: ${err}`);
         }
+    }
+
+    public async fetchGuild(guildId: string) {
+        const res = await fetch(`${Constants.API}/guilds/${guildId}`, {
+            headers: {
+                Authorization: `Bot ${this.options.token}`,
+                "Content-Type": "application/json"
+            }
+        });
+
+        return await res.json();
+    }
+
+    public async fetchChannel(channelId: string) {
+        const res = await fetch(`${Constants.API}/channels/${channelId}`, {
+            headers: {
+                Authorization: `Bot ${this.options.token}`,
+                "Content-Type": "application/json"
+            }
+        });
+
+        return await res.json()
     }
 }

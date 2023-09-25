@@ -1,8 +1,14 @@
+import { Client } from "../client/Client";
+import { Constants } from "../config/Constants";
 import { ApiMessage } from "../interfaces/ApiMessage";
+import { MessageOptions } from "../interfaces/MessageOptions";
+import { EmbedBuilder } from "../util/EmbedBuilder";
 import { Activity } from "./Activity";
 import { Application } from "./Application";
 import { Attachment } from "./Attachment";
 import { Embed } from "./Embed";
+import { Guild } from "./Guild";
+import { GuildTextChannel } from "./GuildTextChannel";
 import { Interaction } from "./Interaction";
 import {
     Reaction,
@@ -46,9 +52,16 @@ export class Message {
     public author: User;
 
     /**
+     * The channel the message was sent in.
+     */
+    public channel?: GuildTextChannel;
+
+    /**
      * The unique identifier of the channel where the message was sent.
      */
     public channelId: string;
+
+    public client: Client;
 
     /**
      * Components of the message, if any (e.g., buttons, action rows).
@@ -74,6 +87,16 @@ export class Message {
      * Flags associated with the message, if any.
      */
     public flags: number | null;
+
+    /**
+     * The guild the message was sent in.
+     */
+    public guild?: Guild;
+
+    /**
+     * The id of the guild/server.
+     */
+    public guildId?: string;
 
     /**
      * The id of the message.
@@ -186,11 +209,22 @@ export class Message {
         this.attachments = data.attachments.map((attachment) => new Attachment(attachment));
         this.author = new User(data.author);
         this.channelId = data.channel_id ?? null;
+        this.client = data.client;
         this.components = data.components ?? null;
         this.content = data.content;
         this.editedTimestamp = data.edited_timestamp;
         this.embeds = data.embeds ? data.embeds.map((embed) => new Embed(embed)) : [];
         this.flags = data.flags ?? null;
+
+        if (data.guild) this.guild = new Guild(data.guild);
+
+        switch (data.channel.type) {
+            case 0:
+                this.channel = new GuildTextChannel(this.guild!, data.channel);
+                break;
+        }
+
+        this.guildId = data.guild_id;
         this.id = data.id;
         this.interaction = data.interaction ? new Interaction(data.interaction) : null;
         this.mentionEveryone = data.mention_everyone;
@@ -211,5 +245,35 @@ export class Message {
         this.tts = data.tts;
         this.type = data.type;
         this.webhookId = data.webhook_id ?? null;
+    }
+
+    public async reply(options: string | MessageOptions) {
+
+        try {
+            let body = {};
+            
+            if (typeof options == "object") {
+                body = {
+                    embeds: options.embeds?.map((embed) => embed.toRaw()),
+                    content: options.content
+                }
+            } else body = { content: options };
+
+            fetch(`${Constants.API}/channels/${this.channelId}/messages`, {
+                method: "POST",
+                headers: {
+                    Authorization: `Bot ${this.client.options.token}`,
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    message_reference: {
+                        message_id: this.id
+                    },
+                    ...body,
+                })
+            });
+        } catch (err) {
+            throw new Error(`Failed to create message: ${err}`);
+        }
     }
 }

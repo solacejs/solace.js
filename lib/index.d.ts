@@ -52,3 +52,7 @@ export * from "./structures/User";
 export * from "./structures/WelcomeScreen";
 export * from "./util/EventHandler";
 export * from "./util/SolaceError";
+export * from "./structures/GuildTextChannel";
+export * from "./structures/GuildChannel";
+export * from "./interfaces/MessageOptions";
+export * from "./util/EmbedBuilder";

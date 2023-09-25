@@ -46,4 +46,6 @@ export declare class Client extends EventEmitter {
      * @throws {Error} If an error occurs during the message creation process.
      */
     createMessage(channelId: string, message: string): Promise<void>;
+    fetchGuild(guildId: string): Promise<any>;
+    fetchChannel(channelId: string): Promise<any>;
 }

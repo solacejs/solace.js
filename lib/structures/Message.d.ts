@@ -1,8 +1,12 @@
+import { Client } from "../client/Client";
 import { ApiMessage } from "../interfaces/ApiMessage";
+import { MessageOptions } from "../interfaces/MessageOptions";
 import { Activity } from "./Activity";
 import { Application } from "./Application";
 import { Attachment } from "./Attachment";
 import { Embed } from "./Embed";
+import { Guild } from "./Guild";
+import { GuildTextChannel } from "./GuildTextChannel";
 import { Interaction } from "./Interaction";
 import { Reaction, RoleSubscriptionData } from "./Reaction";
 import { Sticker, StickerItem } from "./Sticker";
@@ -33,9 +37,14 @@ export declare class Message {
      */
     author: User;
     /**
+     * The channel the message was sent in.
+     */
+    channel?: GuildTextChannel;
+    /**
      * The unique identifier of the channel where the message was sent.
      */
     channelId: string;
+    client: Client;
     /**
      * Components of the message, if any (e.g., buttons, action rows).
      */
@@ -56,6 +65,14 @@ export declare class Message {
      * Flags associated with the message, if any.
      */
     flags: number | null;
+    /**
+     * The guild the message was sent in.
+     */
+    guild?: Guild;
+    /**
+     * The id of the guild/server.
+     */
+    guildId?: string;
     /**
      * The id of the message.
      */
@@ -141,4 +158,5 @@ export declare class Message {
      * @param {ApiMessage} data - The message data.
      */
     constructor(data: ApiMessage);
+    reply(options: string | MessageOptions): Promise<void>;
 }

@@ -45,7 +45,7 @@ export interface ApiRole {
     /**
      * Additional tags associated with the role.
      */
-    tags?: ApiRoleTag[];
+    tags?: ApiRoleTag;
     /**
      * The Unicode emoji associated with the role.
      */

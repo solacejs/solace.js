@@ -55,9 +55,9 @@ export declare class Role {
     position: number;
     /**
      * Tags associated with the role, or undefined if not provided.
-     * @type {RoleTag[] | undefined}
+     * @type {RoleTag | null}
      */
-    tags: RoleTag[] | undefined;
+    tags: RoleTag | null;
     /**
      * The Unicode emoji associated with the role, or null if not provided.
      * @type {string | null}
