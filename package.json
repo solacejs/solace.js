@@ -1,7 +1,7 @@
 {
   "name": "solace.js",
   "description": "An alternative to the package eris, a nodejs wrapper for interfacing with discord.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index",
   "typings": "lib/index",
   "repository": "https://github.com/solacejs/solace.js.git",
