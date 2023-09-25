@@ -40,3 +40,18 @@ export default class ReadyEvent extends Event {
     }
 }
 ```
+`MessageCreate Event Example`
+```ts
+import { Client, Event, Message } from "solace.js";
+
+export default class MessageCreateEvent extends Event {
+
+    constructor() {
+        super("messageCreate", false);
+    }
+
+    public async execute(client: Client, message: Message) {
+        console.log(message.content);
+    }
+}
+```
