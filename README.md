@@ -13,6 +13,7 @@ pnpm add solace.js
 ```ts
 import { Client, Event, GatewayIntents, Registry, SolaceIntents } from "solace.js";
 import ReadyEvent from "./events/ReadyEvent";
+import MessageCreateEvent from "./events/MessageCreateEvent";
 
 /**
  * You can use intent groups such as SolaceIntents or just use an array of GatewayIntents
@@ -22,6 +23,7 @@ const client = new Client({ token: "BOT_TOKEN", intents: SolaceIntents.GENERAL }
 const events: Event[] = [];
 
 Registry.registerEvents(client, new ReadyEvent());
+Registry.registerEvents(client, new MessageCreateEvent());
 
 client.login();
 ```
