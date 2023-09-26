@@ -7,9 +7,17 @@
   "repository": "https://github.com/solacejs/solace.js.git",
   "author": "RT <rustytrim11@gmail.com>",
   "license": "MIT",
+  "homepage": "https://solace.js.org",
   "dependencies": {
     "ws": "^8.14.1"
   },
+   "keywords": [
+    "discord",
+    "api",
+    "bot",
+    "client",
+    "node",
+  ],
   "devDependencies": {
     "@types/ws": "^8.5.5",
     "ts-node": "^10.9.1",
