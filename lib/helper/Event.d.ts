@@ -3,7 +3,7 @@ import { ClientEvents } from "../interfaces/ClientEvents";
 /**
  * Represents an event that can be handled by the client.
  */
-export declare class Event {
+export declare abstract class Event {
     name: keyof ClientEvents;
     once: boolean;
     /**
@@ -17,7 +17,6 @@ export declare class Event {
      * This method should be overridden by subclasses to provide specific event handling logic.
      * @param {Client} client - The client instance.
      * @param {...any} args - Additional arguments passed when the event is triggered.
-     * @throws {Error} - If the event subclass does not implement the execute method.
      */
-    execute(client: Client, ...args: any[]): Promise<void>;
+    abstract execute(client: Client, ...args: any[]): Promise<void>;
 }
