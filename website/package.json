@@ -1,5 +1,6 @@
 {
   "name": "website",
+  "description": "A documentation for solace.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {

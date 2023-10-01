@@ -1,0 +1,15 @@
+{
+  "projectName": "solace.js",
+  "projectOwner": "rtgamingwdt",
+  "repoType": "github",
+  "repoHost": "https://github.com/solacejs/solace.js",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
