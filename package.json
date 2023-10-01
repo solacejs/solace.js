@@ -20,7 +20,6 @@
   ],
   "devDependencies": {
     "@types/ws": "^8.5.5",
-    "all-contributors-cli": "^6.26.1",
     "ts-node": "^10.9.1",
     "typedoc": "^0.25.1",
     "typedoc-plugin-markdown": "^3.16.0",
