@@ -39,7 +39,7 @@ export class EmbedBuilder {
     }
 
     public addFields(fields: EmbedField[]) {
-        fields.forEach((field) => this.data.fields.push(field));
+        for (const field of fields) this.data.fields.push(field);
         return this;
     }
 
