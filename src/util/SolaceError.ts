@@ -65,10 +65,6 @@ export class SolaceError extends Error {
                 super("You have requested a disallowed intent. Check the Discord developer portal to make sure you have that intent active.");
                 this.name = "Disallowed Intents";
                 break;
-            default:
-                super("Please try reconnecting.");
-                this.name = "Unknown Error";
-                break;
         }
     }
 }
