@@ -57,3 +57,23 @@ export default class MessageCreateEvent extends Event {
     }
 }
 ```
+
+## Issues
+
+If something doesn’t work, please [file an issue](https://github.com/solacejs/solace.js/issues/new).
+
+## Branches and contributions
+
+As this project is intended to be open source and free for everyone to use, feel free to contribute improvements.
+
+If something can be improved, just create a branch from `main` and make a Pull Request with the suggestions.
+
+
+## Contributors
+
+Meet the talented individuals who have contributed to Solace.js:  
+
+
+<a href="https://github.com/solacejs/solace.js/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=solacejs/solace.js" />
+</a>
