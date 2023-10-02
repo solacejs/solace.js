@@ -90,3 +90,7 @@ a.nav.active {
 a.link {
   color: var(--link);
 }
+
+img {
+  margin-top: 1rem;
+}
