@@ -73,7 +73,8 @@ export class WebsocketClient extends EventEmitter {
 
             this._ws.on("close", (code) => {
                 this.reconnect();
-                throw new SolaceError(code);
+                // throw new SolaceError(code);
+                console.log("ERROR", code);
             });
         } catch (error) {
             console.error("Error connecting to Discord Gateway:", error);

@@ -11,12 +11,12 @@
   "dependencies": {
     "ws": "^8.14.1"
   },
-   "keywords": [
+  "keywords": [
     "discord",
     "api",
     "bot",
     "client",
-    "node",
+    "node"
   ],
   "devDependencies": {
     "@types/ws": "^8.5.5",

@@ -4,7 +4,7 @@ import { ClientEvents } from "../interfaces/ClientEvents";
 /**
  * Represents an event that can be handled by the client.
  */
-export class Event {
+export abstract class Event {
 
     /**
      * Creates a new Event instance.
@@ -18,9 +18,6 @@ export class Event {
      * This method should be overridden by subclasses to provide specific event handling logic.
      * @param {Client} client - The client instance.
      * @param {...any} args - Additional arguments passed when the event is triggered.
-     * @throws {Error} - If the event subclass does not implement the execute method.
      */
-    public async execute(client: Client, ...args: any[]) {
-        throw new Error(`Event ${this.name} is missing an execute method.`);
-    }
+    public abstract execute(client: Client, ...args: any[]): Promise<void>;
 }
