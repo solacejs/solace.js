@@ -46,6 +46,16 @@ export declare class Client extends EventEmitter {
      * @throws {Error} If an error occurs during the message creation process.
      */
     createMessage(channelId: string, message: string): Promise<void>;
+    /**
+     * Fetch a guild from the discord api
+     * @param guildId The id of the guild
+     * @returns guild data from the discord api
+     */
     fetchGuild(guildId: string): Promise<any>;
+    /**
+     * Fetch a channel from the discord api
+     * @param channelId The id of the channel
+     * @returns channel data from the discord api
+     */
     fetchChannel(channelId: string): Promise<any>;
 }

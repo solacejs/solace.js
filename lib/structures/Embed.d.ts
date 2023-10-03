@@ -98,11 +98,12 @@ export declare class EmbedFooter {
      * @param {ApiEmbedFooter} data - The data object containing footer information.
      */
     constructor(data: ApiEmbedFooter);
-    toRaw(): {
-        icon_url: string | undefined;
-        proxy_icon_url: string | undefined;
-        text: string;
-    };
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    toRaw(): object;
 }
 /**
  * Represents an image within an embed.
@@ -133,12 +134,12 @@ export declare class EmbedImage {
      * @param {ApiEmbedImage} data - The data object containing image information.
      */
     constructor(data: ApiEmbedImage);
-    toRaw(): {
-        height: number | undefined;
-        proxy_url: string;
-        url: string;
-        width: number | undefined;
-    };
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    toRaw(): object;
 }
 /**
  * Represents a thumbnail image within an embedded message.
@@ -169,12 +170,12 @@ export declare class EmbedThumbnail {
      * @param {ApiEmbedThumbnail} data - The data object containing thumbnail information.
      */
     constructor(data: ApiEmbedThumbnail);
-    toRaw(): {
-        height: number | undefined;
-        proxy_url: string;
-        url: string;
-        width: number | undefined;
-    };
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    toRaw(): object;
 }
 /**
  * Represents a video within an embedded message.
@@ -205,12 +206,12 @@ export declare class EmbedVideo {
      * @param {ApiEmbedVideo} data - The data object containing video information.
      */
     constructor(data: ApiEmbedVideo);
-    toRaw(): {
-        height: number | undefined;
-        proxy_url: string;
-        url: string;
-        width: number | undefined;
-    };
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    toRaw(): object;
 }
 /**
  * Represents a provider of the embed.
@@ -261,12 +262,12 @@ export declare class EmbedAuthor {
      * @param {ApiEmbedAuthor} data - The data object containing author information.
      */
     constructor(data: ApiEmbedAuthor);
-    toRaw(): {
-        icon_url: string | undefined;
-        name: string;
-        proxy_icon_url: string | undefined;
-        url: string | undefined;
-    };
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    toRaw(): object;
 }
 /**
  * Represents a field within an embed.

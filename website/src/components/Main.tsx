@@ -31,16 +31,16 @@ export default function Main({ name }: { name?: string }) {
             signatures![0].parameters.forEach((param) => {
                 switch (param.type.type) {
                     case "reference":
-                        constructorParams.push({ name: param.name, type: symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''), description: param.comment.summary![0].text, href: `/docs/${docs.children.find((child) => child.name == symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''))!.kind == 128 ? "classes" : "interfaces"}/${symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}` })
+                        constructorParams.push({ name: param.name, type: symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''), description: param.comment ? param.comment.summary![0]?.text : "", href: `/docs/${docs.children.find((child) => child.name == symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, ''))!.kind == 128 ? "classes" : "interfaces"}/${symbolMap[param.type.target as number].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}` })
                         break;
                     case "typeOperator":
                         constructorParams.push({ name: param.name, type: `${param.type.operator} ${symbolMap[(param.type.target as { target: number }).target].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}`, description: "", href: `/docs/interfaces/${symbolMap[(param.type.target as { target: number }).target].sourceFileName.split("/").pop()?.replace(/\.[^.]+$/, '')}` })
                         break;
                     case "intrinsic":
-                        constructorParams.push({ name: param.name, type: param.type.name, description: param.comment.summary![0].text, href: param.type.name == "any" ? `https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any&_blank` : `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${[param.type.name]}&_blank` });
+                        constructorParams.push({ name: param.name, type: param.type.name, description: param.comment ? param.comment.summary![0]?.text : "", href: param.type.name == "any" ? `https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any&_blank` : `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${[param.type.name]}&_blank` });
                         break;
                     case "literal":
-                        constructorParams.push({ name: param.name, type: `"${param.type.value}"`, description: param.comment.summary![0].text, href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string&_blank` });
+                        constructorParams.push({ name: param.name, type: `"${param.type.value}"`, description: param.comment.summary ? param.comment.summary[0]?.text : "", href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string&_blank` });
                         break;
                 }
             });
@@ -73,7 +73,7 @@ export default function Main({ name }: { name?: string }) {
             case 1024:
                 if (!child.comment) return;
                 properties.push({
-                    name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary![0].text, types: iterateOverTypes(child)
+                    name: child.name, href: child.sources[0].url.replace(/github\.com\/solacejs\/solace.js\/blob\/[a-f0-9]+/, "github.com/solacejs/solace.js/tree/main"), description: child.comment.summary ? child.comment.summary[0]?.text : "", types: iterateOverTypes(child)
                 });
                 break;
             case 2048:
@@ -95,7 +95,7 @@ export default function Main({ name }: { name?: string }) {
                     }
                 })
 
-                methods.push({ name: child.name, href: href, description: child.signatures[0].comment.summary![0].text, parameters: parameters });
+                methods.push({ name: child.name, href: href, description: child.signatures[0].comment ? child.signatures[0].comment.summary![0]?.text : "", parameters: parameters });
                 break;
         }
     });

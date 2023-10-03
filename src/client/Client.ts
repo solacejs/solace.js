@@ -5,10 +5,6 @@ import { GatewayIntents } from "../config/GatewayIntents";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
 import { Constants } from "../config/Constants";
-import { GuildTextChannel } from "../structures/GuildTextChannel";
-import { ApiChannel } from "../interfaces/ApiChannel";
-import { Guild } from "../structures/Guild";
-import { ApiGuildTextChannel } from "../interfaces/ApiGuildTextChannel";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -89,6 +85,11 @@ export class Client extends EventEmitter {
         }
     }
 
+    /**
+     * Fetch a guild from the discord api
+     * @param guildId The id of the guild
+     * @returns guild data from the discord api
+     */
     public async fetchGuild(guildId: string) {
         const res = await fetch(`${Constants.API}/guilds/${guildId}`, {
             headers: {
@@ -100,6 +101,11 @@ export class Client extends EventEmitter {
         return await res.json();
     }
 
+    /**
+     * Fetch a channel from the discord api
+     * @param channelId The id of the channel
+     * @returns channel data from the discord api
+     */
     public async fetchChannel(channelId: string) {
         const res = await fetch(`${Constants.API}/channels/${channelId}`, {
             headers: {

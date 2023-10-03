@@ -8,13 +8,21 @@ import path from "path";
  */
 export class Registry {
 
+    /**
+     * Indicates whether event caching is enabled.
+     */
     private static eventCache = false;
+    
+    /**
+     * An array to store registered events.
+     */
     public static events: Event[] = [];
 
     /**
      * Registers a list of events with a Discord client.
      * @param {Client} client - The Discord client instance.
      * @param {...Event[]} args - The list of events to register.
+     * @returns The Registry instance for method chaining.
      */
     public static registerEvents(client: Client, ...args: Event[]) {
         for (const event of args) {
@@ -25,11 +33,21 @@ export class Registry {
         return Registry;
     }
 
+    /**
+     * Enables event caching, allowing events to be stored in the 'events' array.
+     * @returns The Registry instance for method chaining.
+     */
     public static allowEventCache() {
         Registry.eventCache = true;
         return Registry;
     }
 
+    /**
+     * Registers events from files in a specified directory.
+     * @param {Client} client - The Discord client instance.
+     * @param {string} dir - The directory path to scan for event files.
+     * @returns The Registry instance for method chaining.
+     */
     public static registerEventsFromDirectory(client: Client, dir: string) {
 
         const files = fs.readdirSync(dir);

@@ -4,17 +4,37 @@ import { MessageOptions } from "../interfaces/MessageOptions";
 import { Guild } from "./Guild";
 import { GuildChannel } from "./GuildChannel";
 
+/**
+ * Represents a text channel within a guild (server).
+ */
 export class GuildTextChannel extends GuildChannel {
 
+    /**
+     * Indicates whether the channel is NSFW (Not Safe For Work).
+     */
     public nsfw: boolean;
+    
+    /**
+     * The client instance.
+     */
     public client: Client;
 
+    /**
+     * Constructs a new GuildTextChannel instance.
+     * @param {Guild} guild - The Guild instance that this channel belongs to.
+     * @param {any} data - Data containing information about the guild text channel.
+     */
     constructor(guild: Guild, data: any) {
         super(guild, data);
         this.nsfw = !!data.nsfw;
         this.client = data.client;
     }
 
+    /**
+     * Sends a message to the guild text channel.
+     * @param {string | MessageOptions} options - The message content or options.
+     * @throws {Error} Throws an error if message creation fails.
+     */
     public async send(options: string | MessageOptions) {
         try {
             let body = {};
