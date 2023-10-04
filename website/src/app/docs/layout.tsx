@@ -1,6 +1,6 @@
 import Sidebar from '@/components/Sidebar'
 
-export default function RootLayout({
+export default function DocsLayout({
   children,
 }: {
   children: React.ReactNode
