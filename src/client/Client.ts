@@ -5,6 +5,8 @@ import { GatewayIntents } from "../config/GatewayIntents";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
 import { Constants } from "../config/Constants";
+import { Channel } from "../structures/Channel";
+import { ApiChannel } from "../interfaces/ApiChannel";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -106,7 +108,7 @@ export class Client extends EventEmitter {
      * @param channelId The id of the channel
      * @returns channel data from the discord api
      */
-    public async fetchChannel(channelId: string) {
+    public async fetchChannel(channelId: string): Promise<ApiChannel> {
         const res = await fetch(`${Constants.API}/channels/${channelId}`, {
             headers: {
                 Authorization: `Bot ${this.options.token}`,

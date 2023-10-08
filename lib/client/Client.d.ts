@@ -3,6 +3,7 @@ import EventEmitter from "events";
 import { ClientOptions } from "../interfaces/ClientOptions";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
+import { ApiChannel } from "../interfaces/ApiChannel";
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
  */
@@ -57,5 +58,5 @@ export declare class Client extends EventEmitter {
      * @param channelId The id of the channel
      * @returns channel data from the discord api
      */
-    fetchChannel(channelId: string): Promise<any>;
+    fetchChannel(channelId: string): Promise<ApiChannel>;
 }

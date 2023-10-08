@@ -29,3 +29,13 @@ export interface ApiInteraction {
  * Represents the possible types of an interaction.
  */
 export type ApiInteractionType = 1 | 2 | 3 | 4 | 5;
+export interface ApiApplicationCommandPermissionsStructure {
+    id: string;
+    permission: boolean;
+    type: ApiApplicationCommandPermissionType;
+}
+export declare enum ApiApplicationCommandPermissionType {
+    ROLE = 1,
+    USER = 2,
+    CHANNEL = 3
+}

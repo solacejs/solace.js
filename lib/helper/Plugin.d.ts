@@ -1,4 +1,5 @@
 import { Client } from "../client/Client";
+import { Message } from "../structures/Message";
 /**
  * Represents a plugin that can be registered and ran alongside your bot.
  */
@@ -10,15 +11,16 @@ export declare class Plugin {
      */
     constructor(name: string);
     /**
-     * Called when the plugin is enabled.
+     * Called when the bot is online.
      * @param client - The client instance that manages the bot.
      */
-    onEnable(client: Client): void;
+    onReady(client: Client): void;
     /**
-     * Called when the plugin is disabled.
+     * Called whenever a message is sent
      * @param client - The client instance that manages the bot.
+     * @param message - The message that was sent.
      */
-    onDisable(client: Client): void;
+    onMessageCreate(client: Client, message: Message): void;
     /**
      * Resolves dependencies required by the plugin.
      * @param dependencies - An array of plugin names that this plugin depends on.

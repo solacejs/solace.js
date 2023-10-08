@@ -1,5 +1,6 @@
 import { Client } from "../client/Client";
 import { Event } from "./Event";
+import { Plugin } from "./Plugin";
 /**
  * A utility class that can be used to register commands, events, and more.
  */
@@ -13,17 +14,21 @@ export declare class Registry {
      */
     static events: Event[];
     /**
-     * Registers a list of events with a Discord client.
-     * @param {Client} client - The Discord client instance.
-     * @param {...Event[]} args - The list of events to register.
-     * @returns The Registry instance for method chaining.
+     * An array to store registered plugins.
      */
-    static registerEvents(client: Client, ...args: Event[]): typeof Registry;
+    static plugins: Plugin[];
     /**
      * Enables event caching, allowing events to be stored in the 'events' array.
      * @returns The Registry instance for method chaining.
      */
     static allowEventCache(): typeof Registry;
+    /**
+     * Registers a list of events with a Discord client.
+     * @param {Client} client - The Discord client instance.
+     * @param {...Event[]} args - The list of events to register.
+     * @returns The Registry instance for method chaining.
+     */
+    static registerEvents(client: Client, ...events: Event[]): typeof Registry;
     /**
      * Registers events from files in a specified directory.
      * @param {Client} client - The Discord client instance.
@@ -31,4 +36,5 @@ export declare class Registry {
      * @returns The Registry instance for method chaining.
      */
     static registerEventsFromDirectory(client: Client, dir: string): typeof Registry;
+    static registerPlugins(client: Client, ...plugins: Plugin[]): void;
 }

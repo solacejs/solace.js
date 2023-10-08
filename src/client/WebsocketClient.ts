@@ -60,11 +60,14 @@ export class WebsocketClient extends EventEmitter {
                         break;
                     case OpCodes.DISPATCH:
                         switch (t) {
-                            case "READY":
-                                EventHandler.READY(this.client, d);
+                            case "CHANNEL_CREATE":
+                                EventHandler.CHANNEL_CREATE(this.client, d);
                                 break;
                             case "MESSAGE_CREATE":
                                 EventHandler.MESSAGE_CREATE(this.client, d);
+                                break;
+                            case "READY":
+                                EventHandler.READY(this.client, d);
                                 break;
                         }
                         break;

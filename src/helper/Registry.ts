@@ -2,6 +2,7 @@ import fs from "fs";
 import { Client } from "../client/Client";
 import { Event } from "./Event";
 import path from "path";
+import { Plugin } from "./Plugin";
 
 /**
  * A utility class that can be used to register commands, events, and more.
@@ -12,26 +13,16 @@ export class Registry {
      * Indicates whether event caching is enabled.
      */
     private static eventCache = false;
-    
+
     /**
      * An array to store registered events.
      */
     public static events: Event[] = [];
-
+    
     /**
-     * Registers a list of events with a Discord client.
-     * @param {Client} client - The Discord client instance.
-     * @param {...Event[]} args - The list of events to register.
-     * @returns The Registry instance for method chaining.
+     * An array to store registered plugins.
      */
-    public static registerEvents(client: Client, ...args: Event[]) {
-        for (const event of args) {
-            event.once
-                ? client.once(event.name, (...args: any[]) => event.execute(client, ...args))
-                : client.on(event.name, (...args: any[]) => event.execute(client, ...args));
-        }
-        return Registry;
-    }
+    public static plugins: Plugin[] = [];
 
     /**
      * Enables event caching, allowing events to be stored in the 'events' array.
@@ -39,6 +30,21 @@ export class Registry {
      */
     public static allowEventCache() {
         Registry.eventCache = true;
+        return Registry;
+    }
+
+    /**
+     * Registers a list of events with a Discord client.
+     * @param {Client} client - The Discord client instance.
+     * @param {...Event[]} args - The list of events to register.
+     * @returns The Registry instance for method chaining.
+     */
+    public static registerEvents(client: Client, ...events: Event[]) {
+        for (const event of events) {
+            event.once
+                ? client.once(event.name, (...args: any[]) => event.execute(client, ...args))
+                : client.on(event.name, (...args: any[]) => event.execute(client, ...args));
+        }
         return Registry;
     }
 
@@ -57,7 +63,7 @@ export class Registry {
             const stat = fs.statSync(filePath);
             if (stat.isDirectory()) {
                 this.registerEventsFromDirectory(client, filePath);
-            } else if (stat.isFile() && (file.endsWith(".ts") || file.endsWith(".ts"))) {
+            } else if (stat.isFile() && (file.endsWith(".ts") || file.endsWith(".js"))) {
                 const event = new (require(filePath).default);
                 this.registerEvents(client, event);
                 if (this.eventCache == true) Registry.events.push(event);
@@ -65,5 +71,9 @@ export class Registry {
         }
 
         return Registry;
+    }
+
+    public static registerPlugins(client: Client, ...plugins: Plugin[]) {
+        this.plugins = plugins;
     }
 }
