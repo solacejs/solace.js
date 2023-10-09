@@ -13,7 +13,7 @@ export class GuildTextChannel extends GuildChannel {
      * Indicates whether the channel is NSFW (Not Safe For Work).
      */
     public nsfw: boolean;
-    
+
     /**
      * The client instance.
      */
@@ -40,7 +40,7 @@ export class GuildTextChannel extends GuildChannel {
             let body = {};
             if (typeof options == "object") {
                 body = {
-                    embeds: options.embeds?.map((embed) => embed.toRaw()),
+                    embeds: options.embeds ? options.embeds.map((embed) => embed.toRaw()) : [],
                     content: options.content
                 }
             } else body = { content: options };
