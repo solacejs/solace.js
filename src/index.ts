@@ -1,3 +1,6 @@
+export * from "./cache/CacheBase";
+export * from "./cache/ChannelCache";
+export * from "./cache/GuildCache";
 export * from "./client/Client";
 export * from "./client/WebsocketClient";
 export * from "./config/Constants";
@@ -64,6 +67,7 @@ export * from "./structures/TeamMember";
 export * from "./structures/ThreadChannel";
 export * from "./structures/User";
 export * from "./structures/WelcomeScreen";
+export * from "./util/Collection";
 export * from "./util/EmbedBuilder";
 export * from "./util/EventHandler";
 export * from "./util/Logger";

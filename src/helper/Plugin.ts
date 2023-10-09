@@ -16,14 +16,14 @@ export class Plugin {
      * Called when the bot is online.
      * @param client - The client instance that manages the bot.
      */
-    public onReady(client: Client) {}
+    public async onReady(client: Client) {}
 
     /**
      * Called whenever a message is sent
      * @param client - The client instance that manages the bot.
      * @param message - The message that was sent.
      */
-    public onMessageCreate(client: Client, message: Message) {}
+    public async onMessageCreate(client: Client, message: Message) {}
 
     /**
      * Resolves dependencies required by the plugin.

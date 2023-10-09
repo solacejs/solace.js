@@ -7,6 +7,8 @@ import { ClientEvents } from "../interfaces/ClientEvents";
 import { Constants } from "../config/Constants";
 import { Channel } from "../structures/Channel";
 import { ApiChannel } from "../interfaces/ApiChannel";
+import { ChannelCache } from "../cache/ChannelCache";
+import { GuildCache } from "../cache/GuildCache";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -22,6 +24,12 @@ export class Client extends EventEmitter {
      * The user associated with the client if logged in.
      */
     public user: User | null = null;
+
+    /**
+     * Caches the channels so the bot doesn't have to fetch them all the time.
+     */
+    public channels = new ChannelCache(this);
+    public guilds = new GuildCache(this);
 
     /**
      * Creates a new Client instance.

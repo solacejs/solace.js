@@ -14,13 +14,13 @@ export declare class Plugin {
      * Called when the bot is online.
      * @param client - The client instance that manages the bot.
      */
-    onReady(client: Client): void;
+    onReady(client: Client): Promise<void>;
     /**
      * Called whenever a message is sent
      * @param client - The client instance that manages the bot.
      * @param message - The message that was sent.
      */
-    onMessageCreate(client: Client, message: Message): void;
+    onMessageCreate(client: Client, message: Message): Promise<void>;
     /**
      * Resolves dependencies required by the plugin.
      * @param dependencies - An array of plugin names that this plugin depends on.
