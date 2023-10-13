@@ -18,7 +18,7 @@ export class Client extends EventEmitter {
     /**
      * The WebSocket client used by the main client.
      */
-    private ws: WebsocketClient | null = null;
+    public ws: WebsocketClient | null = null;
 
     /**
      * The user associated with the client if logged in.
