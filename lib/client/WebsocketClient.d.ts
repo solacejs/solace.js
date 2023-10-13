@@ -28,6 +28,13 @@ export declare class WebsocketClient extends EventEmitter {
      */
     connect(): Promise<void>;
     /**
+     * Send data to the discord websocket.
+     */
+    send({ op, d }: {
+        op: number;
+        d?: any;
+    }): void;
+    /**
      * Initiates the reconnection process to the Discord Gateway.
      * Stops sending heartbeats, clears the WebSocket instance, and attempts to reconnect after a delay.
      */
