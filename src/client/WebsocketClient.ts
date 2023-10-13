@@ -86,6 +86,13 @@ export class WebsocketClient extends EventEmitter {
     }
 
     /**
+     * Send data to the discord websocket.
+     */
+    public send({ op, d }: { op: number, d?: any }) {
+        this._ws?.send(JSON.stringify({ op, d }));
+    }
+
+    /**
      * Initiates the reconnection process to the Discord Gateway.
      * Stops sending heartbeats, clears the WebSocket instance, and attempts to reconnect after a delay.
      */
