@@ -1,3 +1,4 @@
+import { Client } from "../client/Client";
 import { ApiUser } from "../interfaces/ApiUser";
 /**
  * Represents a user.
@@ -23,6 +24,10 @@ export declare class User {
      * Indicates whether the user is a bot.
      */
     bot: boolean;
+    /**
+     * Instance of the client.
+     */
+    client: Client;
     /**
      * The user's discriminator.
      */
@@ -76,4 +81,15 @@ export declare class User {
      * @param {ApiUser} data - The user data.
      */
     constructor(data: ApiUser);
+    /**
+     * Set the status of the bot user. (CLIENT ONLY).
+     * @param status - The status you want the bot to have.
+     */
+    setStatus(status: "online" | "dnd" | "idle" | "invisible" | "offline"): void;
+    /**
+     * Set the status of the bot user. (CLIENT ONLY).
+     * @param username - The username you want the bot to have.
+     */
+    setUsername(username: string): Promise<void>;
+    setAvatar(avatar: string): Promise<void>;
 }

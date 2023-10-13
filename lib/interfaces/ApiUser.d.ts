@@ -1,3 +1,4 @@
+import { Client } from "../client/Client";
 /**
  * Interface defining the structure of user data.
  */
@@ -22,6 +23,10 @@ export interface ApiUser {
      * Indicates whether the user is a bot.
      */
     bot?: boolean;
+    /**
+     * Instance of the client
+     */
+    client: Client;
     /**
      * The discriminator, a unique identifier within the user's username.
      */
