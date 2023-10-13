@@ -1,6 +1,7 @@
 /// <reference types="node" />
 import EventEmitter from "events";
 import { ClientOptions } from "../interfaces/ClientOptions";
+import { WebsocketClient } from "./WebsocketClient";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
 import { ApiChannel } from "../interfaces/ApiChannel";
@@ -14,7 +15,7 @@ export declare class Client extends EventEmitter {
     /**
      * The WebSocket client used by the main client.
      */
-    private ws;
+    ws: WebsocketClient | null;
     /**
      * The user associated with the client if logged in.
      */
