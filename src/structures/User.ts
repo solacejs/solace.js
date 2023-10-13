@@ -1,4 +1,10 @@
+import { Client } from "../client/Client";
+import { Constants } from "../config/Constants";
+import { OpCodes } from "../config/OpCodes";
 import { ApiUser } from "../interfaces/ApiUser";
+import { Logger } from "../util/Logger";
+import fs from 'fs/promises';
+import path from "path";
 
 /**
  * Represents a user.
@@ -30,6 +36,10 @@ export class User {
      */
     public bot: boolean;
 
+    /**
+     * Instance of the client.
+     */
+    public client: Client;
     /**
      * The user's discriminator.
      */
@@ -100,6 +110,7 @@ export class User {
         this.avatarDecoration = data.avatar_decoration ?? null;
         this.banner = data.banner ?? null;
         this.bot = !!data.bot;
+        this.client = data.client;
         this.discriminator = data.discriminator;
         this.email = data.email ?? null;
         this.flags = data.flags ?? null;
@@ -112,5 +123,70 @@ export class User {
         this.system = !!data.system;
         this.username = data.username;
         this.verified = !!data.verified;
+    }
+
+    /**
+     * Set the status of the bot user. (CLIENT ONLY).
+     * @param status - The status you want the bot to have.
+     */
+    public setStatus(status: "online" | "dnd" | "idle" | "invisible" | "offline") {
+        this.client.ws?.send({ op: OpCodes.PRESENCE_UPDATE, d: { since: null, activities: [], status, afk: false } });
+    }
+
+    /**
+     * Set the status of the bot user. (CLIENT ONLY).
+     * @param username - The username you want the bot to have.
+     */
+    public async setUsername(username: string) {
+        try {
+            const res = await fetch(`${Constants.API}/users/@me`, {
+                method: "PATCH",
+                headers: {
+                    Authorization: `Bot ${this.client.options.token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    username
+                })
+            });
+
+            if (!res.ok) Logger.error("Failed to change the bot's username, please try again later.")
+        } catch (err: any) {
+            throw new Error(err.message);
+        }
+    }
+
+    public async setAvatar(avatar: string) {
+        try {
+            let setAvatar;
+            if (avatar.startsWith('data:')) {
+                setAvatar = avatar;
+            } else if (/^https?:\/\//.test(avatar)) {
+                const res = await fetch(avatar);
+                const arr = avatar.split(".");
+                setAvatar = `data:${arr[arr.length - 1]};base64,${Buffer.from(await res.arrayBuffer()).toString("base64")}`;
+            } else {
+                const file = path.resolve(avatar);
+                const stats = await fs.stat(file);
+                if (!stats.isFile()) return Logger.error("The avatar you have provided is not a file!");
+                const arr = avatar.split(".");
+                setAvatar = `data:${arr[arr.length - 1]};base64,${Buffer.from(await fs.readFile(file)).toString("base64")}`;
+            }
+
+            const res = await fetch(`${Constants.API}/users/@me`, {
+                method: "PATCH",
+                headers: {
+                    Authorization: `Bot ${this.client.options.token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    avatar: setAvatar
+                })
+            });
+
+            if (!res.ok) Logger.error("Failed to change the bot's avatar, please try again later.")
+        } catch (err: any) {
+            throw new Error(err.message);
+        }
     }
 }

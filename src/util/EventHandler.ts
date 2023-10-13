@@ -294,6 +294,7 @@ export class EventHandler {
      * @param data - The data associated with the "READY" event.
      */
     public static READY(client: Client, data: ApiEvents["Ready"]) {
+        data.user.client = client;
         // Initialize the client's user with the provided data.
         client.user = new User(data.user);
 
