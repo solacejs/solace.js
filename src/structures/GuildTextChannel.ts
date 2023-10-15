@@ -15,11 +15,6 @@ export class GuildTextChannel extends GuildChannel {
     public nsfw: boolean;
 
     /**
-     * The client instance.
-     */
-    public client: Client;
-
-    /**
      * Constructs a new GuildTextChannel instance.
      * @param {Guild} guild - The Guild instance that this channel belongs to.
      * @param {any} data - Data containing information about the guild text channel.

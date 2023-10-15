@@ -1,3 +1,4 @@
+import { Client } from "../client/Client";
 import { Channel } from "./Channel";
 import { Guild } from "./Guild";
 
@@ -10,7 +11,7 @@ export class GuildChannel extends Channel {
      * The Guild instance that this channel belongs to.
      */
     public guild: Guild;
-    
+
     /**
      * The ID of the guild that this channel belongs to.
      */
