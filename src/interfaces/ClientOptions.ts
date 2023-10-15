@@ -5,6 +5,7 @@ import { GatewayIntents } from "../config/GatewayIntents";
  */
 export interface ClientOptions {
 
+    cache?: ClientOptionsCache;
     /**
      * The Discord bot token used for authentication and authorization.
      * @property {string} token
@@ -17,4 +18,9 @@ export interface ClientOptions {
      * @see {@link GatewayIntents} for predefined intent values.
      */
     intents: GatewayIntents | GatewayIntents[] | number;
+}
+
+export interface ClientOptionsCache {
+    channels?: number;
+    guilds?: number;
 }
