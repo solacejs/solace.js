@@ -1,4 +1,3 @@
-import { Client } from "../client/Client";
 import { MessageOptions } from "../interfaces/MessageOptions";
 import { Guild } from "./Guild";
 import { GuildChannel } from "./GuildChannel";
@@ -10,10 +9,6 @@ export declare class GuildTextChannel extends GuildChannel {
      * Indicates whether the channel is NSFW (Not Safe For Work).
      */
     nsfw: boolean;
-    /**
-     * The client instance.
-     */
-    client: Client;
     /**
      * Constructs a new GuildTextChannel instance.
      * @param {Guild} guild - The Guild instance that this channel belongs to.

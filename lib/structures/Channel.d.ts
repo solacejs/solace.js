@@ -1,8 +1,13 @@
+import { Client } from "../client/Client";
 import { ApiChannel } from "../interfaces/ApiChannel";
 /**
  * Represents a channel.
  */
 export declare class Channel {
+    /**
+     * The client instance.
+     */
+    client: Client;
     /**
      * The unique ID of the channel.
      * @type {string}
