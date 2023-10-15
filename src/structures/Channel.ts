@@ -1,9 +1,15 @@
+import { Client } from "../client/Client";
 import { ApiChannel } from "../interfaces/ApiChannel";
 
 /**
  * Represents a channel.
  */
 export class Channel {
+
+    /**
+     * The client instance.
+     */
+    public client: Client;
 
     /**
      * The unique ID of the channel.
@@ -22,6 +28,7 @@ export class Channel {
      * @param {ApiChannel} data - The data object containing channel information.
      */
     constructor(data: ApiChannel) {
+        this.client = data.client;
         this.id = data.id;
         this.type = data.type;
     }
