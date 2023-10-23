@@ -13,6 +13,6 @@ export default async function Home() {
 }
 
 const getReadMe = async () => {
-    const data = await fetch("https://raw.githubusercontent.com/solacejs/solace.js/main/README.md");
+    const data = await fetch(`https://raw.githubusercontent.com/solacejs/solace.js/main/README.md?token=${Date.now()}`);
     return await data.text();
 }

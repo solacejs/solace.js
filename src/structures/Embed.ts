@@ -146,7 +146,13 @@ export class EmbedFooter {
         this.text = data.text;
     }
 
-    public toRaw() {
+
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    public toRaw(): object {
         return {
             icon_url: this.iconUrl,
             proxy_icon_url: this.proxyIconUrl,
@@ -195,7 +201,12 @@ export class EmbedImage {
         this.width = data.width;
     }
 
-    public toRaw() {
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    public toRaw(): object {
         return {
             height: this.height,
             proxy_url: this.proxyUrl,
@@ -245,7 +256,12 @@ export class EmbedThumbnail {
         this.width = data.width;
     }
 
-    public toRaw() {
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    public toRaw(): object {
         return {
             height: this.height,
             proxy_url: this.proxyUrl,
@@ -295,7 +311,12 @@ export class EmbedVideo {
         this.width = data.width;
     }
 
-    public toRaw() {
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    public toRaw(): object {
         return {
             height: this.height,
             proxy_url: this.proxyUrl,
@@ -372,7 +393,12 @@ export class EmbedAuthor {
         this.url = data.url;
     }
 
-    public toRaw() {
+    /**
+     * Converts an instance of a class to a raw object representation.
+     * This method is used to serialize an object's properties into a plain JavaScript object.
+     * @returns {Object} A plain object containing the properties of the instance.
+     */
+    public toRaw(): object {
         return {
             icon_url: this.iconUrl,
             name: this.name,

@@ -60,11 +60,14 @@ export class WebsocketClient extends EventEmitter {
                         break;
                     case OpCodes.DISPATCH:
                         switch (t) {
-                            case "READY":
-                                EventHandler.READY(this.client, d);
+                            case "CHANNEL_CREATE":
+                                EventHandler.CHANNEL_CREATE(this.client, d);
                                 break;
                             case "MESSAGE_CREATE":
                                 EventHandler.MESSAGE_CREATE(this.client, d);
+                                break;
+                            case "READY":
+                                EventHandler.READY(this.client, d);
                                 break;
                         }
                         break;
@@ -80,6 +83,13 @@ export class WebsocketClient extends EventEmitter {
             console.error("Error connecting to Discord Gateway:", error);
             this.reconnect();
         }
+    }
+
+    /**
+     * Send data to the discord websocket.
+     */
+    public send({ op, d }: { op: number, d?: any }) {
+        this._ws?.send(JSON.stringify({ op, d }));
     }
 
     /**

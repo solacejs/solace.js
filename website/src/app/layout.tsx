@@ -1,9 +1,9 @@
-"use client";
+'use client'
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
-import { SidebarContext, SidebarProvider } from '@/components/SidebarContext';
+import { SidebarContext, SidebarProvider } from '@/components/SidebarContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,13 +12,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         <title>Solace.js</title>
       </head>
-      <body className={inter.className = "w-screen h-screen"}>
+      <body className={(inter.className = 'w-screen h-screen')}>
         <ThemeProvider>
           <SidebarProvider>
             <div className='bg-background text-foreground w-full h-full'>
@@ -29,7 +28,6 @@ export default function RootLayout({
             </div>
           </SidebarProvider>
         </ThemeProvider>
-
       </body>
     </html>
   )

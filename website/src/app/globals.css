@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --accent: hsl(48, 96%, 43%);
+  --accent: hsl(210, 40%, 48%);
   --background: rgb(232, 232, 232);
   --code: hsl(0, 0%, 88%);
   --foreground: rgb(5, 5, 5);
-  --foreground-2: rgb(128, 128, 0);
+  --foreground-2: hsl(210, 40%, 30%);
   --input: hsl(0, 0%, 75%);
   --link: hsl(270, 100%, 76%);
   --nav-active: hsl(0, 0%, 78%);
@@ -23,11 +23,11 @@
 }
 
 [data-theme="dark"] {
-  --accent: rgb(250, 204, 20);
+  --accent: hsl(205, 64%, 73%);
   --background: rgb(23 23 23);
   --code: rgb(13, 13, 13);
   --foreground: rgb(250 250 250);
-  --foreground-2: rgb(255 255 0);
+  --foreground-2: hsl(205, 64%, 60%);
   --input: rgb(38 38 38);
   --nav-active: rgb(31, 31, 31);
   --nav-border: rgb(61, 61, 61);
@@ -89,4 +89,8 @@ a.nav.active {
 
 a.link {
   color: var(--link);
+}
+
+img {
+  margin-top: 1rem;
 }

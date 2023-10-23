@@ -247,11 +247,16 @@ export class Message {
         this.webhookId = data.webhook_id ?? null;
     }
 
+    /**
+     * Sends a reply message to the channel where the original message was sent.
+     * @param {string | MessageOptions} options - The message content or options.
+     * @throws {Error} Throws an error if message creation fails.
+     */
     public async reply(options: string | MessageOptions) {
 
         try {
             let body = {};
-            
+
             if (typeof options == "object") {
                 body = {
                     embeds: options.embeds?.map((embed) => embed.toRaw()),

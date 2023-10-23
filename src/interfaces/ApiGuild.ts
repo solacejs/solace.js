@@ -1,6 +1,7 @@
 import { ApiEmoji } from "./ApiEmoji";
 import { ApiRole } from "./ApiRole";
 import { ApiSticker } from "./ApiSticker";
+import { ApiUser } from "./ApiUser";
 
 /**
  * Represents the structure of a guild (server).
@@ -260,4 +261,44 @@ export interface ApiGuildWelcomeScreenChannel {
      * The name of the emoji associated with the welcome screen channel, or null if not provided.
      */
     emoji_name: string | null;
+}
+
+export interface ApiGuildScheduledEvent {
+    channel_id: string | null;
+    creator?: ApiUser;
+    creator_id?: string | null;
+    description?: string | null;
+    entity_id: string | null;
+    entity_metadata: ApiGuildScheduledEventEntityMetadata;
+    entity_type: GuildScheduledEventEntityType;
+    guild_id: string;
+    id: string;
+    image?: string | null;
+    name: string;
+    privacy_level: GuildScheduledEventPrivacyLevel;
+    scheduled_end_time: string | null;
+    scheduled_start_time: string;
+    status: GuildScheduledEventStatus;
+    user_count?: number;
+}
+
+export enum GuildScheduledEventPrivacyLevel {
+    GUILD_ONLY = 2
+}
+
+export enum GuildScheduledEventStatus {
+    SCHEDULED = 1,
+    ACTIVE = 2,
+    COMPLETED = 3,
+    CANCELED = 4
+}
+
+export enum GuildScheduledEventEntityType {
+    STAGE_INSTANCE = 1,
+    VOICE = 2,
+    EXTERNAL = 3
+}
+
+export interface ApiGuildScheduledEventEntityMetadata {
+    location?: string;
 }

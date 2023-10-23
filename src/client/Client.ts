@@ -5,10 +5,10 @@ import { GatewayIntents } from "../config/GatewayIntents";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
 import { Constants } from "../config/Constants";
-import { GuildTextChannel } from "../structures/GuildTextChannel";
+import { Channel } from "../structures/Channel";
 import { ApiChannel } from "../interfaces/ApiChannel";
-import { Guild } from "../structures/Guild";
-import { ApiGuildTextChannel } from "../interfaces/ApiGuildTextChannel";
+import { ChannelCache } from "../cache/ChannelCache";
+import { GuildCache } from "../cache/GuildCache";
 
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
@@ -18,12 +18,18 @@ export class Client extends EventEmitter {
     /**
      * The WebSocket client used by the main client.
      */
-    private ws: WebsocketClient | null = null;
+    public ws: WebsocketClient | null = null;
 
     /**
      * The user associated with the client if logged in.
      */
     public user: User | null = null;
+
+    /**
+     * Caches the channels so the bot doesn't have to fetch them all the time.
+     */
+    public channels = new ChannelCache(this);
+    public guilds = new GuildCache(this);
 
     /**
      * Creates a new Client instance.
@@ -89,6 +95,11 @@ export class Client extends EventEmitter {
         }
     }
 
+    /**
+     * Fetch a guild from the discord api
+     * @param guildId The id of the guild
+     * @returns guild data from the discord api
+     */
     public async fetchGuild(guildId: string) {
         const res = await fetch(`${Constants.API}/guilds/${guildId}`, {
             headers: {
@@ -100,7 +111,12 @@ export class Client extends EventEmitter {
         return await res.json();
     }
 
-    public async fetchChannel(channelId: string) {
+    /**
+     * Fetch a channel from the discord api
+     * @param channelId The id of the channel
+     * @returns channel data from the discord api
+     */
+    public async fetchChannel(channelId: string): Promise<ApiChannel> {
         const res = await fetch(`${Constants.API}/channels/${channelId}`, {
             headers: {
                 Authorization: `Bot ${this.options.token}`,

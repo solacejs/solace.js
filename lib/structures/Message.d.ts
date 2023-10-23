@@ -158,5 +158,10 @@ export declare class Message {
      * @param {ApiMessage} data - The message data.
      */
     constructor(data: ApiMessage);
+    /**
+     * Sends a reply message to the channel where the original message was sent.
+     * @param {string | MessageOptions} options - The message content or options.
+     * @throws {Error} Throws an error if message creation fails.
+     */
     reply(options: string | MessageOptions): Promise<void>;
 }

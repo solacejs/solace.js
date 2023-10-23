@@ -1,8 +1,12 @@
 /// <reference types="node" />
 import EventEmitter from "events";
 import { ClientOptions } from "../interfaces/ClientOptions";
+import { WebsocketClient } from "./WebsocketClient";
 import { User } from "../structures/User";
 import { ClientEvents } from "../interfaces/ClientEvents";
+import { ApiChannel } from "../interfaces/ApiChannel";
+import { ChannelCache } from "../cache/ChannelCache";
+import { GuildCache } from "../cache/GuildCache";
 /**
  * Represents a client that interacts with a WebSocket and communicates with discord.
  */
@@ -11,11 +15,16 @@ export declare class Client extends EventEmitter {
     /**
      * The WebSocket client used by the main client.
      */
-    private ws;
+    ws: WebsocketClient | null;
     /**
      * The user associated with the client if logged in.
      */
     user: User | null;
+    /**
+     * Caches the channels so the bot doesn't have to fetch them all the time.
+     */
+    channels: ChannelCache;
+    guilds: GuildCache;
     /**
      * Creates a new Client instance.
      * @param {ClientOptions} options - The client configuration options.
@@ -46,6 +55,16 @@ export declare class Client extends EventEmitter {
      * @throws {Error} If an error occurs during the message creation process.
      */
     createMessage(channelId: string, message: string): Promise<void>;
+    /**
+     * Fetch a guild from the discord api
+     * @param guildId The id of the guild
+     * @returns guild data from the discord api
+     */
     fetchGuild(guildId: string): Promise<any>;
-    fetchChannel(channelId: string): Promise<any>;
+    /**
+     * Fetch a channel from the discord api
+     * @param channelId The id of the channel
+     * @returns channel data from the discord api
+     */
+    fetchChannel(channelId: string): Promise<ApiChannel>;
 }
