@@ -4,6 +4,7 @@ import { ApiChannel } from "./ApiChannel";
 import { ApiEmoji } from "./ApiEmoji";
 import { ApiGuild, ApiGuildScheduledEvent } from "./ApiGuild";
 import { ApiGuildMember } from "./ApiGuildMember";
+import { ApiInteraction } from "./ApiInteraction";
 import { ApiMessage } from "./ApiMessage";
 import { ApiPresence } from "./ApiPresence";
 import { ApiRole } from "./ApiRole";
@@ -33,6 +34,7 @@ export interface ApiEvents {
     GuildScheduledEventUpdate: GuildScheduledEventUpdate;
     GuildStickersUpdate: GuildStickersUpdate;
     GuildUpdate: GuildUpdate;
+    InteractionCreate: InteractionCreate;
     MessageCreate: MessageCreate;
     Ready: Ready;
 }
@@ -119,6 +121,8 @@ export interface GuildStickersUpdate {
 export interface GuildUpdate extends ApiGuild {
 }
 export interface MessageCreate extends ApiMessage {
+}
+export interface InteractionCreate extends ApiInteraction {
 }
 export interface Ready {
     application: ApiApplication;

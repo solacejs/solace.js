@@ -4,6 +4,7 @@ import { ApiEvents } from "../interfaces/ApiEvent";
  * A utility class for handling Discord events received by the client.
  */
 export declare class EventHandler {
+    private static createMessage;
     /**
      * Handles the "CHANNEL_CREATE" event.
      * @param client - The client instance.
@@ -137,6 +138,7 @@ export declare class EventHandler {
      * @param data - The data associated with the "GUILD_UPDATE" event.
      */
     static GUILD_UPDATE(client: Client, data: ApiEvents["GuildUpdate"]): void;
+    static INTERACTION_CREATE(client: Client, data: ApiEvents["InteractionCreate"]): void;
     /**
      * Handles the "MESSAGE_CREATE" event.
      * @param {Client} client - The client instance.

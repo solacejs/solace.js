@@ -1,4 +1,3 @@
-import { Client } from "../client/Client";
 import { Channel } from "./Channel";
 import { Guild } from "./Guild";
 

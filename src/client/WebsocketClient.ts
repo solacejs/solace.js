@@ -3,9 +3,7 @@ import { Client } from "./Client";
 import { Constants } from "../config/Constants";
 import WebSocket from "ws";
 import { OpCodes } from "../config/OpCodes";
-import { SolaceError } from "../util/SolaceError";
 import { EventHandler } from "../util/EventHandler";
-import { Message } from "../structures/Message";
 
 /**
  * A WebSocket client for connecting to the Discord Gateway and handling communication.
@@ -62,6 +60,9 @@ export class WebsocketClient extends EventEmitter {
                         switch (t) {
                             case "CHANNEL_CREATE":
                                 EventHandler.CHANNEL_CREATE(this.client, d);
+                                break;
+                            case "INTERACTION_CREATE":
+                                EventHandler.INTERACTION_CREATE(this.client, d);
                                 break;
                             case "MESSAGE_CREATE":
                                 EventHandler.MESSAGE_CREATE(this.client, d);

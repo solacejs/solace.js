@@ -1,4 +1,3 @@
-import { Client } from "../client/Client";
 import { Constants } from "../config/Constants";
 import { MessageOptions } from "../interfaces/MessageOptions";
 import { Guild } from "./Guild";

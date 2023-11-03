@@ -1,12 +1,16 @@
 import { Client } from "../client/Client";
-import { Registry } from "../helper/Registry";
+import { Registry } from "../factory/Registry";
+import { ApiChannel } from "../interfaces/ApiChannel";
 import { ApiEvents } from "../interfaces/ApiEvent";
+import { ApiMessage } from "../interfaces/ApiMessage";
 import { AuditLogEntry } from "../structures/AuditLogEntry";
-import { Channel } from "../structures/Channel";
+import { Channel, ChannelType } from "../structures/Channel";
 import { Emoji } from "../structures/Emoji";
 import { Guild } from "../structures/Guild";
 import { GuildMember } from "../structures/GuildMember";
 import { GuildScheduledEvent } from "../structures/GuildScheduledEvent";
+import { GuildTextChannel } from "../structures/GuildTextChannel";
+import { Interaction, InteractionType } from "../structures/Interaction";
 import { Message } from "../structures/Message";
 import { Presence } from "../structures/Presence";
 import { Role } from "../structures/Role";
@@ -17,6 +21,19 @@ import { User } from "../structures/User";
  * A utility class for handling Discord events received by the client.
  */
 export class EventHandler {
+
+    private static async createMessage(client: Client, data: ApiMessage) {
+        data.client = client;
+        if (data.guild_id) await client.fetchGuild(data.guild_id).then(async (guild) => {
+            data.guild = guild;
+            await client.fetchChannel(data.channel_id).then((channel) => {
+                data.channel = channel;
+                data.channel.client = client;
+            })
+        });
+
+        return new Message(data);
+    }
 
     /**
      * Handles the "CHANNEL_CREATE" event.
@@ -265,6 +282,28 @@ export class EventHandler {
      */
     public static GUILD_UPDATE(client: Client, data: ApiEvents["GuildUpdate"]) {
         client.emit("guildUpdate", new Guild(data));
+    }
+
+    public static INTERACTION_CREATE(client: Client, data: ApiEvents["InteractionCreate"]) {
+        const interaction = new Interaction(data);
+
+        if (data.guild_id) {
+            client.guilds.fetch(data.guild_id).then((guild) => {
+                if (guild && data.channel_id) {
+                    client.channels.fetch(data.channel_id).then((channel) => {
+                        if (channel?.type == ChannelType.GUILD_TEXT) interaction.channel = new GuildTextChannel(guild, channel);
+                        if (data.type == InteractionType.APPLICATION_COMMAND) if (Registry.commands.find((command) => command.name == interaction.commandName)?.execute(client, interaction))
+                            client.emit("interactionCreate", interaction);
+                    })
+                } else {
+                    if (data.type == InteractionType.APPLICATION_COMMAND) if (Registry.commands.find((command) => command.name == interaction.commandName)?.execute(client, interaction))
+                        client.emit("interactionCreate", interaction);
+                }
+            })
+        } else {
+            if (data.type == InteractionType.APPLICATION_COMMAND) if (Registry.commands.find((command) => command.name == interaction.commandName)?.execute(client, interaction))
+                client.emit("interactionCreate", interaction);
+        }
     }
 
     /**
